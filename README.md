@@ -1,8 +1,6 @@
-# AlphaStarLaw - 中文法律大模型
+# 🪐 AlphaStarLaw - 中文法律大模型(律启星辰)
 
 ## 简介
-
-🪐 AlphaStarLaw | 律启星辰
 
 欢迎来到 AlphaStarLaw。在法律这个严谨的领域，我们相信 AI 不应只是“聊天工具”，而应成为“专业助手”。**以技术普惠法治，以范式定义可信**。
 
@@ -88,4 +86,13 @@ python legalkit/main.py \
 ```bash
 训练源码待补充
 ```
+## 致谢
+本项目参考了以下开源项目，在此对相关项目和研究开发人员表示感谢。
+
+1. LawBench: https://github.com/open-compass/LawBench
+2. LexEval: https://github.com/THUDM/LexEval
+3. legalbench: https://github.com/HazyResearch/legalbench
+4. LegalOne-R1: https://github.com/THUIR/LegalOne-R1
+
 本项目遵循MIT许可证。
+
