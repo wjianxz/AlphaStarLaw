@@ -16,6 +16,9 @@
 
 ## 微调
 ### CPT
+```bash
+python finetune.py
+```
 ### SFT
 ### RLHF
 
