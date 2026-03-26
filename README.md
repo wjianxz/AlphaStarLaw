@@ -23,15 +23,18 @@
 ### CPT
 采用ms-swift进行训练
 ```bash
-python finetune.py
+待补充
 ```
 ### SFT
 分别尝试了不同的基线模型：Qwen32B、Qwen8B；
+```bash
+待补充
+```
 ### RLHF
-#### on-policy
-基线模型：Qwen8B；
-#### off-policy
 分别尝试了不同的基线模型：Qwen32B、Qwen8B；
+```bash
+待补充
+```
 ## 模型性能
 
 ### 如何评估模型的性能
