@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LegalKit: Legal Model Evaluation Toolkit</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-xl">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-scales"></i>
+                <span data-i18n="brand">LegalKit: Legal Model Evaluation Toolkit</span>
+            </a>
+            <div class="navbar-nav ms-auto d-flex align-items-center right-group">
+                <a class="nav-link" href="#dashboard" data-i18n="nav_dashboard">Evaluation</a>
+                <a class="nav-link" href="#results" data-i18n="nav_results">Results</a>
+                <a class="nav-link" href="#system" data-i18n="nav_system">System</a>
+                <button id="langToggle" class="btn btn-light btn-sm ms-3" type="button">
+                    <i class="bi bi-translate"></i> EN
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="container-xl mt-4 main-container">
+        <!-- 页面导航标签 -->
+        <ul class="nav nav-tabs mb-4" id="mainTabs">
+            <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="tab" href="#dashboard">
+                    <i class="bi bi-speedometer2"></i> <span data-i18n="tab_eval_config">Evaluation Config</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#results">
+                    <i class="bi bi-graph-up"></i> <span data-i18n="tab_results_mgmt">Results Management</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#system">
+                    <i class="bi bi-cpu"></i> <span data-i18n="tab_system_status">System Status</span>
+                </a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <!-- 评测配置页面 -->
+            <div class="tab-pane fade show active" id="dashboard">
+                <div class="row">
+                    <!-- 配置表单 -->
+                    <div class="col-lg-8">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="card-title mb-0">
+                                    <i class="bi bi-gear"></i> <span data-i18n="settings_title">Task Settings</span>
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <form id="evaluationForm">
+                                    <div class="config-grid">
+                                    <!-- 模型配置 / Model Configuration -->
+                                    <div class="mb-4 config-item">
+                                        <label class="form-label fw-bold" data-i18n="section_model_config_title">Model Configuration</label>
+                                        <div class="row align-items-end">
+                                            <div class="col-md-6 mb-2 mb-md-0">
+                                                <label class="form-label" data-i18n="label_model_type">Model Type</label>
+                                                <select class="form-select" id="modelType">
+                                                    <option value="local" data-i18n="opt_model_local">Local model</option>
+                                                    <option value="hf" data-i18n="opt_model_hf">HuggingFace</option>
+                                                    <option value="api" data-i18n="opt_model_api">API model</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6 mb-2 mb-md-0">
+                                                <label class="form-label" data-i18n="label_model_path">Model path/name</label>
+                                                <div class="input-group input-group-sm model-path-group">
+                                                    <input type="text" class="form-control" id="modelPath" 
+                                                           placeholder="Enter model path or name" data-i18n-placeholder="ph_model_path">
+                                                    <button type="button" class="btn btn-outline-secondary" id="discoverModels">
+                                                        <i class="bi bi-search"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2 api-row" id="apiConfig" style="display: none;">
+                                            <div class="col-12 mb-2">
+                                                <label class="form-label">API URL</label>
+                                                <input type="text" class="form-control" id="apiUrl" 
+                                                       placeholder="https://api.openai.com/v1/chat/completions">
+                                            </div>
+                                            <div class="col-12">
+                                                <label class="form-label">API Key</label>
+                                                <input type="password" class="form-control" id="apiKey" 
+                                                       placeholder="your-api-key">
+                                            </div>
+                                        </div>
+                                        <div class="mt-2">
+                                            <div id="modelList"></div>
+                                        </div>
+                                    </div>
+
+                                    <!-- 数据集配置 / Dataset Selection -->
+                                    <div class="mb-4 config-item">
+                                        <label class="form-label fw-bold" data-i18n="label_dataset_select">Dataset Selection</label>
+                                        <div class="row g-2 align-items-start">
+                                            <div class="col-md-6 dataset-col">
+                                                <label class="form-label" data-i18n="label_dataset_list">Datasets</label>
+                                                <select class="form-select" id="datasetSelect" multiple>
+                                                    <!-- 动态加载数据集 -->
+                                                </select>
+                                                <small class="form-text text-muted" data-i18n="hint_multi_select">Hold Ctrl to multi-select</small>
+                                            </div>
+                                            <div class="col-md-6 dataset-col">
+                                                <label class="form-label" data-i18n="label_subtasks">Subtasks (optional)</label>
+                                                <input type="text" class="form-control" id="subTasks" 
+                                                       placeholder="e.g.: 2-1,2-2" data-i18n-placeholder="ph_subtasks">
+                                                <small class="form-text text-muted" data-i18n="hint_subtasks">Separate multiple subtasks with commas</small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- 运行配置 / Run Configuration -->
+                                    <div class="mb-4 config-item">
+                                        <label class="form-label fw-bold" data-i18n="section_run_config_title">Run Configuration</label>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <label class="form-label" data-i18n="label_task_type">Task Type</label>
+                                                <select class="form-select" id="taskPhase">
+                                                    <option value="all" data-i18n="opt_task_all">Full pipeline</option>
+                                                    <option value="infer" data-i18n="opt_task_infer">Inference only</option>
+                                                    <option value="eval" data-i18n="opt_task_eval">Evaluation only</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <label class="form-label" data-i18n="label_accelerator">Accelerator</label>
+                                                <select class="form-select" id="accelerator">
+                                                    <option value="" data-i18n="opt_acc_none">None</option>
+                                                    <option value="vllm">VLLM</option>
+                                                    <option value="lmdeploy">LMDeploy</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <label class="form-label" data-i18n="label_num_workers">Worker processes</label>
+                                                <input type="number" class="form-control" id="numWorkers" 
+                                                       value="1" min="1" max="8">
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-md-4">
+                                                <label class="form-label" data-i18n="label_tensor_parallel">Tensor parallelism</label>
+                                                <input type="number" class="form-control" id="tensorParallel" 
+                                                       value="1" min="1" max="8">
+                                            </div>
+                                            <div class="col-md-4">
+                                                <label class="form-label" data-i18n="label_batch_size">Batch size</label>
+                                                <input type="number" class="form-control" id="batchSize" 
+                                                       value="1" min="1" max="32">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- 检索配置 / Retrieval Configuration -->
+                                    <div class="mb-4 config-item">
+                                        <label class="form-label fw-bold" data-i18n="section_retrieval_title">Retrieval Configuration</label>
+                                        <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" id="retrievalSwitch">
+                                            <label class="form-check-label" for="retrievalSwitch" data-i18n="switch_retrieval_enable">Enable retrieval stage before generation</label>
+                                        </div>
+                                        <div id="retrievalConfig" class="mt-2" style="display:none;">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <label class="form-label" data-i18n="label_retrieval_method">Retrieval method</label>
+                                                    <select class="form-select" id="retrievalMethod">
+                                                        <option value="bm25s">bm25s</option>
+                                                        <option value="pyserini">pyserini (BM25)</option>
+                                                        <option value="qld">pyserini (QLD)</option>
+                                                        <option value="dense-bge">dense-bge</option>
+                                                        <option value="dense-gte">dense-gte</option>
+                                                        <option value="dense-api">dense-api</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <label class="form-label" data-i18n="label_retrieval_k">Top-k</label>
+                                                    <input type="number" class="form-control" id="retrievalK" value="5" min="1" max="100">
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <label class="form-label" data-i18n="label_faiss_type">FAISS index</label>
+                                                    <select class="form-select" id="retrievalFaissType">
+                                                        <option value="FlatIP">FlatIP</option>
+                                                        <option value="HNSW">HNSW</option>
+                                                        <option value="IVF">IVF</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-2" id="embedApiGroup" style="display:none;">
+                                                <div class="col-md-4">
+                                                    <label class="form-label" data-i18n="label_embed_model_name">Embedding model</label>
+                                                    <input type="text" class="form-control" id="embedModelName" placeholder="text-embedding-3-large">
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <label class="form-label" data-i18n="label_embed_api_url">Embedding API URL</label>
+                                                    <input type="text" class="form-control" id="embedApiUrl" placeholder="https://api.example.com/v1">
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <label class="form-label" data-i18n="label_embed_api_key">Embedding API Key</label>
+                                                    <input type="password" class="form-control" id="embedApiKey" placeholder="embed-api-key">
+                                                </div>
+                                            </div>
+                                            <div class="row mt-2" id="embedBatchGroup" style="display:none;">
+                                                <div class="col-md-4">
+                                                    <label class="form-label" data-i18n="label_embed_batch_size">Embedding batch size</label>
+                                                    <input type="number" class="form-control" id="embedBatchSize" value="32" min="1" max="1024">
+                                                </div>
+                                            </div>
+                                            <small class="text-muted" data-i18n="hint_retrieval_scope">Applies to datasets that implement a retrieval stage (e.g., LexRAG). Artifacts are saved under run_output.</small>
+                                        </div>
+                                    </div>
+
+                                    <!-- 生成参数 / Generation Parameters -->
+                                    <div class="mb-4 config-item">
+                                        <label class="form-label fw-bold" data-i18n="section_generation_params_title">Generation Parameters</label>
+                                        <div class="row g-2">
+                                            <div class="col-md-6">
+                                                <label class="form-label" data-i18n="label_temperature">Temperature</label>
+                                                <input type="number" class="form-control" id="temperature" 
+                                                       value="0.7" min="0" max="2" step="0.1">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label class="form-label">Top-p</label>
+                                                <input type="number" class="form-control" id="topP" 
+                                                       value="0.9" min="0" max="1" step="0.1">
+                                            </div>
+                                        </div>
+                                        <div class="row g-2">
+                                            <div class="col-md-6">
+                                                <label class="form-label" data-i18n="label_max_tokens">Max tokens</label>
+                                                <input type="number" class="form-control" id="maxTokens" 
+                                                       value="2048" min="1" max="32768">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label class="form-label" data-i18n="label_repetition_penalty">Repetition penalty</label>
+                                                <input type="number" class="form-control" id="repetitionPenalty" 
+                                                       value="1.0" min="1" max="2" step="0.1">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- JSON 离线评测 / JSON offline evaluation -->
+                                    <div class="mb-4 config-item">
+                                        <label class="form-label fw-bold" data-i18n="section_json_eval_title">JSON offline evaluation (optional)</label>
+                                        <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" id="jsonEvalSwitch">
+                                            <label class="form-check-label" for="jsonEvalSwitch" data-i18n="switch_json_eval">Enable evaluation of JSON prediction files (skip inference)</label>
+                                        </div>
+                                        <div id="jsonEvalConfig" class="mt-2" style="display:none;">
+                                            <label class="form-label" data-i18n="label_json_paths">JSON file paths (use dataset=path per line)</label>
+                                            <textarea class="form-control" id="jsonPaths" rows="3" placeholder="CaseGen=/path/to/casegen_preds.json" data-i18n-placeholder="ph_json_paths"></textarea>
+                                            <div class="row mt-2">
+                                                <div class="col-md-6">
+                                                    <label class="form-label" data-i18n="label_json_model_label">Evaluation model label</label>
+                                                    <input type="text" class="form-control" id="jsonModelLabel" placeholder="json_eval" data-i18n-placeholder="ph_json_model_label">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label class="form-label" data-i18n="label_override_task_type">Override task type</label>
+                                                    <input type="text" disabled class="form-control" value="Auto-set to eval" data-i18n-value="override_eval_value">
+                                                </div>
+                                            </div>
+                                            <small class="text-muted" data-i18n="hint_json_models">If models are not specified, a placeholder model json::label will be injected</small>
+                                        </div>
+                                    </div>
+
+                                    <!-- LLM Judge 配置 / LLM Judge configuration -->
+                                    <div class="mb-4 config-item">
+                                        <label class="form-label fw-bold" data-i18n="section_judge_title">LLM Judge configuration (optional)</label>
+                                        <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" id="judgeSwitch">
+                                            <label class="form-check-label" for="judgeSwitch" data-i18n="switch_judge_enable">Use LLM as judge</label>
+                                        </div>
+                                        <div id="judgeConfig" class="mt-2" style="display:none;">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <label class="form-label" data-i18n="label_judge_model_spec">Judge model spec</label>
+                                                    <input type="text" class="form-control" id="judgeModelSpec" placeholder="hf:Qwen/Qwen2.5-7B" data-i18n-placeholder="ph_judge_model_spec">
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <label class="form-label" data-i18n="label_judge_batch">Batch</label>
+                                                    <input type="number" class="form-control" id="judgeBatchSize" value="4" min="1" max="128">
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <label class="form-label" data-i18n="label_judge_tp">Tensor parallelism</label>
+                                                    <input type="number" class="form-control" id="judgeTensorParallel" value="1" min="1" max="8">
+                                                </div>
+                                            </div>
+                                            <div class="row mt-2">
+                                                <div class="col-md-3">
+                                                    <label class="form-label" data-i18n="label_judge_temperature">Temperature</label>
+                                                    <input type="number" class="form-control" id="judgeTemperature" value="0" min="0" max="2" step="0.1">
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <label class="form-label" data-i18n="label_judge_top_p">Top-p</label>
+                                                    <input type="number" class="form-control" id="judgeTopP" value="1.0" min="0" max="1" step="0.05">
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <label class="form-label">MaxTokens</label>
+                                                    <input type="number" class="form-control" id="judgeMaxTokens" value="512" min="16" max="32768">
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <label class="form-label" data-i18n="label_judge_rep_penalty">Repetition penalty</label>
+                                                    <input type="number" class="form-control" id="judgeRepPenalty" value="1.0" min="1" max="2" step="0.1">
+                                                </div>
+                                            </div>
+                                            <div class="row mt-2">
+                                                <div class="col-md-6">
+                                                    <label class="form-label" data-i18n="label_judge_accelerator">Judge accelerator</label>
+                                                    <select class="form-select" id="judgeAccelerator">
+                                                        <option value="" data-i18n="opt_judge_none">None</option>
+                                                        <option value="vllm">vllm</option>
+                                                        <option value="lmdeploy">lmdeploy</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label class="form-label" data-i18n="label_judge_api_mode">API mode (optional)</label>
+                                                    <input type="text" class="form-control" id="judgeApiUrl" placeholder="https://api.example.com/v1/chat" data-i18n-placeholder="ph_judge_api_url">
+                                                </div>
+                                            </div>
+                                            <div class="row mt-2">
+                                                <div class="col-md-6">
+                                                    <label class="form-label">API Key</label>
+                                                    <input type="password" class="form-control" id="judgeApiKey" placeholder="judge-api-key" data-i18n-placeholder="ph_judge_api_key">
+                                                </div>
+                                            </div>
+                                            <small class="text-muted" data-i18n="hint_judge_decoupled">The judge model is decoupled from the main model and used only during evaluation.</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-grid grid-full">
+                                        <button type="submit" class="btn btn-primary btn-lg w-100">
+                                            <i class="bi bi-play-circle"></i> <span data-i18n="start_eval">Start Evaluation</span>
+                                        </button>
+                                    </div>
+                                    </div><!-- end config-grid -->
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 系统状态信息 -->
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="card-title mb-0">
+                                    <i class="bi bi-info-circle"></i> <span data-i18n="system_title">System Status</span>
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <div id="systemInfo">
+                                    <div class="d-flex justify-content-center">
+                                        <div class="spinner-border" role="status">
+                                            <span class="visually-hidden" data-i18n="loading">Loading...</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mt-3">
+                            <div class="card-header">
+                                <h5 class="card-title mb-0">
+                                    <i class="bi bi-clock-history"></i> <span data-i18n="recent_title">Recent Tasks</span>
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <div id="recentTasks">
+                                    <p class="text-muted" data-i18n="no_tasks">No tasks</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 结果管理页面 -->
+            <div class="tab-pane fade" id="results">
+                <div class="card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h5 class="card-title mb-0">
+                            <i class="bi bi-list-task"></i> <span data-i18n="tasks_title">Tasks</span>
+                        </h5>
+                        <button class="btn btn-outline-primary btn-sm" id="refreshTasks">
+                            <i class="bi bi-arrow-clockwise"></i> <span data-i18n="refresh">Refresh</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <div id="tasksList">
+                            <div class="d-flex justify-content-center">
+                                <div class="spinner-border" role="status">
+                                    <span class="visually-hidden" data-i18n="loading">Loading...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 系统信息页面 -->
+            <div class="tab-pane fade" id="system">
+                <div class="row g-3">
+                    <!-- Left: GPU Status -->
+                    <div class="col-lg-4 col-md-12">
+                        <div class="card h-100">
+                            <div class="card-header">
+                                <h5 class="card-title mb-0">
+                                    <i class="bi bi-gpu-card"></i> <span data-i18n="gpu_title">GPU Info</span>
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <div id="gpuInfo"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Middle: Supported Datasets (two columns) -->
+                    <div class="col-lg-5 col-md-7">
+                        <div class="card h-100">
+                            <div class="card-header">
+                                <h5 class="card-title mb-0">
+                                    <i class="bi bi-database"></i> <span data-i18n="datasets_title">Supported Datasets</span>
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <div id="supportedDatasets" class="datasets-grid"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Supported Backends -->
+                    <div class="col-lg-3 col-md-5">
+                        <div class="card h-100">
+                            <div class="card-header">
+                                <h5 class="card-title mb-0">
+                                    <i class="bi bi-cpu"></i> <span data-i18n="backends_title">Supported Backends</span>
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <div id="supportedBackends"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 任务详情模态框 -->
+    <div class="modal fade" id="taskDetailModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" data-i18n="modal_task_detail">Task Detail</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="taskDetailContent"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
