@@ -203,17 +203,17 @@ python legalkit/main.py \
 
 ## 模型微调训练
 ### CPT（Continual Pre-training）
-&emsp;&emsp;增量预训练（Continue Pre-training）是针对大模型在已有预训练基础上，进一步训练提升模型在法律领域的表现。
+&emsp;&emsp;针对大模型在已有预训练基础上，通过增量预训练（Continue Pre-training）进一步训练提升模型在法律领域的表现。
 ```bash
 训练源码待补充
 ```
 ### SFT（Supervised Fine-tuning）
-&emsp;&emsp;全量指令微调（Full SFT）是针对大模型在已有预训练基础上，进一步训练提升模型在法律领域的表现。
+&emsp;&emsp;针对大模型在已有预训练基础上，通过全量指令微调（Full SFT）进一步训练提升模型在法律领域的表现。
 ```bash
 训练源码待补充
 ```
 ### RLHF（Reinforcement Learning from Human Feedback）
-&emsp;&emsp;指令微调（Instruction Tuning）是针对大模型在已有预训练基础上，进一步训练提升模型在法律领域的表现。
+&emsp;&emsp;针对大模型在已有预训练基础上，通过指令微调（Instruction Tuning）进一步训练提升模型在法律领域的表现。
 ```bash
 训练源码待补充
 ```
@@ -225,6 +225,7 @@ python legalkit/main.py \
 3. legalbench: https://github.com/HazyResearch/legalbench
 4. LegalOne-R1: https://github.com/THUIR/LegalOne-R1
 5. DISC-LawLLM: https://github.com/FudanDISC/DISC-LawLLM
+6. Awesome-LegalAI-Resources: https://github.com/CSHaitao/Awesome-LegalAI-Resources
 
 同样感谢其他限于篇幅未能列举的为本项目提供了重要帮助的工作。
 
