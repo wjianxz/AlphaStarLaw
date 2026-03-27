@@ -60,7 +60,10 @@ python legalkit/main.py \
   2>&1 | tee ${DATASET_NAME}_${TIMESTAMP}.log
 
 ```
+#### 模型评估看板
 
+1. python /mnt/public/haoduo/code/LegalKit-main/score_all.py  
+2. python /mnt/public/haoduo/code/LegalKit-main/benchmark.py --port 8088
 
 ## 数据集
 ### 数据收集
@@ -88,7 +91,7 @@ python legalkit/main.py \
 训练源码待补充
 ```
 ## 致谢
-&emsp;&emsp; 本项目参考了以下开源项目，在此对相关项目和研究开发人员表示感谢。
+本项目参考了以下开源项目，在此对相关项目和研究开发人员表示感谢。
 
 1. LawBench: https://github.com/open-compass/LawBench
 2. LexEval: https://github.com/THUDM/LexEval
