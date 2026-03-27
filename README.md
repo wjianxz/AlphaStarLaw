@@ -226,6 +226,7 @@ python legalkit/main.py \
 4. LegalOne-R1: https://github.com/THUIR/LegalOne-R1
 5. DISC-LawLLM: https://github.com/FudanDISC/DISC-LawLLM
 6. Awesome-LegalAI-Resources: https://github.com/CSHaitao/Awesome-LegalAI-Resources
+7. lawyer-llama: https://github.com/AndrewZhe/lawyer-llama
 
 同样感谢其他限于篇幅未能列举的为本项目提供了重要帮助的工作。
 
