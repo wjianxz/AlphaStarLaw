@@ -16,9 +16,10 @@
 所有的测试结果详情参考log日志。
 
 ### [LawBench](https://github.com/open-compass/LawBench) 数据集
-1. 展示我们经过调优模型和基线模型以及其他不同尺寸模型的性能。
+1. 已有开源模型以及测试结果详情参考 [LawBench](https://github.com/open-compass/LawBench)
+2. 展示我们经过调优模型和基线模型以及其他不同尺寸模型的性能。
 
-2. 模型和基线模型的性能对比图如下：
+3. 模型和基线模型的性能对比图如下：
 
 ### [LexEval](https://github.com/CSHaitao/LexEval/tree/main) 数据集
 1. 展示我们经过调优模型和基线模型以及其他不同尺寸模型的性能。
