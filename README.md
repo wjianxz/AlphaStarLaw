@@ -16,10 +16,11 @@
 所有的测试结果详情参考log日志。
 
 ### [LawBench](https://github.com/open-compass/LawBench) 数据集
-1. 已有开源模型以及测试结果详情参考 [OpenCompass LawBench](https://github.com/open-compass/LawBench)
+1. 已有开源模型以及测试结果详情参考 [OpenCompass LawBench](https://github.com/open-compass/LawBench) 
 2. 展示我们经过调优模型和基线模型以及其他不同尺寸模型的性能。
 
 3. 模型和基线模型的性能对比图如下：
+<img src="./img/LawBench_8B评测结果.png" width="400px" alt="模型和基线模型的性能对比图">
 
 #### 结论
 
