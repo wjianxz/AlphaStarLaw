@@ -1,3 +1,10 @@
+__pycache__/
+*.pyc
+.env
+.idea/
+.vscode/
+*.log
+*.egg-info
 run_output/
 *.sh
 /example/api
