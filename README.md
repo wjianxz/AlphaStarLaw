@@ -19,6 +19,11 @@
 1. 已有开源模型以及测试结果详情参考 [OpenCompass LawBench](https://github.com/open-compass/LawBench) 
 2. 展示我们经过调优模型和基线模型以及其他不同尺寸模型的性能。
 
+* `<kbd>实验数据</kbd>` 效果：<kbd>实验数据</kbd>
+* `> [!TIP]` (GitHub 特有语法)：
+    > [!TIP]
+    > 这是一个高亮的蓝色提示框，适合放核心结论。
+    
 3. alpha_star_law模型和基线模型(Qwen-8B、Qwen-32B)的性能对比图如下：
 
 | 任务名称             | 指标        | Qwen3-8B | alpha_star_law_8B |
