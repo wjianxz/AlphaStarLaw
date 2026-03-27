@@ -20,7 +20,7 @@
 
 2. 模型和基线模型的性能对比图如下：
 
-### LexEval 数据集
+### [LexEval](https://github.com/CSHaitao/LexEval/tree/main) 数据集
 1. 展示我们经过调优模型和基线模型以及其他不同尺寸模型的性能。
 
 2. 模型和基线模型的性能对比图如下：
