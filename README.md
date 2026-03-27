@@ -72,17 +72,17 @@ python legalkit/main.py \
 ### 数据处理
 
 ## 模型微调训练
-### 增量预训练
+### CPT（Continual Pre-training）
 &emsp;&emsp;增量预训练（Continue Pre-training）是针对大模型在已有预训练基础上，进一步预训练，提升模型在法律领域的表现。
 ```bash
 训练源码待补充
 ```
-### 全量指令微调
+### SFT（Supervised Fine-tuning）
 &emsp;&emsp;全量指令微调（Full SFT）是针对大模型在已有预训练基础上，进一步预训练，提升模型在法律领域的表现。
 ```bash
 训练源码待补充
 ```
-### 指令微调（Instruction Tuning）
+### RLHF（Reinforcement Learning from Human Feedback）
 &emsp;&emsp;指令微调（Instruction Tuning）是针对大模型在已有预训练基础上，进一步预训练，提升模型在法律领域的表现。
 ```bash
 训练源码待补充
