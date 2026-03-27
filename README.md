@@ -236,7 +236,7 @@ python legalkit/main.py \
 - [ ] 开源相关训练代码
 
 # 参与讨论
-&emsp;&emsp;我们诚邀开发者与法律科技专家共同探索法律大模型的边界。如需获取模型权重测试、训练脚本细节或进行Benchmark 对标测试，请致信：📧 wjianxz@163.com
+&emsp;&emsp;我们诚邀开发者与法律科技专家共同探索法律大模型的边界。如需获取模型权重测试、训练脚本细节或进行Benchmark 对标测试，请致信：📧 wjianxz@163.com 
 
 本项目遵循MIT许可证。
 
