@@ -1,0 +1,3 @@
+{"datasets": ["JECQA"], "models": ["Qwen3-32B"], "avg_score": 54.69, "invalid_ratio": 0.0}
+{"task_id": "test0 法律概念", "score": 58.21}
+{"task_id": "test1 案例分析", "score": 51.17}

@@ -251,8 +251,10 @@ python legalkit/main.py \
 ```
 #### 模型评估看板
 
+我们提供了一套可视化的模型评估工具，方便用户快速查看模型在不同任务上的具体性能。用户可以通过以下链接访问模型评估看板：
 1. python /mnt/public/haoduo/code/LegalKit-main/score_all.py  
 2. python /mnt/public/haoduo/code/LegalKit-main/benchmark.py --port 8088
+![模型评估看板](img/模型评估看板.png)
 
 ## 数据集
 ### 数据收集

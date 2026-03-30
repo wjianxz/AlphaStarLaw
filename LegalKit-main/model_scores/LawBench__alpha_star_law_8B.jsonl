@@ -1,0 +1,20 @@
+{"datasets": ["LawBench"], "models": ["alpha_star_law_8B"], "avg_score": 46.93, "invalid_ratio": 0.03}
+{"task_id": "1-2 知识问答", "score": 64.2}
+{"task_id": "2-1 文件校对", "accuracy": 77.74, "score": 39.6}
+{"task_id": "2-2 纠纷焦点识别", "accuracy": 44.69, "score": 44.69}
+{"task_id": "2-3 婚姻纠纷鉴定", "accuracy": 50.5, "score": 33.8}
+{"task_id": "2-4 问题主题识别", "accuracy": 49.0, "score": 49.0}
+{"task_id": "2-5 阅读理解", "accuracy": 68.44, "score": 49.0}
+{"task_id": "2-6 命名实体识别", "accuracy": 70.6, "score": 26.65}
+
+{"task_id": "2-8 论点挖掘", "score": 58.8}
+{"task_id": "2-9 事件检测", "accuracy": 80.2, "score": 70.2}
+{"task_id": "2-10 触发词提取", "accuracy": 75.93, "score": 59.4}
+{"task_id": "3-1 法条预测", "accuracy": 68.7, "score": 54.6}
+
+{"task_id": "3-3 罪名预测", "accuracy": 63.32, "score": 49.2}
+{"task_id": "3-4 刑期预测（无法条内容）", "accuracy": 48.28, "score": 18.59}
+{"task_id": "3-5 刑期预测（给定法条内容）", "accuracy": 46.29, "score": 16.94}
+{"task_id": "3-6 案例分析", "score": 56.0}
+{"task_id": "3-7 犯罪金额计算", "accuracy": 84.4, "score": 60.2}
+

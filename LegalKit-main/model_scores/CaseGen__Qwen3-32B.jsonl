@@ -1,0 +1,5 @@
+{"datasets": ["CaseGen"], "models": ["Qwen3-32B"], "avg_score": null, "invalid_ratio": 0.9}
+{"task_id": "defense"}
+{"task_id": "fact"}
+{"task_id": "judgement"}
+{"task_id": "reasoning"}
