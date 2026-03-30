@@ -33,7 +33,7 @@ LawBench经过精心设计，可对大语言模型的法律能力进行精确评
 1. 总分数对比
 ![lawBench](img/lawbench.png)
 
-2. 已有开源模型以及测试结果详情参考 [OpenCompass LawBench](https://github.com/open-compass/LawBench) 
+2. 历史已有开源模型以及测试结果详情参考 [OpenCompass LawBench](https://github.com/open-compass/LawBench) 
 
 3. 对比经过调优模型和基线模型以及其他不同厂商开源模型的在不同细分子任务的测试性能表现。**在LawBench数据集上，alpha_star_law_32B 模型取得了显著的优势，平均分达到了64.45，显著超过了基线模型和开源模型；alpha_star_law_8B 模型平均得分46.93 较基线模型提升+6.9%**。
 
