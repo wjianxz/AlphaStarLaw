@@ -251,7 +251,8 @@ python legalkit/main.py \
 ```
 #### 模型评估看板
 
-我们提供了一套可视化的模型评估工具，方便用户快速查看模型在不同任务上的具体性能。用户可以通过以下脚本访问模型评估看板：
+&emsp;&emsp;我们提供了一套可视化的模型评估工具，方便用户快速查看模型在不同任务上的具体性能。用户可以通过以下脚本访问模型评估看板：
+
 1.将评估结果保存到看板脚本 
 ```bash
   python /mnt/public/haoduo/code/LegalKit-main/score_all.py  
