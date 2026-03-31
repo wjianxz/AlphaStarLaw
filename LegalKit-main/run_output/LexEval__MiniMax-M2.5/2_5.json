@@ -1,0 +1,22 @@
+{
+  "total_count": 125,
+  "invalid_count": 0,
+  "invalid_ratio": 0.0,
+  "invalid_ids": [],
+  "valid_count": 125,
+  "correct_count": 123,
+  "valid_accuracy": 98.4,
+  "total_accuracy": 98.4,
+  "wrong_details": [
+    {
+      "id": 164,
+      "pred_choices": "ACDEF",
+      "gold_choices": "B"
+    },
+    {
+      "id": 296,
+      "pred_choices": "ACDEF",
+      "gold_choices": "D"
+    }
+  ]
+}

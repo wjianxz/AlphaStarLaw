@@ -1,0 +1,233 @@
+{
+  "total_count": 125,
+  "invalid_count": 0,
+  "invalid_ratio": 0.0,
+  "invalid_ids": [],
+  "valid_count": 125,
+  "correct_count": 89,
+  "wrong_count": 36,
+  "total_score": 101.05,
+  "valid_accuracy": 80.84,
+  "total_accuracy": 80.84,
+  "final_exact_count": 89,
+  "final_rate_valid": 71.2,
+  "final_rate_total": 71.2,
+  "wrong_details": [
+    {
+      "id": 8,
+      "prediction": "阻碍;施工",
+      "gold": "负责;阻碍",
+      "score": 0.5
+    },
+    {
+      "id": 12,
+      "prediction": "帮忙",
+      "gold": "提出;帮忙",
+      "score": 0.5
+    },
+    {
+      "id": 16,
+      "prediction": "提出;同意",
+      "gold": "提出;让;表示同意",
+      "score": 0.3333
+    },
+    {
+      "id": 24,
+      "prediction": "无触发词",
+      "gold": "开支",
+      "score": 0.0
+    },
+    {
+      "id": 48,
+      "prediction": "冲突;告知",
+      "gold": "发生冲突;告知",
+      "score": 0.5
+    },
+    {
+      "id": 56,
+      "prediction": "提出;希望",
+      "gold": "让;提出",
+      "score": 0.5
+    },
+    {
+      "id": 72,
+      "prediction": "转出;用于还贷;账户余额;账户余额;时间超过三个月",
+      "gold": "补助款;转;用于",
+      "score": 0.6667
+    },
+    {
+      "id": 76,
+      "prediction": "无触发词",
+      "gold": "代",
+      "score": 0.0
+    },
+    {
+      "id": 84,
+      "prediction": "逃犯;抓获",
+      "gold": "逃犯;抓获归案",
+      "score": 0.5
+    },
+    {
+      "id": 96,
+      "prediction": "争执;送人;索要",
+      "gold": "发生争执;送;索要",
+      "score": 0.6667
+    },
+    {
+      "id": 128,
+      "prediction": "河北德生药业有限公司\";\"高效喘咳安\";\"特效筋骨康\"",
+      "gold": "假药",
+      "score": 0.0
+    },
+    {
+      "id": 148,
+      "prediction": "遗失;变造",
+      "gold": "遗留;替换成",
+      "score": 0.0
+    },
+    {
+      "id": 152,
+      "prediction": "逃匿;买入",
+      "gold": "躲避;检查;购买",
+      "score": 0.0
+    },
+    {
+      "id": 156,
+      "prediction": "无触发词",
+      "gold": "寻衅滋事",
+      "score": 0.0
+    },
+    {
+      "id": 160,
+      "prediction": "嫖客;嫖宿;处女;卖淫女;伪装",
+      "gold": "愿意;嫖宿;伪装成",
+      "score": 0.3333
+    },
+    {
+      "id": 180,
+      "prediction": "私藏/藏匿;查获;搜查/扣押",
+      "gold": "放在;查获",
+      "score": 0.5
+    },
+    {
+      "id": 188,
+      "prediction": "明知;指使/教唆;泄露信息;散布\n\n安排;获取;发放",
+      "gold": "得知;安排;获取;发放",
+      "score": 0.75
+    },
+    {
+      "id": 212,
+      "prediction": "进购;聘请;安装;调试",
+      "gold": "生产;聘请",
+      "score": 0.5
+    },
+    {
+      "id": 228,
+      "prediction": "租住;催讨",
+      "gold": "缴纳;租住;催讨",
+      "score": 0.6667
+    },
+    {
+      "id": 244,
+      "prediction": "无触发词",
+      "gold": "递交",
+      "score": 0.0
+    },
+    {
+      "id": 248,
+      "prediction": "逃离;取款;刷卡购物消费",
+      "gold": "逃离现场;取款;消费",
+      "score": 0.6667
+    },
+    {
+      "id": 256,
+      "prediction": "送给;购物卡;价值人民币2000元",
+      "gold": "生产;送给",
+      "score": 0.5
+    },
+    {
+      "id": 268,
+      "prediction": "追回;发还",
+      "gold": "还给",
+      "score": 0.0
+    },
+    {
+      "id": 300,
+      "prediction": "该句子中没有触发\"买入\"事件的词。",
+      "gold": "进",
+      "score": 0.0
+    },
+    {
+      "id": 320,
+      "prediction": "发还;挥霍",
+      "gold": "还给;挥霍",
+      "score": 0.5
+    },
+    {
+      "id": 328,
+      "prediction": "拨付;索要;出具;虚假",
+      "gold": "拨付;让;虚假",
+      "score": 0.6667
+    },
+    {
+      "id": 336,
+      "prediction": "反映;影响",
+      "gold": "生产;影响",
+      "score": 0.5
+    },
+    {
+      "id": 344,
+      "prediction": "欺骗;归还/偿还;销赃",
+      "gold": "骗得;返还;挥霍",
+      "score": 0.0
+    },
+    {
+      "id": 420,
+      "prediction": "撤回;准许",
+      "gold": "申请;准许",
+      "score": 0.5
+    },
+    {
+      "id": 428,
+      "prediction": "查获",
+      "gold": "被查获",
+      "score": 0.0
+    },
+    {
+      "id": 448,
+      "prediction": "销售;卖出",
+      "gold": "产品销售",
+      "score": 0.0
+    },
+    {
+      "id": 456,
+      "prediction": "抓获;查获;假币",
+      "gold": "抓获归案;查获",
+      "score": 0.5
+    },
+    {
+      "id": 468,
+      "prediction": "退赃;获利;违法所得",
+      "gold": "退出;所得",
+      "score": 0.5
+    },
+    {
+      "id": 472,
+      "prediction": "木柄菜刀;菜刀",
+      "gold": "拿",
+      "score": 0.0
+    },
+    {
+      "id": 480,
+      "prediction": "驾车碰撞;击打;强行将徐某乙拽进;用胶带纸将徐某乙的嘴巴封住、双手捆住;用毛线帽罩住徐某乙的头部遮住眼睛",
+      "gold": "碰撞;击打;伙同;强行;捆住",
+      "score": 0.8
+    },
+    {
+      "id": 484,
+      "prediction": "采伐;裁制",
+      "gold": "制成",
+      "score": 0.0
+    }
+  ]
+}

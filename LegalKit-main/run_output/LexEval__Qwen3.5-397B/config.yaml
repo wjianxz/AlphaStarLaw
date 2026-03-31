@@ -1,0 +1,19 @@
+args:
+  api_url: http://127.0.0.1:8000/v1/chat/completions
+  batch_size: 32
+  datasets:
+  - LexEval
+  enable_thinking: false
+  json_eval: false
+  json_inputs: {}
+  judge_config: null
+  max_tokens: 4096
+  model_mode: api8000
+  models:
+  - api:Qwen3.5-397B
+  num_workers: 4
+  output_dir: ./run_output
+  task: all
+  temperature: 0.1
+  top_p: 0.9
+cfg: {}

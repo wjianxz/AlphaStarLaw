@@ -1,0 +1,1547 @@
+{
+  "total_count": 500,
+  "invalid_count": 0,
+  "invalid_ratio": 0.0,
+  "invalid_ids": [],
+  "valid_count": 500,
+  "correct_count": 245,
+  "wrong_count": 255,
+  "total_score": 245.0,
+  "valid_accuracy": 49.0,
+  "total_accuracy": 49.0,
+  "final_exact_count": 245,
+  "final_rate_valid": 49.0,
+  "final_rate_total": 49.0,
+  "wrong_details": [
+    {
+      "id": 10,
+      "prediction": "继承纠纷",
+      "gold": "婚姻家庭",
+      "score": 0.0
+    },
+    {
+      "id": 12,
+      "prediction": "继承纠纷",
+      "gold": "婚姻家庭",
+      "score": 0.0
+    },
+    {
+      "id": 16,
+      "prediction": "债权债务",
+      "gold": "婚姻家庭",
+      "score": 0.0
+    },
+    {
+      "id": 28,
+      "prediction": "合同纠纷",
+      "gold": "劳动纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 30,
+      "prediction": "人身损害",
+      "gold": "劳动纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 31,
+      "prediction": "婚姻家庭",
+      "gold": "劳动纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 32,
+      "prediction": "人身损害",
+      "gold": "劳动纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 41,
+      "prediction": "债权债务",
+      "gold": "劳动纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 44,
+      "prediction": "债权债务",
+      "gold": "劳动纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 48,
+      "prediction": "人身损害",
+      "gold": "劳动纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 52,
+      "prediction": "行政诉讼",
+      "gold": "交通事故",
+      "score": 0.0
+    },
+    {
+      "id": 57,
+      "prediction": "道路运输许可及经营资质咨询",
+      "gold": "交通事故",
+      "score": 0.0
+    },
+    {
+      "id": 66,
+      "prediction": "人身损害",
+      "gold": "交通事故",
+      "score": 0.0
+    },
+    {
+      "id": 71,
+      "prediction": "交通管理",
+      "gold": "交通事故",
+      "score": 0.0
+    },
+    {
+      "id": 75,
+      "prediction": "抵押担保",
+      "gold": "债权债务",
+      "score": 0.0
+    },
+    {
+      "id": 76,
+      "prediction": "房产纠纷",
+      "gold": "债权债务",
+      "score": 0.0
+    },
+    {
+      "id": 79,
+      "prediction": "刑事辩护",
+      "gold": "债权债务",
+      "score": 0.0
+    },
+    {
+      "id": 86,
+      "prediction": "综合咨询",
+      "gold": "债权债务",
+      "score": 0.0
+    },
+    {
+      "id": 90,
+      "prediction": "劳动纠纷",
+      "gold": "债权债务",
+      "score": 0.0
+    },
+    {
+      "id": 92,
+      "prediction": "综合咨询",
+      "gold": "债权债务",
+      "score": 0.0
+    },
+    {
+      "id": 99,
+      "prediction": "抵押担保",
+      "gold": "债权债务",
+      "score": 0.0
+    },
+    {
+      "id": 102,
+      "prediction": "人身损害",
+      "gold": "刑事辩护",
+      "score": 0.0
+    },
+    {
+      "id": 104,
+      "prediction": "债权债务",
+      "gold": "刑事辩护",
+      "score": 0.0
+    },
+    {
+      "id": 105,
+      "prediction": "侵权",
+      "gold": "刑事辩护",
+      "score": 0.0
+    },
+    {
+      "id": 106,
+      "prediction": "劳动纠纷",
+      "gold": "刑事辩护",
+      "score": 0.0
+    },
+    {
+      "id": 108,
+      "prediction": "婚姻家庭",
+      "gold": "刑事辩护",
+      "score": 0.0
+    },
+    {
+      "id": 111,
+      "prediction": "综合咨询",
+      "gold": "刑事辩护",
+      "score": 0.0
+    },
+    {
+      "id": 112,
+      "prediction": "人身损害",
+      "gold": "刑事辩护",
+      "score": 0.0
+    },
+    {
+      "id": 113,
+      "prediction": "人身损害",
+      "gold": "刑事辩护",
+      "score": 0.0
+    },
+    {
+      "id": 114,
+      "prediction": "未成年人犯罪记录封存，一般不会留案底。",
+      "gold": "刑事辩护",
+      "score": 0.0
+    },
+    {
+      "id": 116,
+      "prediction": "人身损害",
+      "gold": "刑事辩护",
+      "score": 0.0
+    },
+    {
+      "id": 118,
+      "prediction": "涉外法律",
+      "gold": "刑事辩护",
+      "score": 0.0
+    },
+    {
+      "id": 119,
+      "prediction": "消费权益",
+      "gold": "刑事辩护",
+      "score": 0.0
+    },
+    {
+      "id": 123,
+      "prediction": "行政诉讼",
+      "gold": "刑事辩护",
+      "score": 0.0
+    },
+    {
+      "id": 124,
+      "prediction": "债权债务",
+      "gold": "刑事辩护",
+      "score": 0.0
+    },
+    {
+      "id": 125,
+      "prediction": "土地流转纠纷",
+      "gold": "合同纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 127,
+      "prediction": "消费权益",
+      "gold": "合同纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 131,
+      "prediction": "房产纠纷",
+      "gold": "合同纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 135,
+      "prediction": "消费权益",
+      "gold": "合同纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 137,
+      "prediction": "劳动纠纷",
+      "gold": "合同纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 138,
+      "prediction": "劳动纠纷",
+      "gold": "合同纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 139,
+      "prediction": "劳动纠纷",
+      "gold": "合同纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 141,
+      "prediction": "人身损害",
+      "gold": "合同纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 143,
+      "prediction": "综合咨询",
+      "gold": "合同纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 144,
+      "prediction": "债权债务",
+      "gold": "合同纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 145,
+      "prediction": "劳动纠纷",
+      "gold": "合同纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 146,
+      "prediction": "劳动纠纷",
+      "gold": "合同纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 147,
+      "prediction": "债权债务",
+      "gold": "合同纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 149,
+      "prediction": "房产纠纷",
+      "gold": "合同纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 150,
+      "prediction": "行政诉讼",
+      "gold": "房产纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 154,
+      "prediction": "综合咨询",
+      "gold": "房产纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 155,
+      "prediction": "遗嘱继承/赠与合同纠纷",
+      "gold": "房产纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 156,
+      "prediction": "行政诉讼",
+      "gold": "房产纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 157,
+      "prediction": "人身损害",
+      "gold": "房产纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 160,
+      "prediction": "知识产权",
+      "gold": "房产纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 161,
+      "prediction": "债权债务",
+      "gold": "房产纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 162,
+      "prediction": "拆迁安置",
+      "gold": "房产纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 164,
+      "prediction": "合同纠纷",
+      "gold": "房产纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 165,
+      "prediction": "债权债务",
+      "gold": "房产纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 167,
+      "prediction": "综合咨询",
+      "gold": "房产纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 169,
+      "prediction": "婚姻家庭",
+      "gold": "房产纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 170,
+      "prediction": "合同纠纷",
+      "gold": "房产纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 171,
+      "prediction": "继承纠纷",
+      "gold": "房产纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 172,
+      "prediction": "综合咨询",
+      "gold": "房产纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 173,
+      "prediction": "侵权",
+      "gold": "房产纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 174,
+      "prediction": "拆迁安置",
+      "gold": "房产纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 175,
+      "prediction": "房产纠纷",
+      "gold": "侵权",
+      "score": 0.0
+    },
+    {
+      "id": 176,
+      "prediction": "人身损害",
+      "gold": "侵权",
+      "score": 0.0
+    },
+    {
+      "id": 177,
+      "prediction": "人身损害",
+      "gold": "侵权",
+      "score": 0.0
+    },
+    {
+      "id": 178,
+      "prediction": "房产纠纷",
+      "gold": "侵权",
+      "score": 0.0
+    },
+    {
+      "id": 179,
+      "prediction": "劳动纠纷",
+      "gold": "侵权",
+      "score": 0.0
+    },
+    {
+      "id": 180,
+      "prediction": "行政诉讼",
+      "gold": "侵权",
+      "score": 0.0
+    },
+    {
+      "id": 181,
+      "prediction": "赠与合同纠纷",
+      "gold": "侵权",
+      "score": 0.0
+    },
+    {
+      "id": 182,
+      "prediction": "合同纠纷",
+      "gold": "侵权",
+      "score": 0.0
+    },
+    {
+      "id": 183,
+      "prediction": "人身损害",
+      "gold": "侵权",
+      "score": 0.0
+    },
+    {
+      "id": 184,
+      "prediction": "人身损害",
+      "gold": "侵权",
+      "score": 0.0
+    },
+    {
+      "id": 186,
+      "prediction": "汽车销售合同纠纷",
+      "gold": "侵权",
+      "score": 0.0
+    },
+    {
+      "id": 187,
+      "prediction": "人身损害",
+      "gold": "侵权",
+      "score": 0.0
+    },
+    {
+      "id": 188,
+      "prediction": "知识产权",
+      "gold": "侵权",
+      "score": 0.0
+    },
+    {
+      "id": 189,
+      "prediction": "人身损害",
+      "gold": "侵权",
+      "score": 0.0
+    },
+    {
+      "id": 190,
+      "prediction": "村务管理纠纷",
+      "gold": "侵权",
+      "score": 0.0
+    },
+    {
+      "id": 193,
+      "prediction": "人身损害",
+      "gold": "侵权",
+      "score": 0.0
+    },
+    {
+      "id": 194,
+      "prediction": "人身损害",
+      "gold": "侵权",
+      "score": 0.0
+    },
+    {
+      "id": 196,
+      "prediction": "刑事辩护",
+      "gold": "侵权",
+      "score": 0.0
+    },
+    {
+      "id": 197,
+      "prediction": "人身损害",
+      "gold": "侵权",
+      "score": 0.0
+    },
+    {
+      "id": 198,
+      "prediction": "婚姻家庭",
+      "gold": "侵权",
+      "score": 0.0
+    },
+    {
+      "id": 199,
+      "prediction": "消费权益",
+      "gold": "侵权",
+      "score": 0.0
+    },
+    {
+      "id": 200,
+      "prediction": "消费权益",
+      "gold": "公司法",
+      "score": 0.0
+    },
+    {
+      "id": 201,
+      "prediction": "综合咨询",
+      "gold": "公司法",
+      "score": 0.0
+    },
+    {
+      "id": 204,
+      "prediction": "债权债务",
+      "gold": "公司法",
+      "score": 0.0
+    },
+    {
+      "id": 205,
+      "prediction": "抵押担保",
+      "gold": "公司法",
+      "score": 0.0
+    },
+    {
+      "id": 206,
+      "prediction": "综合咨询",
+      "gold": "公司法",
+      "score": 0.0
+    },
+    {
+      "id": 208,
+      "prediction": "债权债务",
+      "gold": "公司法",
+      "score": 0.0
+    },
+    {
+      "id": 210,
+      "prediction": "涉外法律",
+      "gold": "公司法",
+      "score": 0.0
+    },
+    {
+      "id": 211,
+      "prediction": "诉调程序",
+      "gold": "公司法",
+      "score": 0.0
+    },
+    {
+      "id": 213,
+      "prediction": "债权债务",
+      "gold": "公司法",
+      "score": 0.0
+    },
+    {
+      "id": 214,
+      "prediction": "劳动纠纷",
+      "gold": "公司法",
+      "score": 0.0
+    },
+    {
+      "id": 215,
+      "prediction": "销售合同纠纷",
+      "gold": "公司法",
+      "score": 0.0
+    },
+    {
+      "id": 216,
+      "prediction": "诉讼程序",
+      "gold": "公司法",
+      "score": 0.0
+    },
+    {
+      "id": 218,
+      "prediction": "合同纠纷",
+      "gold": "公司法",
+      "score": 0.0
+    },
+    {
+      "id": 219,
+      "prediction": "刑事辩护",
+      "gold": "公司法",
+      "score": 0.0
+    },
+    {
+      "id": 220,
+      "prediction": "债权债务",
+      "gold": "公司法",
+      "score": 0.0
+    },
+    {
+      "id": 221,
+      "prediction": "劳动纠纷",
+      "gold": "公司法",
+      "score": 0.0
+    },
+    {
+      "id": 222,
+      "prediction": "执行程序",
+      "gold": "公司法",
+      "score": 0.0
+    },
+    {
+      "id": 224,
+      "prediction": "债权债务",
+      "gold": "公司法",
+      "score": 0.0
+    },
+    {
+      "id": 225,
+      "prediction": "精神卫生法相关咨询",
+      "gold": "医疗纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 226,
+      "prediction": "人身损害",
+      "gold": "医疗纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 227,
+      "prediction": "人身损害",
+      "gold": "医疗纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 228,
+      "prediction": "劳动纠纷",
+      "gold": "医疗纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 229,
+      "prediction": "人身损害",
+      "gold": "医疗纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 230,
+      "prediction": "人身损害",
+      "gold": "医疗纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 231,
+      "prediction": "人身损害",
+      "gold": "医疗纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 233,
+      "prediction": "人身损害",
+      "gold": "医疗纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 236,
+      "prediction": "人身损害",
+      "gold": "医疗纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 237,
+      "prediction": "交通事故",
+      "gold": "医疗纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 238,
+      "prediction": "人身损害",
+      "gold": "医疗纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 239,
+      "prediction": "保险理赔",
+      "gold": "医疗纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 240,
+      "prediction": "人身损害",
+      "gold": "医疗纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 241,
+      "prediction": "劳动纠纷",
+      "gold": "医疗纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 243,
+      "prediction": "人身损害",
+      "gold": "医疗纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 244,
+      "prediction": "消费权益",
+      "gold": "医疗纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 245,
+      "prediction": "消费权益",
+      "gold": "医疗纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 247,
+      "prediction": "人身损害",
+      "gold": "医疗纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 249,
+      "prediction": "劳动纠纷",
+      "gold": "医疗纠纷",
+      "score": 0.0
+    },
+    {
+      "id": 251,
+      "prediction": "债权债务",
+      "gold": "拆迁安置",
+      "score": 0.0
+    },
+    {
+      "id": 252,
+      "prediction": "婚姻家庭",
+      "gold": "拆迁安置",
+      "score": 0.0
+    },
+    {
+      "id": 255,
+      "prediction": "劳动纠纷",
+      "gold": "拆迁安置",
+      "score": 0.0
+    },
+    {
+      "id": 259,
+      "prediction": "房产纠纷",
+      "gold": "拆迁安置",
+      "score": 0.0
+    },
+    {
+      "id": 262,
+      "prediction": "土地纠纷",
+      "gold": "拆迁安置",
+      "score": 0.0
+    },
+    {
+      "id": 270,
+      "prediction": "债权债务",
+      "gold": "拆迁安置",
+      "score": 0.0
+    },
+    {
+      "id": 272,
+      "prediction": "房产纠纷",
+      "gold": "拆迁安置",
+      "score": 0.0
+    },
+    {
+      "id": 276,
+      "prediction": "侵权",
+      "gold": "行政诉讼",
+      "score": 0.0
+    },
+    {
+      "id": 277,
+      "prediction": "交通事故",
+      "gold": "行政诉讼",
+      "score": 0.0
+    },
+    {
+      "id": 278,
+      "prediction": "诉讼程序/时效纠纷",
+      "gold": "行政诉讼",
+      "score": 0.0
+    },
+    {
+      "id": 280,
+      "prediction": "综合咨询",
+      "gold": "行政诉讼",
+      "score": 0.0
+    },
+    {
+      "id": 281,
+      "prediction": "劳动纠纷",
+      "gold": "行政诉讼",
+      "score": 0.0
+    },
+    {
+      "id": 282,
+      "prediction": "执行程序",
+      "gold": "行政诉讼",
+      "score": 0.0
+    },
+    {
+      "id": 287,
+      "prediction": "交通事故",
+      "gold": "行政诉讼",
+      "score": 0.0
+    },
+    {
+      "id": 288,
+      "prediction": "刑事辩护",
+      "gold": "行政诉讼",
+      "score": 0.0
+    },
+    {
+      "id": 291,
+      "prediction": "综合咨询",
+      "gold": "行政诉讼",
+      "score": 0.0
+    },
+    {
+      "id": 293,
+      "prediction": "交通违章",
+      "gold": "行政诉讼",
+      "score": 0.0
+    },
+    {
+      "id": 294,
+      "prediction": "诉讼程序",
+      "gold": "行政诉讼",
+      "score": 0.0
+    },
+    {
+      "id": 296,
+      "prediction": "劳动纠纷",
+      "gold": "行政诉讼",
+      "score": 0.0
+    },
+    {
+      "id": 297,
+      "prediction": "婚姻家庭",
+      "gold": "行政诉讼",
+      "score": 0.0
+    },
+    {
+      "id": 298,
+      "prediction": "合同纠纷",
+      "gold": "行政诉讼",
+      "score": 0.0
+    },
+    {
+      "id": 299,
+      "prediction": "劳动纠纷",
+      "gold": "行政诉讼",
+      "score": 0.0
+    },
+    {
+      "id": 300,
+      "prediction": "劳动纠纷",
+      "gold": "建设工程",
+      "score": 0.0
+    },
+    {
+      "id": 301,
+      "prediction": "劳动纠纷",
+      "gold": "建设工程",
+      "score": 0.0
+    },
+    {
+      "id": 302,
+      "prediction": "劳动纠纷",
+      "gold": "建设工程",
+      "score": 0.0
+    },
+    {
+      "id": 305,
+      "prediction": "债权债务",
+      "gold": "建设工程",
+      "score": 0.0
+    },
+    {
+      "id": 306,
+      "prediction": "债权债务",
+      "gold": "建设工程",
+      "score": 0.0
+    },
+    {
+      "id": 307,
+      "prediction": "人身损害",
+      "gold": "建设工程",
+      "score": 0.0
+    },
+    {
+      "id": 309,
+      "prediction": "合同纠纷",
+      "gold": "建设工程",
+      "score": 0.0
+    },
+    {
+      "id": 310,
+      "prediction": "人身损害",
+      "gold": "建设工程",
+      "score": 0.0
+    },
+    {
+      "id": 311,
+      "prediction": "拆迁安置",
+      "gold": "建设工程",
+      "score": 0.0
+    },
+    {
+      "id": 312,
+      "prediction": "人身损害",
+      "gold": "建设工程",
+      "score": 0.0
+    },
+    {
+      "id": 315,
+      "prediction": "侵权",
+      "gold": "建设工程",
+      "score": 0.0
+    },
+    {
+      "id": 320,
+      "prediction": "房产纠纷",
+      "gold": "建设工程",
+      "score": 0.0
+    },
+    {
+      "id": 321,
+      "prediction": "债权债务",
+      "gold": "建设工程",
+      "score": 0.0
+    },
+    {
+      "id": 322,
+      "prediction": "劳动纠纷",
+      "gold": "建设工程",
+      "score": 0.0
+    },
+    {
+      "id": 324,
+      "prediction": "劳动纠纷",
+      "gold": "建设工程",
+      "score": 0.0
+    },
+    {
+      "id": 329,
+      "prediction": "刑事辩护",
+      "gold": "知识产权",
+      "score": 0.0
+    },
+    {
+      "id": 333,
+      "prediction": "侵权",
+      "gold": "知识产权",
+      "score": 0.0
+    },
+    {
+      "id": 336,
+      "prediction": "综合咨询",
+      "gold": "知识产权",
+      "score": 0.0
+    },
+    {
+      "id": 339,
+      "prediction": "侵权",
+      "gold": "知识产权",
+      "score": 0.0
+    },
+    {
+      "id": 340,
+      "prediction": "债权债务",
+      "gold": "知识产权",
+      "score": 0.0
+    },
+    {
+      "id": 342,
+      "prediction": "相邻权纠纷（归入侵权类别）",
+      "gold": "知识产权",
+      "score": 0.0
+    },
+    {
+      "id": 343,
+      "prediction": "噪音扰民",
+      "gold": "知识产权",
+      "score": 0.0
+    },
+    {
+      "id": 344,
+      "prediction": "刑事辩护",
+      "gold": "知识产权",
+      "score": 0.0
+    },
+    {
+      "id": 345,
+      "prediction": "综合咨询",
+      "gold": "知识产权",
+      "score": 0.0
+    },
+    {
+      "id": 346,
+      "prediction": "消费权益",
+      "gold": "知识产权",
+      "score": 0.0
+    },
+    {
+      "id": 347,
+      "prediction": "综合咨询",
+      "gold": "知识产权",
+      "score": 0.0
+    },
+    {
+      "id": 348,
+      "prediction": "合同纠纷",
+      "gold": "知识产权",
+      "score": 0.0
+    },
+    {
+      "id": 349,
+      "prediction": "债权债务",
+      "gold": "知识产权",
+      "score": 0.0
+    },
+    {
+      "id": 350,
+      "prediction": "交通管理",
+      "gold": "综合咨询",
+      "score": 0.0
+    },
+    {
+      "id": 351,
+      "prediction": "劳动纠纷",
+      "gold": "综合咨询",
+      "score": 0.0
+    },
+    {
+      "id": 352,
+      "prediction": "劳动纠纷",
+      "gold": "综合咨询",
+      "score": 0.0
+    },
+    {
+      "id": 353,
+      "prediction": "土地纠纷",
+      "gold": "综合咨询",
+      "score": 0.0
+    },
+    {
+      "id": 354,
+      "prediction": "公司法",
+      "gold": "综合咨询",
+      "score": 0.0
+    },
+    {
+      "id": 355,
+      "prediction": "消费权益",
+      "gold": "综合咨询",
+      "score": 0.0
+    },
+    {
+      "id": 356,
+      "prediction": "劳动纠纷",
+      "gold": "综合咨询",
+      "score": 0.0
+    },
+    {
+      "id": 357,
+      "prediction": "债权债务",
+      "gold": "综合咨询",
+      "score": 0.0
+    },
+    {
+      "id": 358,
+      "prediction": "劳动纠纷",
+      "gold": "综合咨询",
+      "score": 0.0
+    },
+    {
+      "id": 359,
+      "prediction": "交通事故",
+      "gold": "综合咨询",
+      "score": 0.0
+    },
+    {
+      "id": 360,
+      "prediction": "交通管理/交通事故",
+      "gold": "综合咨询",
+      "score": 0.0
+    },
+    {
+      "id": 361,
+      "prediction": "房产纠纷",
+      "gold": "综合咨询",
+      "score": 0.0
+    },
+    {
+      "id": 362,
+      "prediction": "房产纠纷",
+      "gold": "综合咨询",
+      "score": 0.0
+    },
+    {
+      "id": 365,
+      "prediction": "人身损害",
+      "gold": "综合咨询",
+      "score": 0.0
+    },
+    {
+      "id": 366,
+      "prediction": "婚姻家庭",
+      "gold": "综合咨询",
+      "score": 0.0
+    },
+    {
+      "id": 367,
+      "prediction": "债权债务",
+      "gold": "综合咨询",
+      "score": 0.0
+    },
+    {
+      "id": 368,
+      "prediction": "合同纠纷",
+      "gold": "综合咨询",
+      "score": 0.0
+    },
+    {
+      "id": 369,
+      "prediction": "债权债务",
+      "gold": "综合咨询",
+      "score": 0.0
+    },
+    {
+      "id": 370,
+      "prediction": "交通管理\n\n（注：根据上下文，“高栏板货车”属于车辆类型，“取下高栏板”涉及车辆改装或违法载货，通常归入交通管理或交通事故类别。若更偏向于车辆改装、道路安全监管，可归入交通管理；若涉及事故责任认定，可归入交通事故。此处按交通管理归类。）",
+      "gold": "综合咨询",
+      "score": 0.0
+    },
+    {
+      "id": 371,
+      "prediction": "合同纠纷",
+      "gold": "综合咨询",
+      "score": 0.0
+    },
+    {
+      "id": 372,
+      "prediction": "拆迁安置",
+      "gold": "综合咨询",
+      "score": 0.0
+    },
+    {
+      "id": 373,
+      "prediction": "婚姻家庭",
+      "gold": "综合咨询",
+      "score": 0.0
+    },
+    {
+      "id": 374,
+      "prediction": "刑事辩护",
+      "gold": "综合咨询",
+      "score": 0.0
+    },
+    {
+      "id": 375,
+      "prediction": "房产纠纷",
+      "gold": "人身损害",
+      "score": 0.0
+    },
+    {
+      "id": 377,
+      "prediction": "侵权",
+      "gold": "人身损害",
+      "score": 0.0
+    },
+    {
+      "id": 379,
+      "prediction": "刑事辩护",
+      "gold": "人身损害",
+      "score": 0.0
+    },
+    {
+      "id": 382,
+      "prediction": "侵权",
+      "gold": "人身损害",
+      "score": 0.0
+    },
+    {
+      "id": 387,
+      "prediction": "劳动纠纷",
+      "gold": "人身损害",
+      "score": 0.0
+    },
+    {
+      "id": 390,
+      "prediction": "涉外法律",
+      "gold": "人身损害",
+      "score": 0.0
+    },
+    {
+      "id": 395,
+      "prediction": "劳动纠纷",
+      "gold": "人身损害",
+      "score": 0.0
+    },
+    {
+      "id": 396,
+      "prediction": "执行/强制执行",
+      "gold": "人身损害",
+      "score": 0.0
+    },
+    {
+      "id": 397,
+      "prediction": "交通事故",
+      "gold": "人身损害",
+      "score": 0.0
+    },
+    {
+      "id": 400,
+      "prediction": "建设工程",
+      "gold": "涉外法律",
+      "score": 0.0
+    },
+    {
+      "id": 402,
+      "prediction": "公司法",
+      "gold": "涉外法律",
+      "score": 0.0
+    },
+    {
+      "id": 404,
+      "prediction": "劳动纠纷",
+      "gold": "涉外法律",
+      "score": 0.0
+    },
+    {
+      "id": 411,
+      "prediction": "公司法",
+      "gold": "涉外法律",
+      "score": 0.0
+    },
+    {
+      "id": 413,
+      "prediction": "公司法",
+      "gold": "涉外法律",
+      "score": 0.0
+    },
+    {
+      "id": 416,
+      "prediction": "合同纠纷",
+      "gold": "涉外法律",
+      "score": 0.0
+    },
+    {
+      "id": 418,
+      "prediction": "婚姻家庭",
+      "gold": "涉外法律",
+      "score": 0.0
+    },
+    {
+      "id": 419,
+      "prediction": "婚姻家庭",
+      "gold": "涉外法律",
+      "score": 0.0
+    },
+    {
+      "id": 422,
+      "prediction": "公司法",
+      "gold": "涉外法律",
+      "score": 0.0
+    },
+    {
+      "id": 423,
+      "prediction": "综合咨询",
+      "gold": "涉外法律",
+      "score": 0.0
+    },
+    {
+      "id": 426,
+      "prediction": "侵权",
+      "gold": "海事海商",
+      "score": 0.0
+    },
+    {
+      "id": 428,
+      "prediction": "物流运输合同纠纷",
+      "gold": "海事海商",
+      "score": 0.0
+    },
+    {
+      "id": 430,
+      "prediction": "人身损害",
+      "gold": "海事海商",
+      "score": 0.0
+    },
+    {
+      "id": 432,
+      "prediction": "人身损害",
+      "gold": "海事海商",
+      "score": 0.0
+    },
+    {
+      "id": 433,
+      "prediction": "债权债务",
+      "gold": "海事海商",
+      "score": 0.0
+    },
+    {
+      "id": 434,
+      "prediction": "婚姻家庭",
+      "gold": "海事海商",
+      "score": 0.0
+    },
+    {
+      "id": 435,
+      "prediction": "行政诉讼",
+      "gold": "海事海商",
+      "score": 0.0
+    },
+    {
+      "id": 437,
+      "prediction": "涉外法律",
+      "gold": "海事海商",
+      "score": 0.0
+    },
+    {
+      "id": 438,
+      "prediction": "涉外法律",
+      "gold": "海事海商",
+      "score": 0.0
+    },
+    {
+      "id": 441,
+      "prediction": "消费权益",
+      "gold": "海事海商",
+      "score": 0.0
+    },
+    {
+      "id": 442,
+      "prediction": "合同纠纷",
+      "gold": "海事海商",
+      "score": 0.0
+    },
+    {
+      "id": 443,
+      "prediction": "消费权益",
+      "gold": "海事海商",
+      "score": 0.0
+    },
+    {
+      "id": 445,
+      "prediction": "运输合同纠纷",
+      "gold": "海事海商",
+      "score": 0.0
+    },
+    {
+      "id": 446,
+      "prediction": "运输合同纠纷",
+      "gold": "海事海商",
+      "score": 0.0
+    },
+    {
+      "id": 448,
+      "prediction": "合同纠纷",
+      "gold": "海事海商",
+      "score": 0.0
+    },
+    {
+      "id": 451,
+      "prediction": "再审程序/行政诉讼",
+      "gold": "消费权益",
+      "score": 0.0
+    },
+    {
+      "id": 454,
+      "prediction": "职务侵占",
+      "gold": "消费权益",
+      "score": 0.0
+    },
+    {
+      "id": 456,
+      "prediction": "人身损害",
+      "gold": "消费权益",
+      "score": 0.0
+    },
+    {
+      "id": 458,
+      "prediction": "侵权",
+      "gold": "消费权益",
+      "score": 0.0
+    },
+    {
+      "id": 459,
+      "prediction": "合同纠纷",
+      "gold": "消费权益",
+      "score": 0.0
+    },
+    {
+      "id": 460,
+      "prediction": "物权纠纷",
+      "gold": "消费权益",
+      "score": 0.0
+    },
+    {
+      "id": 464,
+      "prediction": "房产纠纷",
+      "gold": "消费权益",
+      "score": 0.0
+    },
+    {
+      "id": 465,
+      "prediction": "房产纠纷",
+      "gold": "消费权益",
+      "score": 0.0
+    },
+    {
+      "id": 466,
+      "prediction": "侵权",
+      "gold": "消费权益",
+      "score": 0.0
+    },
+    {
+      "id": 467,
+      "prediction": "知识产权",
+      "gold": "消费权益",
+      "score": 0.0
+    },
+    {
+      "id": 469,
+      "prediction": "房产纠纷",
+      "gold": "消费权益",
+      "score": 0.0
+    },
+    {
+      "id": 470,
+      "prediction": "侵权",
+      "gold": "消费权益",
+      "score": 0.0
+    },
+    {
+      "id": 474,
+      "prediction": "物业管理",
+      "gold": "消费权益",
+      "score": 0.0
+    },
+    {
+      "id": 475,
+      "prediction": "债权债务",
+      "gold": "抵押担保",
+      "score": 0.0
+    },
+    {
+      "id": 476,
+      "prediction": "债权债务",
+      "gold": "抵押担保",
+      "score": 0.0
+    },
+    {
+      "id": 477,
+      "prediction": "住房保障",
+      "gold": "抵押担保",
+      "score": 0.0
+    },
+    {
+      "id": 478,
+      "prediction": "房产纠纷",
+      "gold": "抵押担保",
+      "score": 0.0
+    },
+    {
+      "id": 481,
+      "prediction": "债权债务",
+      "gold": "抵押担保",
+      "score": 0.0
+    },
+    {
+      "id": 485,
+      "prediction": "金融保险",
+      "gold": "抵押担保",
+      "score": 0.0
+    },
+    {
+      "id": 486,
+      "prediction": "执行结案消除记录影响贷款属于债权债务。",
+      "gold": "抵押担保",
+      "score": 0.0
+    },
+    {
+      "id": 489,
+      "prediction": "债权债务",
+      "gold": "抵押担保",
+      "score": 0.0
+    },
+    {
+      "id": 493,
+      "prediction": "房产纠纷",
+      "gold": "抵押担保",
+      "score": 0.0
+    },
+    {
+      "id": 496,
+      "prediction": "机动车交通事故责任纠纷",
+      "gold": "抵押担保",
+      "score": 0.0
+    },
+    {
+      "id": 498,
+      "prediction": "债权债务",
+      "gold": "抵押担保",
+      "score": 0.0
+    }
+  ]
+}

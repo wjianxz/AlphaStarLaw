@@ -1,0 +1,27 @@
+{
+  "total_count": 50,
+  "invalid_count": 0,
+  "invalid_ratio": 0.0,
+  "invalid_ids": [],
+  "valid_count": 50,
+  "correct_count": 47,
+  "valid_accuracy": 94.0,
+  "total_accuracy": 94.0,
+  "wrong_details": [
+    {
+      "id": 4,
+      "pred_choices": "B",
+      "gold_choices": "C"
+    },
+    {
+      "id": 34,
+      "pred_choices": "ABCD",
+      "gold_choices": "C"
+    },
+    {
+      "id": 50,
+      "pred_choices": "C",
+      "gold_choices": "D"
+    }
+  ]
+}

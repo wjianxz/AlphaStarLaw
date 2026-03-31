@@ -1,0 +1,37 @@
+{
+  "total_count": 100,
+  "invalid_count": 0,
+  "invalid_ratio": 0.0,
+  "invalid_ids": [],
+  "valid_count": 100,
+  "correct_count": 95,
+  "valid_accuracy": 95.0,
+  "total_accuracy": 95.0,
+  "wrong_details": [
+    {
+      "id": 4,
+      "pred_choices": "B",
+      "gold_choices": "C"
+    },
+    {
+      "id": 25,
+      "pred_choices": "B",
+      "gold_choices": "D"
+    },
+    {
+      "id": 27,
+      "pred_choices": "A",
+      "gold_choices": "D"
+    },
+    {
+      "id": 60,
+      "pred_choices": "BD",
+      "gold_choices": "D"
+    },
+    {
+      "id": 97,
+      "pred_choices": "B",
+      "gold_choices": "C"
+    }
+  ]
+}

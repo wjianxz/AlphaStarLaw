@@ -1,0 +1,42 @@
+{
+  "total_count": 250,
+  "invalid_count": 0,
+  "invalid_ratio": 0.0,
+  "invalid_ids": [],
+  "valid_count": 250,
+  "correct_count": 244,
+  "valid_accuracy": 97.6,
+  "total_accuracy": 97.6,
+  "wrong_details": [
+    {
+      "id": 20,
+      "pred_choices": "D",
+      "gold_choices": "A"
+    },
+    {
+      "id": 122,
+      "pred_choices": "A",
+      "gold_choices": "B"
+    },
+    {
+      "id": 276,
+      "pred_choices": "C",
+      "gold_choices": "D"
+    },
+    {
+      "id": 338,
+      "pred_choices": "A",
+      "gold_choices": "B"
+    },
+    {
+      "id": 400,
+      "pred_choices": "A",
+      "gold_choices": "B"
+    },
+    {
+      "id": 460,
+      "pred_choices": "A",
+      "gold_choices": "C"
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "total_count": 125,
+  "invalid_count": 0,
+  "invalid_ratio": 0.0,
+  "invalid_ids": [],
+  "valid_count": 125,
+  "correct_count": 60,
+  "wrong_count": 65,
+  "total_score": 60.0,
+  "valid_accuracy": 48.0,
+  "total_accuracy": 48.0,
+  "final_exact_count": 60,
+  "final_rate_valid": 48.0,
+  "final_rate_total": 48.0,
+  "wrong_details": [
+    {
+      "id": 12,
+      "prediction": "违约",
+      "gold": "损失认定及处理",
+      "score": 0.0
+    },
+    {
+      "id": 40,
+      "prediction": "合同效力",
+      "gold": "损失认定及处理",
+      "score": 0.0
+    },
+    {
+      "id": 52,
+      "prediction": "损失认定及处理",
+      "gold": "责任认定",
+      "score": 0.0
+    },
+    {
+      "id": 56,
+      "prediction": "原审判决是否适当",
+      "gold": "责任承担",
+      "score": 0.0
+    },
+    {
+      "id": 60,
+      "prediction": "原审判决是否适当",
+      "gold": "本金争议",
+      "score": 0.0
+    },
+    {
+      "id": 68,
+      "prediction": "责任划分",
+      "gold": "责任认定",
+      "score": 0.0
+    },
+    {
+      "id": 72,
+      "prediction": "责任认定",
+      "gold": "责任承担",
+      "score": 0.0
+    },
+    {
+      "id": 76,
+      "prediction": "原审判决是否适当",
+      "gold": "诉讼主体",
+      "score": 0.0
+    },
+    {
+      "id": 100,
+      "prediction": "合同解除",
+      "gold": "损失认定及处理",
+      "score": 0.0
+    },
+    {
+      "id": 108,
+      "prediction": "诉讼主体",
+      "gold": "诉讼时效",
+      "score": 0.0
+    },
+    {
+      "id": 112,
+      "prediction": "原审判决是否适当",
+      "gold": "责任承担",
+      "score": 0.0
+    },
+    {
+      "id": 120,
+      "prediction": "合同效力",
+      "gold": "责任承担",
+      "score": 0.0
+    },
+    {
+      "id": 136,
+      "prediction": "原审判决是否适当",
+      "gold": "合同解除",
+      "score": 0.0
+    },
+    {
+      "id": 140,
+      "prediction": "责任划分",
+      "gold": "责任认定",
+      "score": 0.0
+    },
+    {
+      "id": 144,
+      "prediction": "鉴定结论采信问题",
+      "gold": "本金争议",
+      "score": 0.0
+    },
+    {
+      "id": 156,
+      "prediction": "合同效力",
+      "gold": "责任承担",
+      "score": 0.0
+    },
+    {
+      "id": 160,
+      "prediction": "责任认定",
+      "gold": "责任承担",
+      "score": 0.0
+    },
+    {
+      "id": 168,
+      "prediction": "原审判决是否适当",
+      "gold": "责任承担",
+      "score": 0.0
+    },
+    {
+      "id": 180,
+      "prediction": "诉讼主体",
+      "gold": "租金情况",
+      "score": 0.0
+    },
+    {
+      "id": 184,
+      "prediction": "本金争议",
+      "gold": "诉讼时效",
+      "score": 0.0
+    },
+    {
+      "id": 188,
+      "prediction": "责任认定",
+      "gold": "鉴定结论采信问题",
+      "score": 0.0
+    },
+    {
+      "id": 192,
+      "prediction": "损失认定及处理",
+      "gold": "原审判决是否适当",
+      "score": 0.0
+    },
+    {
+      "id": 200,
+      "prediction": "责任认定",
+      "gold": "责任承担",
+      "score": 0.0
+    },
+    {
+      "id": 204,
+      "prediction": "原审判决是否适当",
+      "gold": "本金争议",
+      "score": 0.0
+    },
+    {
+      "id": 208,
+      "prediction": "责任认定",
+      "gold": "原审判决是否适当",
+      "score": 0.0
+    },
+    {
+      "id": 220,
+      "prediction": "违约",
+      "gold": "损失认定及处理",
+      "score": 0.0
+    },
+    {
+      "id": 232,
+      "prediction": "责任认定",
+      "gold": "原审判决是否适当",
+      "score": 0.0
+    },
+    {
+      "id": 236,
+      "prediction": "合同解除",
+      "gold": "责任承担",
+      "score": 0.0
+    },
+    {
+      "id": 240,
+      "prediction": "责任认定",
+      "gold": "责任划分",
+      "score": 0.0
+    },
+    {
+      "id": 252,
+      "prediction": "原审判决是否适当",
+      "gold": "合同解除",
+      "score": 0.0
+    },
+    {
+      "id": 268,
+      "prediction": "合同效力",
+      "gold": "本金争议",
+      "score": 0.0
+    },
+    {
+      "id": 280,
+      "prediction": "诉讼时效",
+      "gold": "本金争议",
+      "score": 0.0
+    },
+    {
+      "id": 284,
+      "prediction": "诉讼主体",
+      "gold": "本金争议",
+      "score": 0.0
+    },
+    {
+      "id": 288,
+      "prediction": "诉讼时效",
+      "gold": "鉴定结论采信问题",
+      "score": 0.0
+    },
+    {
+      "id": 300,
+      "prediction": "诉讼主体",
+      "gold": "责任承担",
+      "score": 0.0
+    },
+    {
+      "id": 304,
+      "prediction": "原审判决是否适当",
+      "gold": "违约",
+      "score": 0.0
+    },
+    {
+      "id": 312,
+      "prediction": "合同解除",
+      "gold": "合同效力",
+      "score": 0.0
+    },
+    {
+      "id": 316,
+      "prediction": "原审判决是否适当",
+      "gold": "责任承担",
+      "score": 0.0
+    },
+    {
+      "id": 320,
+      "prediction": "合同解除",
+      "gold": "责任承担",
+      "score": 0.0
+    },
+    {
+      "id": 328,
+      "prediction": "诉讼主体",
+      "gold": "责任承担",
+      "score": 0.0
+    },
+    {
+      "id": 332,
+      "prediction": "责任认定",
+      "gold": "责任承担",
+      "score": 0.0
+    },
+    {
+      "id": 336,
+      "prediction": "诉讼主体",
+      "gold": "责任承担",
+      "score": 0.0
+    },
+    {
+      "id": 340,
+      "prediction": "原审判决是否适当",
+      "gold": "损失认定及处理",
+      "score": 0.0
+    },
+    {
+      "id": 344,
+      "prediction": "责任认定",
+      "gold": "责任承担",
+      "score": 0.0
+    },
+    {
+      "id": 356,
+      "prediction": "原审判决是否适当",
+      "gold": "诉讼主体",
+      "score": 0.0
+    },
+    {
+      "id": 364,
+      "prediction": "本金争议",
+      "gold": "利息",
+      "score": 0.0
+    },
+    {
+      "id": 368,
+      "prediction": "原审判决是否适当",
+      "gold": "合同效力",
+      "score": 0.0
+    },
+    {
+      "id": 372,
+      "prediction": "责任认定",
+      "gold": "责任划分",
+      "score": 0.0
+    },
+    {
+      "id": 380,
+      "prediction": "原审判决是否适当",
+      "gold": "鉴定结论采信问题",
+      "score": 0.0
+    },
+    {
+      "id": 384,
+      "prediction": "肇事逃逸",
+      "gold": "责任划分",
+      "score": 0.0
+    },
+    {
+      "id": 388,
+      "prediction": "原审判决是否适当",
+      "gold": "合同解除",
+      "score": 0.0
+    },
+    {
+      "id": 396,
+      "prediction": "责任认定",
+      "gold": "责任承担",
+      "score": 0.0
+    },
+    {
+      "id": 400,
+      "prediction": "合同解除",
+      "gold": "损失认定及处理",
+      "score": 0.0
+    },
+    {
+      "id": 428,
+      "prediction": "责任认定",
+      "gold": "责任划分",
+      "score": 0.0
+    },
+    {
+      "id": 432,
+      "prediction": "财产分割",
+      "gold": "责任承担",
+      "score": 0.0
+    },
+    {
+      "id": 436,
+      "prediction": "责任认定",
+      "gold": "责任承担",
+      "score": 0.0
+    },
+    {
+      "id": 448,
+      "prediction": "原审判决是否适当",
+      "gold": "损失认定及处理",
+      "score": 0.0
+    },
+    {
+      "id": 460,
+      "prediction": "诉讼时效",
+      "gold": "责任认定",
+      "score": 0.0
+    },
+    {
+      "id": 464,
+      "prediction": "责任划分",
+      "gold": "责任认定",
+      "score": 0.0
+    },
+    {
+      "id": 472,
+      "prediction": "原审判决是否适当",
+      "gold": "责任承担",
+      "score": 0.0
+    },
+    {
+      "id": 476,
+      "prediction": "诉讼时效",
+      "gold": "本金争议",
+      "score": 0.0
+    },
+    {
+      "id": 480,
+      "prediction": "本金争议",
+      "gold": "诉讼主体",
+      "score": 0.0
+    },
+    {
+      "id": 484,
+      "prediction": "违约",
+      "gold": "损失认定及处理",
+      "score": 0.0
+    },
+    {
+      "id": 492,
+      "prediction": "责任认定",
+      "gold": "责任承担",
+      "score": 0.0
+    },
+    {
+      "id": 496,
+      "prediction": "责任认定",
+      "gold": "责任划分",
+      "score": 0.0
+    }
+  ]
+}

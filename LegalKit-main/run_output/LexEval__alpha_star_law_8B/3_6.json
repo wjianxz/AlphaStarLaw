@@ -1,0 +1,887 @@
+{
+  "total_count": 500,
+  "invalid_count": 0,
+  "invalid_ratio": 0.0,
+  "invalid_ids": [],
+  "valid_count": 500,
+  "correct_count": 325,
+  "valid_accuracy": 65.0,
+  "total_accuracy": 65.0,
+  "wrong_details": [
+    {
+      "id": 1,
+      "pred_choices": "A",
+      "gold_choices": "B"
+    },
+    {
+      "id": 3,
+      "pred_choices": "C",
+      "gold_choices": "D"
+    },
+    {
+      "id": 4,
+      "pred_choices": "E",
+      "gold_choices": "C"
+    },
+    {
+      "id": 7,
+      "pred_choices": "A",
+      "gold_choices": "C"
+    },
+    {
+      "id": 8,
+      "pred_choices": "B",
+      "gold_choices": "D"
+    },
+    {
+      "id": 9,
+      "pred_choices": "C",
+      "gold_choices": "E"
+    },
+    {
+      "id": 11,
+      "pred_choices": "D",
+      "gold_choices": "A"
+    },
+    {
+      "id": 18,
+      "pred_choices": "A",
+      "gold_choices": "B"
+    },
+    {
+      "id": 22,
+      "pred_choices": "A",
+      "gold_choices": "B"
+    },
+    {
+      "id": 27,
+      "pred_choices": "A",
+      "gold_choices": "D"
+    },
+    {
+      "id": 28,
+      "pred_choices": "A",
+      "gold_choices": "D"
+    },
+    {
+      "id": 29,
+      "pred_choices": "B",
+      "gold_choices": "C"
+    },
+    {
+      "id": 35,
+      "pred_choices": "B",
+      "gold_choices": "A"
+    },
+    {
+      "id": 36,
+      "pred_choices": "B",
+      "gold_choices": "C"
+    },
+    {
+      "id": 39,
+      "pred_choices": "E",
+      "gold_choices": "C"
+    },
+    {
+      "id": 40,
+      "pred_choices": "D",
+      "gold_choices": "A"
+    },
+    {
+      "id": 45,
+      "pred_choices": "C",
+      "gold_choices": "D"
+    },
+    {
+      "id": 49,
+      "pred_choices": "A",
+      "gold_choices": "E"
+    },
+    {
+      "id": 53,
+      "pred_choices": "C",
+      "gold_choices": "A"
+    },
+    {
+      "id": 57,
+      "pred_choices": "B",
+      "gold_choices": "D"
+    },
+    {
+      "id": 59,
+      "pred_choices": "A",
+      "gold_choices": "C"
+    },
+    {
+      "id": 61,
+      "pred_choices": "B",
+      "gold_choices": "A"
+    },
+    {
+      "id": 64,
+      "pred_choices": "E",
+      "gold_choices": "B"
+    },
+    {
+      "id": 65,
+      "pred_choices": "C",
+      "gold_choices": "B"
+    },
+    {
+      "id": 69,
+      "pred_choices": "B",
+      "gold_choices": "A"
+    },
+    {
+      "id": 72,
+      "pred_choices": "A",
+      "gold_choices": "D"
+    },
+    {
+      "id": 73,
+      "pred_choices": "E",
+      "gold_choices": "C"
+    },
+    {
+      "id": 77,
+      "pred_choices": "E",
+      "gold_choices": "C"
+    },
+    {
+      "id": 80,
+      "pred_choices": "D",
+      "gold_choices": "A"
+    },
+    {
+      "id": 83,
+      "pred_choices": "C",
+      "gold_choices": "E"
+    },
+    {
+      "id": 84,
+      "pred_choices": "A",
+      "gold_choices": "E"
+    },
+    {
+      "id": 86,
+      "pred_choices": "C",
+      "gold_choices": "B"
+    },
+    {
+      "id": 91,
+      "pred_choices": "A",
+      "gold_choices": "E"
+    },
+    {
+      "id": 96,
+      "pred_choices": "D",
+      "gold_choices": "C"
+    },
+    {
+      "id": 106,
+      "pred_choices": "B",
+      "gold_choices": "C"
+    },
+    {
+      "id": 111,
+      "pred_choices": "A",
+      "gold_choices": "E"
+    },
+    {
+      "id": 115,
+      "pred_choices": "B",
+      "gold_choices": "E"
+    },
+    {
+      "id": 120,
+      "pred_choices": "C",
+      "gold_choices": "A"
+    },
+    {
+      "id": 133,
+      "pred_choices": "D",
+      "gold_choices": "C"
+    },
+    {
+      "id": 138,
+      "pred_choices": "C",
+      "gold_choices": "D"
+    },
+    {
+      "id": 139,
+      "pred_choices": "B",
+      "gold_choices": "C"
+    },
+    {
+      "id": 140,
+      "pred_choices": "A",
+      "gold_choices": "D"
+    },
+    {
+      "id": 142,
+      "pred_choices": "C",
+      "gold_choices": "E"
+    },
+    {
+      "id": 144,
+      "pred_choices": "C",
+      "gold_choices": "D"
+    },
+    {
+      "id": 148,
+      "pred_choices": "D",
+      "gold_choices": "B"
+    },
+    {
+      "id": 151,
+      "pred_choices": "D",
+      "gold_choices": "A"
+    },
+    {
+      "id": 152,
+      "pred_choices": "B",
+      "gold_choices": "D"
+    },
+    {
+      "id": 153,
+      "pred_choices": "A",
+      "gold_choices": "D"
+    },
+    {
+      "id": 154,
+      "pred_choices": "B",
+      "gold_choices": "D"
+    },
+    {
+      "id": 155,
+      "pred_choices": "C",
+      "gold_choices": "A"
+    },
+    {
+      "id": 156,
+      "pred_choices": "A",
+      "gold_choices": "D"
+    },
+    {
+      "id": 164,
+      "pred_choices": "B",
+      "gold_choices": "D"
+    },
+    {
+      "id": 167,
+      "pred_choices": "A",
+      "gold_choices": "D"
+    },
+    {
+      "id": 174,
+      "pred_choices": "B",
+      "gold_choices": "E"
+    },
+    {
+      "id": 177,
+      "pred_choices": "B",
+      "gold_choices": "D"
+    },
+    {
+      "id": 179,
+      "pred_choices": "C",
+      "gold_choices": "A"
+    },
+    {
+      "id": 180,
+      "pred_choices": "D",
+      "gold_choices": "E"
+    },
+    {
+      "id": 181,
+      "pred_choices": "C",
+      "gold_choices": "E"
+    },
+    {
+      "id": 182,
+      "pred_choices": "A",
+      "gold_choices": "C"
+    },
+    {
+      "id": 186,
+      "pred_choices": "A",
+      "gold_choices": "E"
+    },
+    {
+      "id": 188,
+      "pred_choices": "C",
+      "gold_choices": "D"
+    },
+    {
+      "id": 190,
+      "pred_choices": "A",
+      "gold_choices": "C"
+    },
+    {
+      "id": 191,
+      "pred_choices": "B",
+      "gold_choices": "C"
+    },
+    {
+      "id": 193,
+      "pred_choices": "E",
+      "gold_choices": "D"
+    },
+    {
+      "id": 194,
+      "pred_choices": "A",
+      "gold_choices": "C"
+    },
+    {
+      "id": 197,
+      "pred_choices": "B",
+      "gold_choices": "E"
+    },
+    {
+      "id": 199,
+      "pred_choices": "A",
+      "gold_choices": "D"
+    },
+    {
+      "id": 203,
+      "pred_choices": "B",
+      "gold_choices": "D"
+    },
+    {
+      "id": 205,
+      "pred_choices": "C",
+      "gold_choices": "A"
+    },
+    {
+      "id": 206,
+      "pred_choices": "A",
+      "gold_choices": "C"
+    },
+    {
+      "id": 210,
+      "pred_choices": "C",
+      "gold_choices": "A"
+    },
+    {
+      "id": 211,
+      "pred_choices": "D",
+      "gold_choices": "E"
+    },
+    {
+      "id": 213,
+      "pred_choices": "B",
+      "gold_choices": "A"
+    },
+    {
+      "id": 214,
+      "pred_choices": "B",
+      "gold_choices": "A"
+    },
+    {
+      "id": 216,
+      "pred_choices": "E",
+      "gold_choices": "B"
+    },
+    {
+      "id": 217,
+      "pred_choices": "E",
+      "gold_choices": "B"
+    },
+    {
+      "id": 218,
+      "pred_choices": "B",
+      "gold_choices": "A"
+    },
+    {
+      "id": 219,
+      "pred_choices": "D",
+      "gold_choices": "A"
+    },
+    {
+      "id": 220,
+      "pred_choices": "B",
+      "gold_choices": "D"
+    },
+    {
+      "id": 224,
+      "pred_choices": "A",
+      "gold_choices": "C"
+    },
+    {
+      "id": 226,
+      "pred_choices": "A",
+      "gold_choices": "E"
+    },
+    {
+      "id": 227,
+      "pred_choices": "D",
+      "gold_choices": "B"
+    },
+    {
+      "id": 231,
+      "pred_choices": "B",
+      "gold_choices": "A"
+    },
+    {
+      "id": 233,
+      "pred_choices": "C",
+      "gold_choices": "E"
+    },
+    {
+      "id": 234,
+      "pred_choices": "A",
+      "gold_choices": "E"
+    },
+    {
+      "id": 235,
+      "pred_choices": "B",
+      "gold_choices": "C"
+    },
+    {
+      "id": 238,
+      "pred_choices": "B",
+      "gold_choices": "A"
+    },
+    {
+      "id": 244,
+      "pred_choices": "D",
+      "gold_choices": "A"
+    },
+    {
+      "id": 246,
+      "pred_choices": "C",
+      "gold_choices": "D"
+    },
+    {
+      "id": 248,
+      "pred_choices": "E",
+      "gold_choices": "D"
+    },
+    {
+      "id": 249,
+      "pred_choices": "E",
+      "gold_choices": "D"
+    },
+    {
+      "id": 254,
+      "pred_choices": "E",
+      "gold_choices": "B"
+    },
+    {
+      "id": 256,
+      "pred_choices": "A",
+      "gold_choices": "C"
+    },
+    {
+      "id": 257,
+      "pred_choices": "B",
+      "gold_choices": "D"
+    },
+    {
+      "id": 263,
+      "pred_choices": "D",
+      "gold_choices": "A"
+    },
+    {
+      "id": 266,
+      "pred_choices": "C",
+      "gold_choices": "B"
+    },
+    {
+      "id": 269,
+      "pred_choices": "A",
+      "gold_choices": "D"
+    },
+    {
+      "id": 271,
+      "pred_choices": "C",
+      "gold_choices": "A"
+    },
+    {
+      "id": 274,
+      "pred_choices": "C",
+      "gold_choices": "A"
+    },
+    {
+      "id": 275,
+      "pred_choices": "D",
+      "gold_choices": "A"
+    },
+    {
+      "id": 277,
+      "pred_choices": "A",
+      "gold_choices": "C"
+    },
+    {
+      "id": 279,
+      "pred_choices": "B",
+      "gold_choices": "E"
+    },
+    {
+      "id": 285,
+      "pred_choices": "C",
+      "gold_choices": "B"
+    },
+    {
+      "id": 288,
+      "pred_choices": "A",
+      "gold_choices": "C"
+    },
+    {
+      "id": 289,
+      "pred_choices": "A",
+      "gold_choices": "C"
+    },
+    {
+      "id": 291,
+      "pred_choices": "C",
+      "gold_choices": "E"
+    },
+    {
+      "id": 292,
+      "pred_choices": "C",
+      "gold_choices": "E"
+    },
+    {
+      "id": 295,
+      "pred_choices": "D",
+      "gold_choices": "A"
+    },
+    {
+      "id": 297,
+      "pred_choices": "B",
+      "gold_choices": "E"
+    },
+    {
+      "id": 298,
+      "pred_choices": "A",
+      "gold_choices": "D"
+    },
+    {
+      "id": 299,
+      "pred_choices": "C",
+      "gold_choices": "D"
+    },
+    {
+      "id": 302,
+      "pred_choices": "C",
+      "gold_choices": "D"
+    },
+    {
+      "id": 304,
+      "pred_choices": "C",
+      "gold_choices": "D"
+    },
+    {
+      "id": 307,
+      "pred_choices": "E",
+      "gold_choices": "D"
+    },
+    {
+      "id": 311,
+      "pred_choices": "C",
+      "gold_choices": "A"
+    },
+    {
+      "id": 314,
+      "pred_choices": "B",
+      "gold_choices": "A"
+    },
+    {
+      "id": 315,
+      "pred_choices": "B",
+      "gold_choices": "E"
+    },
+    {
+      "id": 316,
+      "pred_choices": "A",
+      "gold_choices": "D"
+    },
+    {
+      "id": 319,
+      "pred_choices": "A",
+      "gold_choices": "C"
+    },
+    {
+      "id": 320,
+      "pred_choices": "B",
+      "gold_choices": "C"
+    },
+    {
+      "id": 322,
+      "pred_choices": "B",
+      "gold_choices": "E"
+    },
+    {
+      "id": 324,
+      "pred_choices": "C",
+      "gold_choices": "B"
+    },
+    {
+      "id": 329,
+      "pred_choices": "D",
+      "gold_choices": "E"
+    },
+    {
+      "id": 338,
+      "pred_choices": "A",
+      "gold_choices": "D"
+    },
+    {
+      "id": 339,
+      "pred_choices": "E",
+      "gold_choices": "A"
+    },
+    {
+      "id": 344,
+      "pred_choices": "D",
+      "gold_choices": "E"
+    },
+    {
+      "id": 347,
+      "pred_choices": "C",
+      "gold_choices": "B"
+    },
+    {
+      "id": 350,
+      "pred_choices": "A",
+      "gold_choices": "C"
+    },
+    {
+      "id": 355,
+      "pred_choices": "A",
+      "gold_choices": "B"
+    },
+    {
+      "id": 356,
+      "pred_choices": "E",
+      "gold_choices": "B"
+    },
+    {
+      "id": 362,
+      "pred_choices": "E",
+      "gold_choices": "C"
+    },
+    {
+      "id": 366,
+      "pred_choices": "B",
+      "gold_choices": "E"
+    },
+    {
+      "id": 367,
+      "pred_choices": "B",
+      "gold_choices": "A"
+    },
+    {
+      "id": 369,
+      "pred_choices": "C",
+      "gold_choices": "D"
+    },
+    {
+      "id": 370,
+      "pred_choices": "A",
+      "gold_choices": "B"
+    },
+    {
+      "id": 376,
+      "pred_choices": "B",
+      "gold_choices": "A"
+    },
+    {
+      "id": 380,
+      "pred_choices": "A",
+      "gold_choices": "E"
+    },
+    {
+      "id": 382,
+      "pred_choices": "CD",
+      "gold_choices": "A"
+    },
+    {
+      "id": 383,
+      "pred_choices": "B",
+      "gold_choices": "E"
+    },
+    {
+      "id": 384,
+      "pred_choices": "B",
+      "gold_choices": "A"
+    },
+    {
+      "id": 386,
+      "pred_choices": "A",
+      "gold_choices": "C"
+    },
+    {
+      "id": 390,
+      "pred_choices": "E",
+      "gold_choices": "B"
+    },
+    {
+      "id": 398,
+      "pred_choices": "C",
+      "gold_choices": "B"
+    },
+    {
+      "id": 401,
+      "pred_choices": "B",
+      "gold_choices": "C"
+    },
+    {
+      "id": 402,
+      "pred_choices": "A",
+      "gold_choices": "E"
+    },
+    {
+      "id": 406,
+      "pred_choices": "A",
+      "gold_choices": "B"
+    },
+    {
+      "id": 415,
+      "pred_choices": "E",
+      "gold_choices": "D"
+    },
+    {
+      "id": 418,
+      "pred_choices": "A",
+      "gold_choices": "E"
+    },
+    {
+      "id": 421,
+      "pred_choices": "B",
+      "gold_choices": "E"
+    },
+    {
+      "id": 426,
+      "pred_choices": "E",
+      "gold_choices": "C"
+    },
+    {
+      "id": 428,
+      "pred_choices": "C",
+      "gold_choices": "A"
+    },
+    {
+      "id": 430,
+      "pred_choices": "E",
+      "gold_choices": "A"
+    },
+    {
+      "id": 432,
+      "pred_choices": "B",
+      "gold_choices": "A"
+    },
+    {
+      "id": 433,
+      "pred_choices": "D",
+      "gold_choices": "C"
+    },
+    {
+      "id": 434,
+      "pred_choices": "A",
+      "gold_choices": "B"
+    },
+    {
+      "id": 437,
+      "pred_choices": "E",
+      "gold_choices": "D"
+    },
+    {
+      "id": 438,
+      "pred_choices": "B",
+      "gold_choices": "A"
+    },
+    {
+      "id": 444,
+      "pred_choices": "E",
+      "gold_choices": "D"
+    },
+    {
+      "id": 446,
+      "pred_choices": "D",
+      "gold_choices": "E"
+    },
+    {
+      "id": 447,
+      "pred_choices": "D",
+      "gold_choices": "C"
+    },
+    {
+      "id": 453,
+      "pred_choices": "E",
+      "gold_choices": "C"
+    },
+    {
+      "id": 456,
+      "pred_choices": "C",
+      "gold_choices": "A"
+    },
+    {
+      "id": 457,
+      "pred_choices": "E",
+      "gold_choices": "D"
+    },
+    {
+      "id": 461,
+      "pred_choices": "B",
+      "gold_choices": "A"
+    },
+    {
+      "id": 465,
+      "pred_choices": "B",
+      "gold_choices": "D"
+    },
+    {
+      "id": 466,
+      "pred_choices": "D",
+      "gold_choices": "B"
+    },
+    {
+      "id": 469,
+      "pred_choices": "D",
+      "gold_choices": "B"
+    },
+    {
+      "id": 472,
+      "pred_choices": "D",
+      "gold_choices": "B"
+    },
+    {
+      "id": 474,
+      "pred_choices": "B",
+      "gold_choices": "E"
+    },
+    {
+      "id": 484,
+      "pred_choices": "C",
+      "gold_choices": "A"
+    },
+    {
+      "id": 485,
+      "pred_choices": "C",
+      "gold_choices": "A"
+    },
+    {
+      "id": 488,
+      "pred_choices": "B",
+      "gold_choices": "D"
+    },
+    {
+      "id": 490,
+      "pred_choices": "C",
+      "gold_choices": "A"
+    },
+    {
+      "id": 494,
+      "pred_choices": "D",
+      "gold_choices": "B"
+    },
+    {
+      "id": 498,
+      "pred_choices": "B",
+      "gold_choices": "D"
+    }
+  ]
+}

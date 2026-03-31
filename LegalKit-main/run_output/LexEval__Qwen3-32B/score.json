@@ -1,0 +1,78 @@
+{
+  "1_1": {
+    "invalid_ratio": 0.0,
+    "score": 58.8
+  },
+  "1_2": {
+    "invalid_ratio": 0.0,
+    "score": 92.8
+  },
+  "1_3": {
+    "invalid_ratio": 0.0,
+    "score": 14.0
+  },
+  "2_1": {
+    "invalid_ratio": 0.0,
+    "score": 91.6
+  },
+  "2_2": {
+    "invalid_ratio": 0.0,
+    "score": 52.67
+  },
+  "2_3": {
+    "invalid_ratio": 0.0,
+    "score": 96.0
+  },
+  "2_4": {
+    "invalid_ratio": 0.0,
+    "score": 96.0
+  },
+  "2_5": {
+    "invalid_ratio": 0.0,
+    "score": 98.0
+  },
+  "3_1": {
+    "invalid_ratio": 0.0,
+    "score": 78.0
+  },
+  "3_2": {
+    "invalid_ratio": 0.0,
+    "score": 93.8
+  },
+  "3_3": {
+    "invalid_ratio": 0.0,
+    "score": 51.4
+  },
+  "3_4": {
+    "invalid_ratio": 0.0,
+    "score": 48.0
+  },
+  "3_5": {
+    "invalid_ratio": 0.0,
+    "score": 66.0
+  },
+  "3_6": {
+    "invalid_ratio": 0.0,
+    "score": 67.2
+  },
+  "4_1": {
+    "invalid_ratio": 0.0,
+    "score": 35.6
+  },
+  "4_2": {
+    "invalid_ratio": 0.0,
+    "score": 35.33
+  },
+  "6_1": {
+    "invalid_ratio": 0.0,
+    "score": 54.4
+  },
+  "6_2": {
+    "invalid_ratio": 0.0,
+    "score": 60.4
+  },
+  "6_3": {
+    "invalid_ratio": 0.0,
+    "score": 82.0
+  }
+}

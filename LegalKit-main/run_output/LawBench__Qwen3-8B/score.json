@@ -1,0 +1,79 @@
+{
+  "1-2": {
+    "invalid_ratio": 0.0,
+    "score": 62.0
+  },
+  "2-1": {
+    "invalid_ratio": 0.0,
+    "accuracy": 80.72,
+    "score": 46.4
+  },
+  "2-2": {
+    "invalid_ratio": 2.0,
+    "accuracy": 45.71,
+    "score": 45.71
+  },
+  "2-3": {
+    "invalid_ratio": 0.0,
+    "accuracy": 53.34,
+    "score": 35.2
+  },
+  "2-4": {
+    "invalid_ratio": 0.0,
+    "accuracy": 36.8,
+    "score": 36.8
+  },
+  "2-5": {
+    "invalid_ratio": 0.0,
+    "accuracy": 70.34,
+    "score": 51.2
+  },
+  "2-6": {
+    "invalid_ratio": 0.0,
+    "accuracy": 78.3,
+    "score": 38.0
+  },
+  "2-8": {
+    "invalid_ratio": 0.0,
+    "score": 50.4
+  },
+  "2-9": {
+    "invalid_ratio": 0.0,
+    "accuracy": 76.85,
+    "score": 66.0
+  },
+  "2-10": {
+    "invalid_ratio": 0.0,
+    "accuracy": 64.15,
+    "score": 49.2
+  },
+  "3-1": {
+    "invalid_ratio": 0.0,
+    "accuracy": 76.73,
+    "score": 57.6
+  },
+  "3-3": {
+    "invalid_ratio": 0.0,
+    "accuracy": 59.31,
+    "score": 43.6
+  },
+  "3-4": {
+    "invalid_ratio": 0.4,
+    "accuracy": 37.01,
+    "score": 13.36
+  },
+  "3-5": {
+    "invalid_ratio": 0.0,
+    "accuracy": 35.81,
+    "score": 13.31
+  },
+  "3-6": {
+    "invalid_ratio": 0.0,
+    "score": 50.0
+  },
+  "3-7": {
+    "invalid_ratio": 0.0,
+    "accuracy": 85.82,
+    "score": 58.8
+  }
+}

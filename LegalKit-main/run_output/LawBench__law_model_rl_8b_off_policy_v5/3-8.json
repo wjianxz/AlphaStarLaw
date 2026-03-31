@@ -1,0 +1,11 @@
+{
+  "total_count": 500,
+  "invalid_count": 0,
+  "invalid_ratio": 0.0,
+  "valid_count": 500,
+  "valid_ratio": 100.0,
+  "invalid_ids": [],
+  "max_valid": 1445,
+  "min_valid": 169,
+  "avg_valid": 670.84
+}

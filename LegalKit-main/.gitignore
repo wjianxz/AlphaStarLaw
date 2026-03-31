@@ -5,7 +5,4 @@ __pycache__/
 .vscode/
 *.log
 *.egg-info
-run_output/
-*.sh
 /example/api
-/web/web_run_output/

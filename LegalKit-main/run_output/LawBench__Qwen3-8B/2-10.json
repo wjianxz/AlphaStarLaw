@@ -1,0 +1,779 @@
+{
+  "total_count": 250,
+  "invalid_count": 0,
+  "invalid_ratio": 0.0,
+  "invalid_ids": [],
+  "valid_count": 250,
+  "correct_count": 123,
+  "wrong_count": 127,
+  "total_score": 160.3833,
+  "valid_accuracy": 64.15,
+  "total_accuracy": 64.15,
+  "final_exact_count": 123,
+  "final_rate_valid": 49.2,
+  "final_rate_total": 49.2,
+  "wrong_details": [
+    {
+      "id": 0,
+      "prediction": "查扣;退赃",
+      "gold": "查扣;退给",
+      "score": 0.5
+    },
+    {
+      "id": 2,
+      "prediction": "电话;遗弃",
+      "gold": "电话;催告;结清;丢弃",
+      "score": 0.25
+    },
+    {
+      "id": 8,
+      "prediction": "阻碍",
+      "gold": "负责;阻碍",
+      "score": 0.5
+    },
+    {
+      "id": 12,
+      "prediction": "帮助/救助;帮忙",
+      "gold": "提出;帮忙",
+      "score": 0.5
+    },
+    {
+      "id": 14,
+      "prediction": "给予;支付/给付",
+      "gold": "行贿;虚开;给予",
+      "score": 0.3333
+    },
+    {
+      "id": 16,
+      "prediction": "表示同意",
+      "gold": "提出;让;表示同意",
+      "score": 0.3333
+    },
+    {
+      "id": 18,
+      "prediction": "被抓获;追回",
+      "gold": "抓获;占有;追回;发还",
+      "score": 0.5
+    },
+    {
+      "id": 22,
+      "prediction": "让;联系",
+      "gold": "让;找来;联系",
+      "score": 0.6667
+    },
+    {
+      "id": 24,
+      "prediction": "销赃",
+      "gold": "开支",
+      "score": 0.0
+    },
+    {
+      "id": 36,
+      "prediction": "出租房;锤;骨折",
+      "gold": "出租房;锤;砸",
+      "score": 0.6667
+    },
+    {
+      "id": 46,
+      "prediction": "其他内容;双方",
+      "gold": "争执",
+      "score": 0.0
+    },
+    {
+      "id": 48,
+      "prediction": "冲突;通知/提醒",
+      "gold": "发生冲突;告知",
+      "score": 0.0
+    },
+    {
+      "id": 50,
+      "prediction": "电线短路;喷溅熔珠",
+      "gold": "引燃",
+      "score": 0.0
+    },
+    {
+      "id": 54,
+      "prediction": "作弊",
+      "gold": "作弊;查获",
+      "score": 0.5
+    },
+    {
+      "id": 56,
+      "prediction": "希望分得搬运费",
+      "gold": "让;提出",
+      "score": 0.0
+    },
+    {
+      "id": 64,
+      "prediction": "买入;放弃/停止",
+      "gold": "竞得;撤资",
+      "score": 0.0
+    },
+    {
+      "id": 66,
+      "prediction": "租用;借用",
+      "gold": "租房",
+      "score": 0.0
+    },
+    {
+      "id": 68,
+      "prediction": "变卖;手机",
+      "gold": "抢得;变卖",
+      "score": 0.5
+    },
+    {
+      "id": 72,
+      "prediction": "转出;还贷",
+      "gold": "补助款;转;用于",
+      "score": 0.3333
+    },
+    {
+      "id": 74,
+      "prediction": "签订合同;赔偿",
+      "gold": "协议书;补偿",
+      "score": 0.0
+    },
+    {
+      "id": 84,
+      "prediction": "网上逃犯;抓获",
+      "gold": "逃犯;抓获归案",
+      "score": 0.5
+    },
+    {
+      "id": 86,
+      "prediction": "右小臂;轿车;倒车镜",
+      "gold": "碰撞",
+      "score": 0.0
+    },
+    {
+      "id": 88,
+      "prediction": "扬言;散播",
+      "gold": "散播;索要",
+      "score": 0.5
+    },
+    {
+      "id": 92,
+      "prediction": "退赃",
+      "gold": "归案;退出",
+      "score": 0.0
+    },
+    {
+      "id": 96,
+      "prediction": "冲突;卖出",
+      "gold": "发生争执;送;索要",
+      "score": 0.0
+    },
+    {
+      "id": 98,
+      "prediction": "打电话;设法疏通",
+      "gold": "打电话;让",
+      "score": 0.5
+    },
+    {
+      "id": 100,
+      "prediction": "出售;支付/给付",
+      "gold": "出售;联系;购买;汇款",
+      "score": 0.25
+    },
+    {
+      "id": 104,
+      "prediction": "被告人潘修荣;平阳县水头镇闹村社区",
+      "gold": "补助款",
+      "score": 0.0
+    },
+    {
+      "id": 108,
+      "prediction": "联系;欺骗;支付/给付",
+      "gold": "联系;谎称;汇款",
+      "score": 0.3333
+    },
+    {
+      "id": 112,
+      "prediction": "生产;销售",
+      "gold": "生产;假冒;销售",
+      "score": 0.6667
+    },
+    {
+      "id": 120,
+      "prediction": "抓获;查获",
+      "gold": "抓获;查获;发还",
+      "score": 0.6667
+    },
+    {
+      "id": 122,
+      "prediction": "送给;回扣款",
+      "gold": "销售;谋取;送给",
+      "score": 0.3333
+    },
+    {
+      "id": 124,
+      "prediction": "工伤落实待遇;困难补助",
+      "gold": "补助;给予",
+      "score": 0.5
+    },
+    {
+      "id": 132,
+      "prediction": "赔偿款",
+      "gold": "赔偿款;交至",
+      "score": 0.5
+    },
+    {
+      "id": 134,
+      "prediction": "非法收受;财物",
+      "gold": "收受;利益",
+      "score": 0.5
+    },
+    {
+      "id": 140,
+      "prediction": "打砸;逃离",
+      "gold": "打砸;逃离现场",
+      "score": 0.5
+    },
+    {
+      "id": 142,
+      "prediction": "送给;支付/给付",
+      "gold": "收购;送给",
+      "score": 0.5
+    },
+    {
+      "id": 146,
+      "prediction": "制止;约束至酒醒",
+      "gold": "殴打;制止;约束",
+      "score": 0.6667
+    },
+    {
+      "id": 148,
+      "prediction": "遗失;变造",
+      "gold": "遗留;替换成",
+      "score": 0.0
+    },
+    {
+      "id": 152,
+      "prediction": "躲避;拆解;购买",
+      "gold": "躲避;检查;购买",
+      "score": 0.6667
+    },
+    {
+      "id": 156,
+      "prediction": "挑衅;挑拨",
+      "gold": "寻衅滋事",
+      "score": 0.0
+    },
+    {
+      "id": 158,
+      "prediction": "查扣;伪劣产品",
+      "gold": "查扣;伪劣产品;销售",
+      "score": 0.6667
+    },
+    {
+      "id": 160,
+      "prediction": "嫖娼;冒充",
+      "gold": "愿意;嫖宿;伪装成",
+      "score": 0.0
+    },
+    {
+      "id": 162,
+      "prediction": "收受;人民币3，000元",
+      "gold": "收受;所送",
+      "score": 0.5
+    },
+    {
+      "id": 166,
+      "prediction": "非法拘禁;强奸",
+      "gold": "非法拘禁;奸淫",
+      "score": 0.5
+    },
+    {
+      "id": 178,
+      "prediction": "联系;支付/给付;同意/接受",
+      "gold": "联系;送给;收受",
+      "score": 0.3333
+    },
+    {
+      "id": 188,
+      "prediction": "得知;安排;发放",
+      "gold": "得知;安排;获取;发放",
+      "score": 0.75
+    },
+    {
+      "id": 192,
+      "prediction": "分赃;范某甲;李某",
+      "gold": "分得",
+      "score": 0.0
+    },
+    {
+      "id": 196,
+      "prediction": "夺取;手提包",
+      "gold": "伙同;夺取",
+      "score": 0.5
+    },
+    {
+      "id": 204,
+      "prediction": "运输/运送;卖出",
+      "gold": "运出;出售",
+      "score": 0.0
+    },
+    {
+      "id": 206,
+      "prediction": "购买;支付/给付",
+      "gold": "购买;让;发送",
+      "score": 0.3333
+    },
+    {
+      "id": 208,
+      "prediction": "未向电力部门申请;死亡",
+      "gold": "申请;击倒;身亡",
+      "score": 0.3333
+    },
+    {
+      "id": 212,
+      "prediction": "进购;聘请",
+      "gold": "生产;聘请",
+      "score": 0.5
+    },
+    {
+      "id": 214,
+      "prediction": "受贿;支付/给付;侵占财物;获利",
+      "gold": "收受;所送;占有;谋取",
+      "score": 0.0
+    },
+    {
+      "id": 220,
+      "prediction": "冒充;支付/给付",
+      "gold": "冒名;货到付款;订购",
+      "score": 0.0
+    },
+    {
+      "id": 226,
+      "prediction": "变卖;清偿",
+      "gold": "变卖;生产;清偿",
+      "score": 0.6667
+    },
+    {
+      "id": 228,
+      "prediction": "租用/借用;支付/给付",
+      "gold": "缴纳;租住;催讨",
+      "score": 0.0
+    },
+    {
+      "id": 232,
+      "prediction": "尾随;殴打;要钱",
+      "gold": "尾随;掐住;殴打;要钱",
+      "score": 0.75
+    },
+    {
+      "id": 234,
+      "prediction": "退赃",
+      "gold": "退缴",
+      "score": 0.0
+    },
+    {
+      "id": 238,
+      "prediction": "运送;救治",
+      "gold": "送往",
+      "score": 0.0
+    },
+    {
+      "id": 246,
+      "prediction": "退还",
+      "gold": "借款;退还",
+      "score": 0.5
+    },
+    {
+      "id": 254,
+      "prediction": "联系;帮忙打架",
+      "gold": "联系;让;帮忙;打架",
+      "score": 0.75
+    },
+    {
+      "id": 256,
+      "prediction": "送给;支付/给付",
+      "gold": "生产;送给",
+      "score": 0.5
+    },
+    {
+      "id": 258,
+      "prediction": "截留;个人消费",
+      "gold": "截留;用于",
+      "score": 0.5
+    },
+    {
+      "id": 262,
+      "prediction": "请托;好处",
+      "gold": "请托;给予",
+      "score": 0.5
+    },
+    {
+      "id": 264,
+      "prediction": "电话联系;购买;支付/给付",
+      "gold": "联系;购买;汇款",
+      "score": 0.6667
+    },
+    {
+      "id": 268,
+      "prediction": "追回;发还",
+      "gold": "还给",
+      "score": 0.0
+    },
+    {
+      "id": 274,
+      "prediction": "锁住;打开",
+      "gold": "门锁;带领",
+      "score": 0.0
+    },
+    {
+      "id": 276,
+      "prediction": "操作不当;烧伤",
+      "gold": "生产;烧",
+      "score": 0.5
+    },
+    {
+      "id": 288,
+      "prediction": "退赃",
+      "gold": "归案;退还",
+      "score": 0.0
+    },
+    {
+      "id": 298,
+      "prediction": "因;致",
+      "gold": "申办",
+      "score": 0.0
+    },
+    {
+      "id": 300,
+      "prediction": "王某甲;个人",
+      "gold": "进",
+      "score": 0.0
+    },
+    {
+      "id": 302,
+      "prediction": "假房产证",
+      "gold": "假;贷款",
+      "score": 0.5
+    },
+    {
+      "id": 308,
+      "prediction": "买入;雇佣",
+      "gold": "判买;雇请",
+      "score": 0.0
+    },
+    {
+      "id": 312,
+      "prediction": "运输;运送",
+      "gold": "拉载",
+      "score": 0.0
+    },
+    {
+      "id": 316,
+      "prediction": "采挖;装运",
+      "gold": "采挖;装运;拦截",
+      "score": 0.6667
+    },
+    {
+      "id": 320,
+      "prediction": "追回;发还",
+      "gold": "还给;挥霍",
+      "score": 0.0
+    },
+    {
+      "id": 326,
+      "prediction": "假冒注册商标;伪劣",
+      "gold": "查获;假冒",
+      "score": 0.5
+    },
+    {
+      "id": 328,
+      "prediction": "拨付;索要;出具",
+      "gold": "拨付;让;虚假",
+      "score": 0.3333
+    },
+    {
+      "id": 330,
+      "prediction": "转出;还贷",
+      "gold": "转;用于",
+      "score": 0.5
+    },
+    {
+      "id": 334,
+      "prediction": "出借;受损;联络",
+      "gold": "借给;损坏;联系",
+      "score": 0.0
+    },
+    {
+      "id": 336,
+      "prediction": "反映;粉尘",
+      "gold": "生产;影响",
+      "score": 0.0
+    },
+    {
+      "id": 344,
+      "prediction": "骗得;归还/偿还",
+      "gold": "骗得;返还;挥霍",
+      "score": 0.3333
+    },
+    {
+      "id": 348,
+      "prediction": "退;现金",
+      "gold": "领回;退",
+      "score": 0.5
+    },
+    {
+      "id": 354,
+      "prediction": "尾随;抢夺财物",
+      "gold": "尾随;推到;抢走",
+      "score": 0.3333
+    },
+    {
+      "id": 356,
+      "prediction": "退还",
+      "gold": "退还给",
+      "score": 0.0
+    },
+    {
+      "id": 358,
+      "prediction": "协助公安机关抓获其他犯罪嫌疑人;退赃",
+      "gold": "协助;抓获;退缴",
+      "score": 0.6667
+    },
+    {
+      "id": 360,
+      "prediction": "聚集",
+      "gold": "协商;聚集",
+      "score": 0.5
+    },
+    {
+      "id": 368,
+      "prediction": "随案移送清单;涉案毒品",
+      "gold": "没收",
+      "score": 0.0
+    },
+    {
+      "id": 370,
+      "prediction": "冒充;签订合同/订立协议;获利",
+      "gold": "冒用;协议书;套取",
+      "score": 0.0
+    },
+    {
+      "id": 376,
+      "prediction": "驾车逃离;带走",
+      "gold": "逃离;让",
+      "score": 0.5
+    },
+    {
+      "id": 382,
+      "prediction": "虚假的物品名称;邮寄",
+      "gold": "虚假;寄往",
+      "score": 0.5
+    },
+    {
+      "id": 384,
+      "prediction": "殴打;致伤",
+      "gold": "纠纷;殴打;致伤",
+      "score": 0.6667
+    },
+    {
+      "id": 386,
+      "prediction": "持械;制造",
+      "gold": "拿出;自制",
+      "score": 0.0
+    },
+    {
+      "id": 388,
+      "prediction": "被迫答应;卖出",
+      "gold": "答应;推销",
+      "score": 0.5
+    },
+    {
+      "id": 390,
+      "prediction": "支付/给付;同意/接受",
+      "gold": "关照;送给;收受;使用",
+      "score": 0.0
+    },
+    {
+      "id": 392,
+      "prediction": "收受;某币",
+      "gold": "收受;送",
+      "score": 0.5
+    },
+    {
+      "id": 398,
+      "prediction": "约定;欺骗;饮酒;指使/教唆",
+      "gold": "商量;假装;醉酒;诱使;带",
+      "score": 0.0
+    },
+    {
+      "id": 400,
+      "prediction": "租用;吸毒",
+      "gold": "租住;吸食",
+      "score": 0.0
+    },
+    {
+      "id": 402,
+      "prediction": "支票;抵消",
+      "gold": "所欠",
+      "score": 0.0
+    },
+    {
+      "id": 404,
+      "prediction": "行贿;9.5万元",
+      "gold": "结算;行贿",
+      "score": 0.5
+    },
+    {
+      "id": 406,
+      "prediction": "拘捕",
+      "gold": "判处",
+      "score": 0.0
+    },
+    {
+      "id": 408,
+      "prediction": "联系",
+      "gold": "联系;让",
+      "score": 0.5
+    },
+    {
+      "id": 410,
+      "prediction": "进入;猥亵",
+      "gold": "购买;进入;摸",
+      "score": 0.3333
+    },
+    {
+      "id": 416,
+      "prediction": "甲基苯丙胺;尿液",
+      "gold": "阳性",
+      "score": 0.0
+    },
+    {
+      "id": 418,
+      "prediction": "失火;滥伐林木",
+      "gold": "失火;交代",
+      "score": 0.5
+    },
+    {
+      "id": 422,
+      "prediction": "租用;言语冲突",
+      "gold": "租住;发生争执",
+      "score": 0.0
+    },
+    {
+      "id": 424,
+      "prediction": "出售;通知/提醒",
+      "gold": "出售;告诉",
+      "score": 0.5
+    },
+    {
+      "id": 428,
+      "prediction": "查获",
+      "gold": "被查获",
+      "score": 0.0
+    },
+    {
+      "id": 430,
+      "prediction": "价格认证中心;损毁",
+      "gold": "认定;损毁",
+      "score": 0.5
+    },
+    {
+      "id": 432,
+      "prediction": "倒损;验收",
+      "gold": "倒损;协助;上报",
+      "score": 0.3333
+    },
+    {
+      "id": 434,
+      "prediction": "分赃;运输/运送",
+      "gold": "分得;运往",
+      "score": 0.0
+    },
+    {
+      "id": 436,
+      "prediction": "汽车右后轮;碾压",
+      "gold": "碾压;致伤",
+      "score": 0.5
+    },
+    {
+      "id": 440,
+      "prediction": "给予;介绍费",
+      "gold": "允诺;给予",
+      "score": 0.5
+    },
+    {
+      "id": 442,
+      "prediction": "收受;超市购物卡;人民币2000元",
+      "gold": "收受;送予;购物",
+      "score": 0.6667
+    },
+    {
+      "id": 448,
+      "prediction": "销售",
+      "gold": "产品销售",
+      "score": 0.0
+    },
+    {
+      "id": 450,
+      "prediction": "好处费;人民币1.6万元",
+      "gold": "提取",
+      "score": 0.0
+    },
+    {
+      "id": 470,
+      "prediction": "饮料瓶;制止",
+      "gold": "砸;制止",
+      "score": 0.5
+    },
+    {
+      "id": 472,
+      "prediction": "木柄菜刀",
+      "gold": "拿",
+      "score": 0.0
+    },
+    {
+      "id": 476,
+      "prediction": "嫖娼;分赃",
+      "gold": "嫖资;分得;挥霍",
+      "score": 0.0
+    },
+    {
+      "id": 478,
+      "prediction": "支付/给付;约定",
+      "gold": "商定;送",
+      "score": 0.0
+    },
+    {
+      "id": 480,
+      "prediction": "趁;碰撞;击打;强行;封住;捆住;罩住",
+      "gold": "碰撞;击打;伙同;强行;捆住",
+      "score": 0.8
+    },
+    {
+      "id": 484,
+      "prediction": "擅自使用油锯;非法采伐",
+      "gold": "制成",
+      "score": 0.0
+    },
+    {
+      "id": 490,
+      "prediction": "委托;代收;转交",
+      "gold": "索要;议定;转交",
+      "score": 0.3333
+    },
+    {
+      "id": 492,
+      "prediction": "病历材料",
+      "gold": "丢失",
+      "score": 0.0
+    },
+    {
+      "id": 494,
+      "prediction": "找到;协商;联系",
+      "gold": "协商;联系;生产;假冒",
+      "score": 0.5
+    },
+    {
+      "id": 498,
+      "prediction": "发票价格;实际销售价格",
+      "gold": "采购;收取;结算",
+      "score": 0.0
+    }
+  ]
+}

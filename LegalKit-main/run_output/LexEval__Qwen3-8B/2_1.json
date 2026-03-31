@@ -1,0 +1,117 @@
+{
+  "total_count": 250,
+  "invalid_count": 0,
+  "invalid_ratio": 0.0,
+  "invalid_ids": [],
+  "valid_count": 250,
+  "correct_count": 229,
+  "valid_accuracy": 91.6,
+  "total_accuracy": 91.6,
+  "wrong_details": [
+    {
+      "id": 10,
+      "pred_choices": "AD",
+      "gold_choices": "A"
+    },
+    {
+      "id": 30,
+      "pred_choices": "BCD",
+      "gold_choices": "B"
+    },
+    {
+      "id": 34,
+      "pred_choices": "C",
+      "gold_choices": "A"
+    },
+    {
+      "id": 102,
+      "pred_choices": "C",
+      "gold_choices": "A"
+    },
+    {
+      "id": 124,
+      "pred_choices": "BD",
+      "gold_choices": "B"
+    },
+    {
+      "id": 170,
+      "pred_choices": "AC",
+      "gold_choices": "A"
+    },
+    {
+      "id": 188,
+      "pred_choices": "A",
+      "gold_choices": "B"
+    },
+    {
+      "id": 240,
+      "pred_choices": "BCD",
+      "gold_choices": "B"
+    },
+    {
+      "id": 244,
+      "pred_choices": "C",
+      "gold_choices": "B"
+    },
+    {
+      "id": 276,
+      "pred_choices": "BD",
+      "gold_choices": "D"
+    },
+    {
+      "id": 298,
+      "pred_choices": "AD",
+      "gold_choices": "A"
+    },
+    {
+      "id": 324,
+      "pred_choices": "BC",
+      "gold_choices": "C"
+    },
+    {
+      "id": 328,
+      "pred_choices": "BD",
+      "gold_choices": "D"
+    },
+    {
+      "id": 336,
+      "pred_choices": "D",
+      "gold_choices": "A"
+    },
+    {
+      "id": 338,
+      "pred_choices": "B",
+      "gold_choices": "D"
+    },
+    {
+      "id": 372,
+      "pred_choices": "C",
+      "gold_choices": "A"
+    },
+    {
+      "id": 390,
+      "pred_choices": "D",
+      "gold_choices": "B"
+    },
+    {
+      "id": 404,
+      "pred_choices": "C",
+      "gold_choices": "B"
+    },
+    {
+      "id": 412,
+      "pred_choices": "AD",
+      "gold_choices": "D"
+    },
+    {
+      "id": 422,
+      "pred_choices": "D",
+      "gold_choices": "A"
+    },
+    {
+      "id": 454,
+      "pred_choices": "D",
+      "gold_choices": "C"
+    }
+  ]
+}

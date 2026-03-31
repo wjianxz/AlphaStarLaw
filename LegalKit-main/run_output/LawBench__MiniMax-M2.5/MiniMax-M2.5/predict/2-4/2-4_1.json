@@ -1,0 +1,752 @@
+[
+  {
+    "id": 1,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n婚后父母出的首付，房贷是父母和夫妻双方共同还款，房产证上写的是父母和夫",
+    "prediction": "<think>让我分析这个咨询内容：\n\n\"婚后父母出的首付，房贷是父母和夫妻双方共同还款，房产证上写的是父母和夫\"\n\n这个咨询涉及的是：\n- 房产归属问题\n- 婚后财产问题\n- 父母出资购房的定性\n\n这明显是一个婚姻家庭问题，涉及：\n1. 婚后父母出资购房\n2. 房产证登记情况\n3. 房贷还款情况\n4. 夫妻共同财产认定\n\n这属于婚姻家庭类别。\n</think>\n\n婚姻家庭",
+    "gold": "婚姻家庭"
+  },
+  {
+    "id": 5,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n你好在吗我想离婚又不知道该怎么办",
+    "prediction": "<think>用户要求对咨询进行分类，咨询内容是：\"你好在吗我想离婚又不知道该怎么办\"\n\n这个咨询明显是关于离婚的问题，属于婚姻家庭类别。\n\n根据要求，每个咨询仅属于一个类别，我需要直接给出答案，不需要解释原因。\n</think>\n\n婚姻家庭",
+    "gold": "婚姻家庭"
+  },
+  {
+    "id": 9,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n交往没有去过男方家只有他的身份证号码，能起诉他付抚养费吗？",
+    "prediction": "<think>首先，用户的问题是：“交往没有去过男方家只有他的身份证号码，能起诉他付抚养费吗？”我需要确定这个咨询的类别。用户指定了类别列表，包括婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。\n\n分析咨询内容：咨询涉及抚养费问题。抚养费通常与婚姻家庭相关，特别是离婚后或非婚生子女的抚养费问题。这里提到“交往没有去过男方家只有他的身份证号码”，可能指的是非婚生子女或类似情况，要求男方支付抚养费。这明显属于婚姻家庭类别，因为抚养费是婚姻家庭法的一部分。\n\n确认其他类别：劳动纠纷涉及雇主和雇员之间的关系；交通事故涉及车辆事故；债权债务涉及借贷等；刑事辩护涉及犯罪；合同纠纷涉及合同；房产纠纷涉及房产；侵权涉及一般侵权；公司法涉及公司；医疗纠纷涉及医疗；拆迁安置涉及拆迁；行政诉讼涉及政府；建设工程涉及建筑；知识产权涉及专利、商标等；综合咨询是模糊的；人身损害涉及身体伤害；涉外法律涉及国际；海事海商涉及海洋；消费权益涉及消费者；抵押担保涉及抵押和担保。这个咨询明显不匹配这些类别，除了婚姻家庭。\n\n因此，答案应该是婚姻家庭。\n</think>\n\n婚姻家庭",
+    "gold": "婚姻家庭"
+  },
+  {
+    "id": 13,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我俩离完婚了，都办完了，他还要复婚，我不同意，就告诉我把我的脸毁容，要不就抢我的电话身份证是离开还是怎么样？",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n1. \"我俩离完婚了\" - 已经离婚\n2. \"他还要复婚，我不同意\" - 前夫要求复婚，被拒绝\n3. \"就告诉我把我的脸毁容\" - 威胁要毁容\n4. \"要不就抢我的电话身份证是离开还是怎么样？\" - 威胁要抢电话和身份证\n\n这个咨询涉及：\n- 婚姻家庭问题（离婚后的纠纷）\n- 威胁人身安全（毁容威胁）\n- 可能是侵权或人身损害的威胁\n\n从类别来看，这最主要是婚姻家庭问题，因为核心是离婚后的复婚要求和威胁。虽然涉及威胁毁容，但这是在婚姻家庭纠纷背景下发生的。\n\n应该选择\"婚姻家庭\"。\n</think>\n\n婚姻家庭",
+    "gold": "婚姻家庭"
+  },
+  {
+    "id": 17,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n  我爸妈长居住山东  现在在北京能补办结婚证吗？我妈的结婚证还在  我爸的找不到了",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n用户询问的是关于补办结婚证的问题，涉及婚姻家庭领域。具体问题是：\n- 父母长期居住在山东\n- 现在在北京能否补办结婚证\n- 妈妈的结婚证还在\n- 爸爸的结婚证丢失了\n\n这明显是关于婚姻登记、结婚证补办的咨询，属于婚姻家庭类别。\n\n根据要求，每个咨询仅属于一个类别，我需要选择最合适的类别。\n\n这个咨询的核心是结婚证的补办问题，属于婚姻家庭领域的具体事项。\n</think>\n\n婚姻家庭",
+    "gold": "婚姻家庭"
+  },
+  {
+    "id": 21,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n男朋友在到今天过年已经呆了2年的时间了，如何劝他回头？他说到今年过年后可能就会出来",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n用户询问的是关于男朋友的问题，说男朋友\"已经呆了2年的时间\"，并且\"到今年过年后可能就会出来\"。这里的\"呆\"和\"出来\"很可能指的是在某种限制自由的地方，比如监狱或看守所。\n\n这个咨询涉及的是：\n1. 男朋友涉及法律问题（可能在服刑或被羁押）\n2. 用户想知道如何劝他\"回头\"（可能是指劝他改过自新，不再犯罪）\n\n这个咨询不属于婚姻家庭（因为还没有结婚），也不属于刑事辩护（用户不是为男朋友辩护，而是想劝他改变）。\n\n从描述来看，这更像是涉及刑事法律相关的问题，但用户并不是在寻求刑事辩护服务，而是情感方面的咨询，想知道如何劝男朋友改变。\n\n考虑到\"男朋友\"、\"两年\"、\"出来\"这些关键词，最可能的背景是男朋友在监狱或看守所，用户想劝他出狱后改过自新。\n\n这个咨询最接近的类别应该是：\n- 刑事辩护 - 因为涉及刑事法律问题\n- 综合咨询 - 因为不属于其他具体类别\n \n我选择\"刑事辩护\"作为最合适的分类，因为咨询明显涉及刑事法律相关情况。\n</think>\n\n刑事辩护",
+    "gold": "婚姻家庭"
+  },
+  {
+    "id": 25,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n公司辞职申请是提前一个月辞职，我当天说辞职老板批了，说的没有工资这样合理那",
+    "prediction": "<think>用户的问题是：公司辞职申请是提前一个月辞职，我当天说辞职老板批了，说的没有工资这样合理那\n\n这个问题涉及劳动纠纷，具体是关于劳动者提前离职且用人单位不支付工资是否合法的问题。根据类别定义，这属于\"劳动纠纷\"。\n\n我需要直接给出答案，不需要解释原因。\n</think>\n\n劳动纠纷",
+    "gold": "劳动纠纷"
+  },
+  {
+    "id": 29,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n没有打卡，没有考勤，老板不借工资，我拿修理厂车钥匙，犯法不",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n1. \"没有打卡，没有考勤\" - 这涉及劳动纠纷\n2. \"老板不借工资\" - 这涉及工资拖欠问题，也是劳动纠纷\n3. \"我拿修理厂车钥匙\" - 这涉及侵占他人财物的问题\n\n这个咨询的核心问题是：劳动者因为工资被拖欠，拿了修理厂的车钥匙，是否违法。\n\n从法律角度来看，这涉及几个方面：\n- 劳动纠纷（工资拖欠）\n- 刑事问题（可能涉及侵占或盗窃）\n\n但是问题的核心是问\"犯法不\"，即拿车钥匙的行为是否违法。虽然涉及工资拖欠（劳动纠纷），但主要问题是想通过拿车钥匙的方式来维权，这可能涉及刑事犯罪。\n\n按照要求，每个咨询仅属于一个类别。我需要选择最主要的类别。\n\n虽然涉及劳动纠纷（工资问题），但咨询的重点是\"拿车钥匙\"这个行为是否犯法，这更倾向于刑事辩护的范畴，因为涉及到是否构成犯罪的问题。\n\n不过，再仔细想想，\"拿修理厂车钥匙\"这个行为，如果车是修理厂的客户放在那里维修的，那么拿车钥匙可能涉及侵占或盗窃客户财物的问题。\n\n我倾向于选择刑事辩护，因为咨询的核心是想知道这个行为是否构成犯罪。\n</think>\n\n刑事辩护",
+    "gold": "劳动纠纷"
+  },
+  {
+    "id": 33,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我还在使用期，工作中由于老板没有提前培训好，犯了一些工作上的错误，老板让我承担全部损失请问我可以告公司吗？",
+    "prediction": "<think>用户要求对咨询进行分类，咨询内容是关于工作期间因老板未提前培训导致工作出错，老板要求员工承担全部损失，询问是否可以告公司。\n\n这个咨询涉及：\n- 劳动者在试用期因公司未培训导致工作失误\n- 老板要求员工承担全部损失\n- 员工询问是否可以告公司\n\n这明显属于劳动纠纷的范畴，涉及劳动合同关系、试用期权益、用人单位责任等劳动法相关问题。\n\n答案应该是：劳动纠纷\n</think>\n\n劳动纠纷",
+    "gold": "劳动纠纷"
+  },
+  {
+    "id": 37,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n在一家公司上班三年了，每三年签一次合同，合同马上就要到期了，公司不打算",
+    "prediction": "<think>用户要求对咨询进行分类。让我分析这个咨询的内容：\n\n\"在一家公司上班三年了，每三年签一次合同，合同快要到期了，公司不打算...\"\n\n这个咨询涉及：\n- 在公司上班（劳动关系）\n- 签订劳动合同\n- 合同到期\n- 公司不打算续签\n\n这明显是关于劳动合同的问题，属于劳动纠纷类别。\n\n我需要直接给出答案，不需要解释原因。\n</think>\n\n劳动纠纷",
+    "gold": "劳动纠纷"
+  },
+  {
+    "id": 41,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我是在校学生  我是自己做微商的  赚了点钱  然后室友就找我6000多块钱  不是一次性借的 是平时一次一次拿的  然后就有了6000多 现在找他还钱  他没钱还  我想拟一份欠条  希望得到帮助",
+    "prediction": "<think>用户是在校学生，做微商赚钱，室友多次向他借钱共6000多元，现在室友没钱还，想拟一份欠条。\n\n这个咨询的核心是：\n1. 室友欠钱不还 - 属于债权债务问题\n2. 想拟欠条 - 涉及债务凭证的起草\n\n虽然用户是在校学生，但问题本质不是劳动纠纷（不是劳动关系），也不是其他类别，就是简单的欠款问题，属于债权债务类别。\n\n答案应该是：债权债务\n</think>\n\n债权债务",
+    "gold": "劳动纠纷"
+  },
+  {
+    "id": 45,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我未满18周岁但是我去了一家饭店她们饭店还没有正式开业一天去了早上培训打扫卫生下午发传单到最后没有给一分钱这该咋办",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n用户描述的情况是：未满18周岁，去了一家饭店工作，饭店还没正式开业，主要工作是早上培训、打扫卫生、下午发传单，但最后没有拿到一分钱。\n\n这个咨询涉及的核心问题是：\n1. 未成年人（未满18周岁）打工但没有拿到工资\n2. 这属于劳动纠纷的范畴\n\n虽然涉及未成年人打工，但主要问题仍然是工资未支付，属于劳动争议/劳动纠纷。\n\n其他可能的类别：\n- 合同纠纷：可能涉及口头约定的雇佣合同\n- 综合咨询：可能有人会归为这个\n\n但最准确的分类应该是\"劳动纠纷\"，因为核心问题是用人单位（饭店）未支付劳动者（用户）工资。\n\n答案：劳动纠纷\n</think>\n\n劳动纠纷",
+    "gold": "劳动纠纷"
+  },
+  {
+    "id": 49,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我在郑州一家医院，7月16号入职没有劳动合同，于九月16号办理离职手续",
+    "prediction": "<think>用户要求对咨询进行分类。让我分析这个咨询的内容：\n\n\"我在郑州一家医院，7月16号入职没有劳动合同，于九月16号办理离职手续\"\n\n这个咨询涉及：\n- 劳动者在医院工作\n- 没有签订劳动合同\n- 入职和离职时间\n- 涉及劳动权益问题\n\n这明显是关于劳动纠纷的问题，具体涉及：\n1. 未签订劳动合同（违反劳动法）\n2. 劳动关系确认\n3. 离职相关问题\n\n这不属于婚姻家庭、刑事辩护、房产纠纷等其他类别。\n\n答案应该是：劳动纠纷\n</think>\n\n劳动纠纷",
+    "gold": "劳动纠纷"
+  },
+  {
+    "id": 53,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\nxxx送餐中带孩子上班发生交通事故保险公司有效吗",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n\"xxx送餐中带孩子上班发生交通事故保险公司有效吗\"\n\n这个咨询的关键信息：\n1. 送餐 - 这是工作相关\n2. 带孩子上班 - 涉及工作期间照顾孩子的问题\n3. 发生交通事故 - 事故类型\n4. 保险公司有效吗 - 涉及保险理赔\n\n这个咨询的核心是：在送餐过程中发生交通事故，保险公司是否应该理赔。\n\n这明显是一个交通事故相关的咨询，虽然涉及到工作（送餐），但主要问题是交通事故后的保险理赔问题。\n\n所以类别应该是：交通事故\n</think>\n\n交通事故",
+    "gold": "交通事故"
+  },
+  {
+    "id": 57,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n个人买一辆客车用临漳往天津跑营运可以吗？",
+    "prediction": "<think>首先，用户的问题是：\"个人买一辆客车用临漳往天津跑营运可以吗？\"\n\n我需要确定这个咨询的类别。类别列表包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。\n\n现在，分析咨询内容：个人买一辆客车从临漳往天津跑营运。这涉及到个体进行公路客运经营，属于交通营运领域。\n\n在给定的类别中，哪个最合适？\n\n- 婚姻家庭：不相关。\n- 劳动纠纷：不相关。\n- 交通事故：虽然涉及车辆，但这里是关于营运许可和法规，不是事故处理。\n- 债权债务：不相关。\n- 刑事辩护：不相关。\n- 合同纠纷：可能涉及购车合同或营运合同，但核心问题是营运许可。\n- 房产纠纷：不相关。\n- 侵权：不相关。\n- 公司法：不相关，因为是个人行为。\n- 医疗纠纷：不相关。\n- 拆迁安置：不相关。\n- 行政诉讼：可能涉及行政许可，但咨询是关于是否允许，而不是诉讼。\n- 建设工程：不相关。\n- 知识产权：不相关。\n- 综合咨询：这是一个通用类别，但应该有更具体的类别。\n- 人身损害：不相关。\n- 涉外法律：不相关。\n- 海事海商：不相关。\n- 消费权益：可能涉及购车消费，但营运许可才是重点。\n- 抵押担保：不相关。\n\n这个咨询是关于个人从事客运营运的合法性，涉及行政许可和交通法规。在中国，公路客运需要获得许可，个人不能随意从事营运。\n\n在类别中，最接近的可能是“交通事故事”，但交通事故通常指事故处理，而不是营运许可。或者“综合咨询”，因为它可能涉及多个方面。\n\n但让我再思考：咨询是关于“可以吗？”，即是否允许个人从事客运营运。这属于交通行政管理范畴，可能涉及行政许可。\n\n在列表中，有“行政诉讼”，但咨询不是诉讼，而是询问是否允许。\n\n或许“综合咨询”是一个兜底类别，但既然有更具体的类别，应该选择更具体的。\n\n另一个想法：这可能涉及“合同纠纷”或“消费权益”，但核心是营运许可。\n\n我回想一下，在法律咨询中，客运营运通常属于“交通纠纷”或“行政许可”类，但列表中没有“交通纠纷”。列表中有“交通事故”，但交通事故是事故，不是许可。\n\n或许“综合咨询”是最合适的，因为这个问题可能涉及行政法规、合同、消费者权益等多个方面。\n\n但用户要求每个咨询仅属于一个类别，所以我需要选择一个最准确的。\n\n考虑咨询的具体内容：个人买客车跑营运。这涉及到：\n1. 购车行为，可能涉及消费权益或合同。\n2. 营运许可，需要符合交通法规。\n\n在类别中，“消费权益”可能涉及购车，但营运许可才是关键。\n\n“行政诉讼”可能涉及对行政决定的申诉，但这里只是询问是否允许。\n\n我认为“综合咨询”是一个广泛的类别，可以涵盖这类问题。\n\n但让我检查是否有更合适的。例如，“公司法”可能涉及公司运营，但这里是个人。\n\n或许“交通事故事”是笔误，应该是“交通事故”，但交通事故不相关。\n\n另一个想法：在法律领域，客运营运许可通常属于行政法范畴，但列表中没有“行政法”，只有“行政诉讼”。\n\n“行政诉讼”是针对行政行为的诉讼，而这里只是咨询。\n\n所以，可能“综合咨询”是最合理的。\n\n但用户说“不要解释原因”，所以我只需要给出答案。\n\n我决定选择“综合咨询”，因为这个问题可能涉及多个法律领域，如行政法、合同法、消费者权益保护法等。\n\n最终答案：综合咨询\n</think>\n\n综合咨询",
+    "gold": "交通事故"
+  },
+  {
+    "id": 61,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n昨天在没有红绿灯的十字路口与我是直行与对面左转车辆撞上了！当时他没有打转向灯",
+    "prediction": "<think>用户要求对咨询进行分类。让我分析这个咨询的内容：\n\n咨询描述的是：昨天在没有红绿灯的十字路口与我是直行与对面左转车辆撞上了！当时他没有打转向灯\n\n这是一个交通事故咨询，描述的是在十字路口发生的车辆碰撞事故，涉及直行与左转车辆的相撞。\n\n根据提供的类别列表，这明显属于\"交通事故\"类别。\n</think>\n\n交通事故",
+    "gold": "交通事故"
+  },
+  {
+    "id": 65,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n无牌无证驾驶摩托被交警扣后怎样才能取回车？",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。 咨询： 无牌无证驾驶摩托被交警扣后怎样才能取回车？\"\n\nWe need to assign a category. The question is about a person who was driving a motorcycle without license plate and without a driver's license, the police seized the bike. How to retrieve the bike? This is about traffic violation, possibly a \"行政处罚\" (administrative penalty) and \"交通\" matters. The categories include \"交通事故\", \"行政诉讼\", \"综合咨询\", \"人身损害\", \"消费权益\", \"刑事辩护\", \"债权债务\", \"合同纠纷\", \"房产纠纷\", \"侵权\", \"公司法\", \"医疗纠纷\", \"拆迁安置\", \"建设工程\", \"知识产权\", \"涉外法律\", \"海事海商\", \"抵押担保\", \"婚姻家庭\", \"劳动纠纷\". There's no explicit \"交通违规\" category. However \"交通事故\" is about accidents, not about license issues. \"行政诉讼\" is about challenging administrative decisions in court. The question is about how to retrieve the bike after being seized by traffic police for driving without license and registration. This is a traffic law/ administrative issue. There's no direct category for \"交通违法\" or \"行政处罚\". The best fit is \"行政诉讼\"? But the question is not about filing a lawsuit; it's about what steps to take to get the bike back, possibly dealing with administrative procedures. Could be \"综合咨询\" (general consultation). However \"行政诉讼\" is about legal disputes with administrative agencies, but the question is about \"how to retrieve the bike\", which is a request for advice on dealing with administrative seizure. That could be considered \"行政诉讼\" if they intend to sue the administrative agency. But they might just need to go through administrative process: pay fine, provide proof of license, etc. That is more like \"交通事故\"? But \"交通事故\" is about accidents, not about license/registration. There's no \"交通违法\" category. \"综合咨询\" is generic. The user wants a single category. The best match is \"行政诉讼\" because it's about dealing with an administrative penalty (seizure). However, the question is not about litigation but about retrieving the bike. Could also be \"交通事故\" because it's about traffic enforcement. But \"交通事故\" is typically about accidents and liability. The question is about \"无牌无证驾驶摩托被交警扣后怎样才能取回车？\" This is about \"交通违法行为\" and \"行政处罚\". There's no category for \"行政处罚\". The categories given: \"行政诉讼\" is the only that deals with administrative matters. So I'd choose \"行政诉讼\". However, the user might want \"交通事故\" because it's about traffic. But \"交通事故\" is about accidents, not about license. The question is about \"无牌无证驾驶\" which is a traffic violation. There's no \"交通违法\" category. The best is \"行政诉讼\". Let's see if any other category could be more appropriate: \"综合咨询\" could be used for any general legal question not fitting other categories. But the user gave a list of categories, presumably they want to categorize the咨询. The question is about \"如何取回被扣车辆\", which is about dealing with administrative seizure. That is a typical \"行政强制\" issue. \"行政诉讼\" is about challenging the administrative decision in court. But the question is not about litigation; it's about \"how to get the bike back\". That could involve administrative procedures, maybe paying a fine, applying for release. That is more like \"行政诉讼\" or \"综合咨询\". However, \"行政诉讼\" is specifically about lawsuits. The question is not about suing; it's about \"怎样才能取回车?\" which is about the process. That is more like \"行政诉讼\" because it's about dealing with an administrative decision (the seizure). But it's not necessarily a lawsuit. However, the category \"行政诉讼\" is the only one that deals with administrative issues. So I'll answer \"行政诉讼\". Let's double-check: Could it be \"交通事故\"? The question is about a traffic violation, but it's not an accident. The category \"交通事故\" is typically used for accidents, liability, compensation. This is not about that. So \"行政诉讼\" is more appropriate.\n\nThus answer: 行政诉讼.\n</think>\n\n行政诉讼",
+    "gold": "交通事故"
+  },
+  {
+    "id": 69,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我骑的是自行车，他电动车从后面撞上来，后发生翻车，导致脚受伤，并且怀孕",
+    "prediction": "<think>让我分析这个咨询的内容：\n- 当事人骑自行车\n- 被电动车从后面撞上\n- 发生翻车\n- 导致脚受伤\n- 当事人怀孕\n\n这明显是一个交通事故咨询。虽然涉及到人身伤害（脚受伤），但核心是交通事故责任认定和赔偿问题。交通事故是主要法律关系，人身损害是结果但不是独立的咨询类别。\n\n根据题目要求，每个咨询仅属于一个类别，应该选择最准确的类别。\n\n答案：交通事故\n</think>\n\n交通事故",
+    "gold": "交通事故"
+  },
+  {
+    "id": 73,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n发生了一起交通事故，小型货车(司机)与电动车相撞(伤者)，因为是凌晨三点左右司机有没有责任？",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。 咨询：发生了一起交通事故，小型货车(司机)与电动车相撞(伤者)，因为是凌晨三点左右司机有没有责任？\"\n\nWe need to assign a category. The question is about a traffic accident, specifically a small truck colliding with an electric bike, and asks about driver responsibility. This is a traffic accident (交通事故). The categories include \"交通事故\". So answer: 交通事故.\n\nWe must not explain, just give the category. So output \"交通事故\".\n</think>\n\n交通事故",
+    "gold": "交通事故"
+  },
+  {
+    "id": 77,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我从13年到现在A和别人借了200万，到现在都还到了七百多万，而且到现在还有76的欠条我这中情况怎么办？",
+    "prediction": "<think>让我分析这个咨询的内容：\n- \"从13年到现在A和别人借了200万\" - 借款200万\n- \"到现在都还到了七百多万\" - 已经偿还了700多万\n- \"还有76的欠条\" - 应该是\"还有76万的欠条\"，即还欠76万\n- \"我这中情况怎么办？\" - 询问怎么办\n\n这个咨询涉及的是借款纠纷，债务人已经偿还的金额超过了最初借款本金（200万本金，已还700多万，还欠76万）。这明显涉及民间借贷、债务偿还等问题。\n\n在给定的类别中，最合适的是：\n- 债权债务 - 这个最直接，因为涉及借款和债务偿还\n\n其他可能的类别：\n- 合同纠纷 - 借款合同也算合同，但\"债权债务\"更直接\n- 民间借贷 - 但这个不在类别列表中\n\n综合来看，应该选择\"债权债务\"。\n</think>\n\n债权债务",
+    "gold": "债权债务"
+  },
+  {
+    "id": 81,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n在线等  急！\n\n你好: 请问下，我这属于民间经济纠纷吧，内容如下: 我借钱给他人，没有借据存在，只有银行转账记录可查，利率算下来的话已超过国家正常范围但是没有具体明细，但是只有说到账多少 然后多长时间还多少。平常都是通过微信协商沟通的，现在对方不愿协商解决突然性也不还钱了，最后就是说让我报警，我该以什么样的方式来处理？",
+    "prediction": "<think>用户需要将这个咨询分类到给定的类别中。\n\n让我分析这个咨询的内容：\n- 这是一个关于借钱给他人的情况\n- 没有借据，只有银行转账记录\n- 利率超过国家规定\n- 通过微信沟通\n- 对方不还钱\n- 询问如何处理\n\n这个咨询涉及的是：\n1. 借钱给他人 - 属于债权债务问题\n2. 没有借据 - 涉及证据问题\n3. 利率超过国家规定 - 可能涉及民间借贷纠纷\n4. 对方不还钱 - 债务纠纷\n\n在给定的类别中，最合适的是\"债权债务\"，因为这明显是关于借款纠纷的问题。\n\n其他可能的类别：\n- 合同纠纷：虽然涉及借款，但这里更强调的是债务问题\n- 民间经济纠纷：但这个不在给定的类别中\n\n最准确的分类应该是\"债权债务\"。\n</think>\n\n债权债务",
+    "gold": "债权债务"
+  },
+  {
+    "id": 85,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n是认识的朋友A他一直在炒虚拟币，九月份他多次打电话说有个事情很好到年可以放心盈利是他们老大做的准备是两年请问我们如何讨回这笔损失？",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n咨询描述的是：有一个朋友A一直在炒虚拟币，九月份多次打电话说有个很好的项目，到年底可以放心盈利是他们老大做的，准备了两年。问如何讨回这笔损失。\n\n这明显是一个关于投资诈骗/虚拟币诈骗的咨询，涉及的是：\n- 有人通过电话推荐投资虚拟币项目\n- 承诺高收益、稳赚不赔\n- 涉及所谓的\"老大\"和两年准备时间\n- 本质上这是一个诈骗案件，想要追回损失\n\n从法律角度来看，这应该归类为：\n- 刑事辩护（涉及诈骗犯罪，需要刑事报案）\n- 或者综合咨询（涉及多种法律问题）\n\n但考虑到这是一个典型的投资诈骗案件，当事人想要\"讨回损失\"，这涉及刑事案件的报案和追赃挽损，应该归类为\"刑事辩护\"。\n\n不过再看一下类别列表，还有\"消费权益\"可能也相关，因为涉及欺诈行为。但考虑到是投资性质的诈骗，更符合刑事犯罪的特点。\n\n我认为最合适的分类是\"刑事辩护\"，因为这涉及刑事诈骗案件，需要通过刑事途径来追回损失。\n</think>\n\n刑事辩护",
+    "gold": "债权债务"
+  },
+  {
+    "id": 89,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我在QQ上。被骗了1500。  怎么办。 通过支付宝支付到别人的银行卡号",
+    "prediction": "<think>用户的问题是：\"我在QQ上。被骗了1500。怎么办。通过支付宝支付到别人的银行卡号\"\n\n这个问题涉及在QQ上被骗钱，通过支付宝转账到别人银行卡。用户想知道该怎么办。\n\n根据问题内容，这明显是一个诈骗案件，涉及财产损失。用户想要追回被骗的资金。\n\n在给出的类别中，与这个问题最相关的类别是：\n- 刑事辩护 - 因为涉及诈骗犯罪\n- 综合咨询 - 因为这个问题可能涉及多个法律领域\n\n但是，诈骗案件通常归类为刑事辩护或综合咨询。考虑到用户是被诈骗，受害者需要报警并寻求刑事法律帮助，这更符合\"刑事辩护\"的范畴。\n\n不过，从另一个角度看，用户问\"怎么办\"，这是一个综合性的法律咨询，可能归类为\"综合咨询\"更合适。\n\n但实际上，诈骗案件在法律咨询中通常归类为刑事相关类别。考虑到用户是受害者，需要通过刑事途径解决问题，我倾向于选择\"刑事辩护\"。\n\n等等，让我再仔细考虑。用户是被骗，需要追回损失，这涉及刑事案件。但刑事辩护通常指为犯罪嫌疑人或被告人辩护，而用户是受害者。\n\n在这种情况下，\"综合咨询\"可能是最合适的，因为这个问题涉及多个方面：刑事报案、支付宝追款、银行卡追踪等。\n\n但根据常见的法律咨询分类，诈骗案件通常归类为刑事相关类别。我选择\"刑事辩护\"。\n</think>\n\n刑事辩护",
+    "gold": "债权债务"
+  },
+  {
+    "id": 93,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n同学是大学生，在爱又米欠了八千多，家里很穷，一年收入都只有一万左右，刚与其协商被冷嘲热讽不接受协商还说是诈骗该怎么办？",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n- 当事人是大学生\n- 在\"爱又米\"平台欠了8000多元\n- 家庭经济困难（年收入约1万）\n- 想要协商但被对方拒绝\n- 对方还说是诈骗\n\n这个咨询涉及的是：\n1. 当事人是借款人，欠了网贷平台的钱\n2. 涉及债务偿还问题\n3. 属于民间借贷/债权债务纠纷\n\n虽然涉及网贷，但本质上是债务问题，应该归类为\"债权债务\"类别。\n</think>\n\n债权债务",
+    "gold": "债权债务"
+  },
+  {
+    "id": 97,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n借给别人钱拖着不还，今天说明天。没有写借条有转账记录，",
+    "prediction": "<think>让我分析这个咨询：\n\n\"借给别人钱拖着不还，今天说明天。没有写借条有转账记录\"\n\n这个咨询的核心是：\n- 借给别人钱\n- 对方拖着不还\n- 没有写借条\n- 有转账记录\n\n这明显是关于借钱不还的问题，属于债权债务纠纷。\n\n虽然涉及到钱的问题，但这里不是劳动纠纷（不是工资、劳动合同等劳动问题），不是交通事故（没有涉及车辆事故），不是婚姻家庭（不是离婚、子女抚养等），主要就是借款纠纷，属于债权债务类别。\n\n答案应该是：债权债务\n</think>\n\n债权债务",
+    "gold": "债权债务"
+  },
+  {
+    "id": 101,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n6个16岁左右的孩子抢劫3000元，每人要判刑多少年？",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。咨询：6个16岁左右的孩子抢劫3000元，每人要判刑多少年？\"\n\nWe need to categorize this query. The query is about criminal law: \"6个16岁左右的孩子抢劫3000元，每人要判刑多少年？\" This is about criminal defense (刑事辩护). The question is about sentencing for minors committing robbery. So category: 刑事辩护.\n\nWe must not explain, just give answer. The answer should be the category. So we output \"刑事辩护\".\n</think>\n\n刑事辩护",
+    "gold": "刑事辩护"
+  },
+  {
+    "id": 105,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我是女性，一名男性在朋友圈利用我的照片与名字言语攻击，损害名誉，可以用",
+    "prediction": "<think>该咨询是关于名誉权被侵害的问题，属于侵权类纠纷。\n\n根据题目要求，每个咨询仅属于一个类别，类别列表中包含\"侵权\"。\n\n因此，答案应为：侵权\n</think>\n\n侵权",
+    "gold": "刑事辩护"
+  },
+  {
+    "id": 109,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我老公A酒驾进了贵州XX，法院要判两个月，我想去看他，看守所的人不给我",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n用户说：\"我老公A酒驾进了贵州XX，法院要判两个月，我想去看他，看守所的人不给我\"\n\n这个咨询的核心问题是：\n1. 当事人老公因为酒驾被法院判决两个月拘役\n2. 当事人想去探视被看守所拒绝\n\n这涉及的是刑事案件中家属探视的问题，属于刑事辩护或刑事法律相关的范畴。\n\n虽然涉及酒驾（交通违法），但问题的核心不是酒驾本身的法律责任（已经判决了），而是探视权的问题。探视在押犯罪嫌疑人是刑事诉讼程序中家属的权利，属于刑事辩护/刑事法律范畴。\n\n所以应该归类为：刑事辩护\n</think>\n\n刑事辩护",
+    "gold": "刑事辩护"
+  },
+  {
+    "id": 113,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n你好，我是盆骨骨折，有错位，请问可以判多少级？",
+    "prediction": "<think>用户的问题是：\"你好，我是盆骨骨折，有错位，请问可以判多少级？\"\n\n分析这个问题：\n- 用户询问的是盆骨骨折（有错位）可以判定多少级伤残\n- 这涉及到伤残等级鉴定的问题\n- 在中国，伤残等级鉴定通常用于交通事故、工伤、人身损害赔偿等案件中\n- 盆骨骨折属于人身损害或交通事故中可能涉及的伤情鉴定\n\n根据提供的类别：\n- 交通事故：涉及交通事故相关的法律问题\n- 人身损害：涉及人身伤害赔偿问题\n- 医疗纠纷：涉及医疗方面的争议\n- 劳动纠纷：涉及劳动相关问题\n- 综合咨询：不适合其他类别的问题\n\n这个问题是询问伤残等级鉴定，属于人身损害赔偿范畴，通常涉及交通事故或人身伤害案件。在法律咨询中，伤残等级鉴定主要用于确定赔偿金额，常见于交通事故责任纠纷或人身损害赔偿纠纷。\n\n最合适的类别应该是\"人身损害\"或\"交通事故\"。考虑到盆骨骨折可能由多种原因造成（不一定是交通事故），但伤残等级鉴定最常见于人身损害赔偿案件中，所以\"人身损害\"更合适。\n</think>\n\n人身损害",
+    "gold": "刑事辩护"
+  },
+  {
+    "id": 117,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n请问涉嫌聚众扰乱社会秩序罪会拘留多久。",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。 咨询： 请问涉嫌聚众扰乱社会秩序罪会拘留多久。\"\n\nWe need to assign a category. The question is about a criminal charge: \"涉嫌聚众扰乱社会秩序罪会拘留多久\" which is about criminal law, specifically criminal defense (刑事辩护). So category: 刑事辩护.\n\nWe must not explain, just give answer. So output: \"刑事辩护\".\n</think>\n\n刑事辩护",
+    "gold": "刑事辩护"
+  },
+  {
+    "id": 121,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n你好  我想问一下盗窃累犯一千五 要判多久自手",
+    "prediction": "<think>用户要求对咨询进行分类，咨询内容是关于刑事案件的，询问盗窃累犯涉案金额一千五要判多久。\n\n根据提供的类别：\n- 刑事辩护 - 这是关于刑事案件的咨询，涉及盗窃罪和累犯的量刑问题\n\n这明显属于刑事辩护类别。\n</think>\n\n刑事辩护",
+    "gold": "刑事辩护"
+  },
+  {
+    "id": 125,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n土地流转没有合同，但是已经耕种了23年！对方通过一些手段打赢了官司，现在要求还回之前流转的土地这样合理吗？",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n1. 土地流转 - 涉及土地使用权的转让/流转\n2. 没有书面合同 - 合同关系问题\n3. 已经耕种了23年 - 长期占有使用\n4. 对方通过一些手段打赢了官司 - 涉及诉讼结果\n5. 要求还回土地 - 涉及土地返还\n\n这个咨询主要涉及的是土地流转问题，属于土地使用权的纠纷。虽然涉及到合同（没有书面合同），但核心问题是土地流转的效力问题和土地返还问题。\n\n在给定的类别中，最合适的是：\n- 房产纠纷 - 虽然严格来说土地不是房产，但涉及不动产权利\n- 合同纠纷 - 涉及没有合同的流转关系\n- 综合咨询 - 如果没有更具体的类别\n\n考虑到中国法律中土地流转属于不动产相关纠纷，而且涉及土地使用权的归属问题，最接近的类别应该是\"房产纠纷\"或者\"综合咨询\"。\n\n但实际上，在中国的法律服务体系中，土地纠纷通常归类为\"房产纠纷\"或\"综合咨询\"。考虑到这是一个关于土地流转的纠纷，没有更具体的类别匹配，我应该选择\"综合咨询\"或者\"房产纠纷\"。\n\n让我再想想：\n- 婚姻家庭 - 不符合\n\n\n- 劳动纠纷 - 不符合\n- 交通事故 - 不符合\n- 债权债务 - 不符合\n- 刑事辩护 - 不符合\n- 合同纠纷 - 可能涉及，但没有书面合同\n- 房产纠纷 - 土地属于不动产，可能符合\n- 侵权 - 不太符合\n- 公司法 - 不符合\n- 医疗纠纷 - 不符合\n- 拆迁安置 - 不符合\n- 行政诉讼 - 不符合\n- 建设工程 - 不符合\n- 知识产权 - 不符合\n- 综合咨询 - 可能是最合适的\n- 人身损害 - 不符合\n- 涉外法律 - 不符合\n- 海事海商 - 不符合\n- 消费权益 - 不符合\n- 抵押担保 - 不符合\n\n我倾向于选择\"综合咨询\"，因为这个土地流转纠纷涉及多个法律领域，包括合同法和土地管理法，需要综合性的法律分析。没有书面合同增加了案件的复杂性，需要从多个法律角度来评估。\n\n最终，我选择了\"综合咨询\"作为最恰当的分类。\n</think>\n\n综合咨询",
+    "gold": "合同纠纷"
+  },
+  {
+    "id": 129,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n恢复限制民事能力监护人写委托书以后，签合同是当事人自己签的，合同有违章行为及一审中工作不到位",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n1. \"恢复限制民事能力监护人写委托书以后\" - 这涉及到限制民事行为能力人的监护问题\n2. \"签合同是当事人自己签的\" - 合同签订问题\n3. \"合同有违章行为\" - 合同违约\n4. \"一审中工作不到位\" - 诉讼代理问题\n\n这个咨询涉及多个方面：\n- 限制民事能力/监护问题 - 这属于民事领域\n- 合同签订和违约 - 合同纠纷\n- 诉讼代理 - 可能涉及法律服务\n\n从主要问题来看，这似乎是一个关于限制民事行为能力人签订合同的效力问题，以及后续的诉讼问题。最核心的应该是关于合同的纠纷。\n\n但仔细看，这里面包含了：\n- 限制民事能力认定和监护（综合咨询）\n- 合同签订和效力（合同纠纷）\n- 诉讼代理问题\n\n题目要求每个咨询仅属于一个类别，我需要选择最主要的类别。\n\n从描述来看，当事人是在咨询关于限制民事行为能力人签订合同后的法律后果，以及一审中的问题。这涉及到合同的效力认定问题。\n\n但\"违章行为\"可能是指\"违约行为\"。\n\n最合适的答案应该是\"合同纠纷\"，因为整个咨询的核心是围绕合同签订和合同效力/违约问题。\n \n我需要进一步分析，发现这个案件可能涉及多个法律领域。案件涉及限制民事行为能力人的合同签订，以及可能的违约问题。核心是合同纠纷，但同时也涉及民事行为能力的认定。\n\n最恰当的分类应该是合同纠纷，因为它最直接地反映了案件的主要法律关系。\n</think>\n\n合同纠纷",
+    "gold": "合同纠纷"
+  },
+  {
+    "id": 133,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我刚签完合同 还没有搬进去 但是因为中介公司不让转账到银行卡 需要通过x平台支付 元宝e家属于一个信贷平台",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n用户描述的情况是：\n1. 刚签完合同，还没有搬进去\n2. 中介公司不让转账到银行卡\n3. 需要通过x平台支付\n4. 元宝e家属于一个信贷平台\n\n从这些信息来看：\n- 这涉及房屋租赁合同\n- 涉及到中介公司和贷款平台\n- 用户担心的是通过信贷平台支付租金的问题\n- 这应该是关于房屋租赁相关的纠纷\n\n在给定的类别中，最合适的是：\n- 房产纠纷 - 因为涉及房屋租赁合同\n\n其他可能的类别：\n- 合同纠纷 - 但这个更具体到房产\n- 债权债务 - 但这不是主要的，主要不是债务问题\n\n最准确的应该是\"房产纠纷\"，因为这是关于房屋租赁的问题。\n</think>\n\n房产纠纷",
+    "gold": "合同纠纷"
+  },
+  {
+    "id": 137,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n您好！我是集团公司分公司调动，变更合同，拒签的话有补贴吗",
+    "prediction": "<think>该咨询涉及集团公司分公司调动、变更合同，拒签是否有补贴。这属于劳动纠纷范畴。\n</think>\n\n劳动纠纷",
+    "gold": "合同纠纷"
+  },
+  {
+    "id": 141,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n小学生中午没有回家吃饭跟同学出去玩掉到水池溺亡，学校有没有责任？",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。 咨询： 小学生中午没有回家吃饭跟同学出去玩掉到水池溺亡，学校有没有责任？\"\n\nWe need to categorize this query into one of the categories. The categories include many. The query is about a school (educational institution) and a student drowning in a pool during school hours (or at lunch break). The question: \"小学生中午没有回家吃饭跟同学出去玩掉到水池溺亡，学校有没有责任？\" This is about liability of the school for a student's death. This is a personal injury case (人身损害) or possibly \"侵权\" (tort). The categories include \"人身损害\" (personal injury) and \"侵权\" (tort). The question is about whether the school is liable for the student's death, which is a personal injury (tort) case. The categories: \"人身损害\" is specifically about personal injury. \"侵权\" is also about tort liability. Which is more appropriate? The question is about a student's death, which is a personal injury (serious). The category \"人身损害\" is a direct match. \"侵权\" is also a general category for torts, but \"人身损害\" is more specific. The user wants each query to be assigned to one category. The categories list includes both \"人身损害\" and \"侵权\". Which one is more appropriate? Let's think: The query is about a school’s responsibility for a student's death. This is a personal injury case (i.e., a tort). The categories: \"人身损害\" is a subcategory of \"侵权\". But the list includes both. The question is about a student's death, which is a personal injury. So \"人身损害\" is likely the correct category. However, sometimes \"侵权\" could also be used. But we need to choose one. The user says \"每个咨询仅属于一个类别\". So we need to pick the best match. The best match is \"人身损害\". Because it's about a personal injury (death). So answer: 人身损害.\n\nThus output: 人身损害.\n</think>\n\n人身损害",
+    "gold": "合同纠纷"
+  },
+  {
+    "id": 145,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n请问打工钱要不上谁来解决？有人管吗？",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。 咨询：请问打工钱要不上谁来解决？有人管吗？\"\n\nWe need to categorize this query. The query is about \"打工钱要不上谁来解决？有人管吗？\" which translates roughly to \"If I can't get my wages from working (i.e., unpaid wages), who can resolve this? Is there anyone in charge?\" This is about unpaid wages, which is a labor dispute. So the category is \"劳动纠纷\" (Labor dispute). The user wants only the answer, no explanation. So we output \"劳动纠纷\".\n</think>\n\n劳动纠纷",
+    "gold": "合同纠纷"
+  },
+  {
+    "id": 149,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n你好！我的房子出租給一家管理公司進行轉租，一次性簽4年，付款是季度支付",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n用户描述的情况是：房子出租给一家管理公司进行转租，一次性签4年，付款是季度支付。\n\n这个咨询涉及的是房屋租赁相关的法律问题，属于房产纠纷的范畴。\n\n房产纠纷是指与房屋相关的权益纠纷，包括房屋买卖、租赁、抵押、产权等纠纷。这个案例明显是关于房屋租赁的纠纷。\n\n所以答案应该是：房产纠纷\n</think>\n\n房产纠纷",
+    "gold": "合同纠纷"
+  },
+  {
+    "id": 153,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我想在湖北买房，但是人在北京回不去，想委托他人帮忙买，我想知道需要双方什么资料以及我在北京需要办哪些手续",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n用户想在北京买房，但人在湖北回不去，想委托他人帮忙买，想知道需要什么资料和手续。\n\n这个咨询涉及的是房产交易相关的问题，具体是关于异地购房委托代理的流程和所需材料。\n\n根据给出的类别：\n- 婚姻家庭\n- 劳动纠纷\n- 交通事故\n- 债权债务\n- 刑事辩护\n- 合同纠纷\n- 房产纠纷\n- 侵权\n- 公司法\n- 医疗纠纷\n- 拆迁安置\n- 行政诉讼\n- 建设工程\n- 知识产权\n- 综合咨询\n- 人身损害\n- 涉外法律\n- 海事海商\n- 消费权益\n- 抵押担保\n\n这个咨询明显属于\"房产纠纷\"类别，因为它涉及的是房产买卖相关的问题。\n</think>\n\n房产纠纷",
+    "gold": "房产纠纷"
+  },
+  {
+    "id": 157,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我儿被人带进传销里了，我该怎么办？",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。 咨询： 我儿被人带进传销里了，我该怎么办？\"\n\nWe need to categorize this into one of the categories. The user wants a direct answer, no explanation.\n\nThe categories: marriage/family, labor disputes, traffic accidents, creditor's rights, criminal defense, contract disputes, property disputes, tort, corporate law, medical disputes, demolition/relocation, administrative litigation, construction engineering, intellectual property, comprehensive consultation, personal injury, foreign-related law, maritime, consumer rights, mortgage guarantee.\n\nThe question: \"我儿被人带进传销里了，我该怎么办？\" Means \"my child has been taken into a pyramid scheme (传销), what should I do?\" This is about a criminal activity (pyramid scheme). It's a situation where the child is possibly being forced into illegal activity. This is a criminal matter, possibly \"刑事辩护\" (criminal defense). However, the question is about \"what to do?\" It could be considered \"综合咨询\" (comprehensive consultation) because it's not exactly a specific category. But it's about a criminal activity (传销). The categories include \"刑事辩护\" which is about criminal defense. The user is asking for advice on how to handle a situation where their child is involved in a pyramid scheme. That is a criminal matter. So likely \"刑事辩护\". However, is it a \"刑事辩护\"? The user is not necessarily being charged, but they are seeking help about a child being taken into a pyramid scheme. That is a criminal matter. The category \"刑事辩护\" is about defense in criminal cases. The user is seeking advice on how to deal with a child being in a pyramid scheme, which is a criminal activity. So it's a criminal matter. So I'd categorize as \"刑事辩护\". However, there is also \"综合咨询\" which is a catch-all for general inquiries not fitting other categories. But the best match is \"刑事辩护\". Let's see if any other category fits: \"人身损害\" is about personal injury, not relevant. \"侵权\" is about tort, not relevant. \"婚姻家庭\" is about family, but it's not about family dispute. \"劳动纠纷\" is about labor. \"交通事故\" is about traffic accidents. \"债权债务\" is about debt. \"合同纠纷\" is about contract. \"房产纠纷\" is about property. \"公司法\" is about corporate. \"医疗纠纷\" is about medical. \"拆迁安置\" is about demolition. \"行政诉讼\" is about administrative litigation. \"建设工程\" is about construction. \"知识产权\" is about IP. \"涉外法律\" is about foreign. \"海事海商\" is about maritime. \"消费权益\" is about consumer rights. \"抵押担保\" is about mortgage guarantee.\n\nThus \"刑事辩护\" is the best. So answer: 刑事辩护.\n</think>\n\n刑事辩护",
+    "gold": "房产纠纷"
+  },
+  {
+    "id": 161,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我在群里给房东发交水电费177，结果被其他人抢了，还秒退了，能不能报警",
+    "prediction": "<think>用户的问题是：\"我在群里给房东发交水电费177，结果被其他人抢了，还秒退了，能不能报警\"\n\n让我分析这个问题：\n- 这是一个关于在群里转账付款时，钱被其他人抢走的情况\n- 涉及的是财产被他人非法获取的问题\n- 询问能否报警\n\n这应该归类为\"刑事辩护\"还是\"综合咨询\"或其他类别？\n\n分析：\n1. 这涉及财产犯罪（可能是盗窃或诈骗）\n2. 属于刑事法律问题\n3. 询问能否报警是刑事法律问题\n\n在给出的类别中，最合适的是\"刑事辩护\"，因为这涉及刑事犯罪，虽然不是传统意义上的辩护，但涉及刑事法律问题。\n\n或者可能是\"综合咨询\"，因为这也可能涉及一般的法律咨询。\n\n但从性质上看，这更接近刑事法律问题，因为涉及财产被他人非法占有。\n\n我认为最合适的答案是\"刑事辩护\"。\n</think>\n\n刑事辩护",
+    "gold": "房产纠纷"
+  },
+  {
+    "id": 165,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我在绿化贷投资15000元，现在清盘了，我的钱还能拿回来吗？该如何维权维权？",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。 咨询：我在绿化贷投资15000元，现在清盘了，我的钱还能拿回来吗？该如何维权维权？\"\n\nWe need to categorize this into one of the categories. The user is asking about an investment in \"绿化贷\" (a platform presumably). They invested 15000 yuan, now the platform is \"清盘\" (liquidation). They ask if they can get their money back and how to protect their rights.\n\nThis is about investment, possibly a financial product, maybe a loan or a P2P lending platform. The question is about retrieving money from a platform that is undergoing liquidation. This is a dispute about a loan or investment, i.e., a debt or credit relationship. It could be considered \"债权债务\" (creditor's rights and debts). It could also be considered \"消费权益\" (consumer rights) because it's a consumer investment. However, the categories include \"债权债务\" which is about debt and claims. The user is basically a creditor (investor) trying to recover funds from a platform that is being liquidated. That is a debt claim. So \"债权债务\" seems appropriate.\n\nAlternatively, \"综合咨询\" could be used for general. But we need to pick one. The best is \"债权债务\". Because it's about debt (investment) and claim for repayment.\n\nThus answer: 债权债务.\n</think>\n\n债权债务",
+    "gold": "房产纠纷"
+  },
+  {
+    "id": 169,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n前男友当时买房同时写了我和他的名字，产权各一半，现在分手，如何将我名下的房产还他的房产还他？",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。 咨询： 前男友当时买房同时写了我和他的名字，产权各一半，现在分手，如何将我名下的房产还他的房产还他？\"\n\nWe need to categorize this. The question is about a property (real estate) that was co-owned by a couple, now they break up, and one wants to transfer the property to the other. This is a property dispute, specifically about real estate co-ownership and transfer. The categories include \"房产纠纷\" (real estate dispute). Also could be \"婚姻家庭\" because it's about a relationship, but the core is about property division after a breakup. The question: \"如何将我名下的房产还他的房产还他?\" Means \"How to return the property under my name to him?\" This is about property division after a relationship, but it's a real estate dispute. The category \"房产纠纷\" is appropriate. There's also \"债权债务\" but that's about debts, not exactly. \"婚姻家庭\" includes marriage, divorce, child custody, but property division after a breakup is also part of marital or relationship property division. However, the property is a house purchased during the relationship, co-owned. The question is about how to transfer the property. That is a real estate dispute. So answer: 房产纠纷.\n\nThus output: 房产纠纷.\n</think>\n\n房产纠纷",
+    "gold": "房产纠纷"
+  },
+  {
+    "id": 173,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n主人没拴狗链在马路中间跑，闯了赔钱吗？",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。咨询：主人没拴狗链在马路中间跑，闯了赔钱吗？\"\n\nWe need to categorize this query into one of the categories. The query is about a dog owner not using a leash, the dog runs into the middle of the road, causing an accident? The question: \"主人没拴狗链在马路中间跑，闯了赔钱吗？\" Means: The owner didn't leash the dog, the dog runs in the middle of the road, causing a collision (maybe a car hits the dog?), does the owner have to pay compensation? This is about liability for damages caused by a dog, presumably a personal injury or property damage. This is a tort (侵权) case: liability for negligence, possibly \"人身损害\" (personal injury) or \"侵权\" (tort). The categories include \"侵权\" and \"人身损害\". Which is more appropriate? The question is about whether the owner must pay for damages (i.e., compensation) for the accident caused by the dog. This is a typical tort liability case: the owner is liable for the damage caused by his dog. That falls under \"侵权\" (tort). However, \"人身损害\" is also a subcategory of tort, focusing on personal injury. The question is about a dog running in the road, causing perhaps a car accident, which could involve personal injury or property damage. The category \"侵权\" is broader, covering all torts, including property damage and personal injury. The question is about compensation for the accident, which is a tort. So I'd choose \"侵权\". However, we need to see if there is a more specific category: \"人身损害\" might be appropriate if the accident results in personal injury. But the question is generic: \"闯了赔钱吗?\" (if it causes a crash, does it have to pay?). It could be either property damage or personal injury. The category \"侵权\" is more general and fits. So answer: 侵权.\n\nThus final answer: 侵权.\n</think>\n\n侵权",
+    "gold": "房产纠纷"
+  },
+  {
+    "id": 177,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n70岁的老人与40岁的人发生了冲突老人先动手的，而年轻人先挑衅的。",
+    "prediction": "<think>用户要求对咨询进行分类，咨询内容是：\"70岁的老人与40岁的人发生了冲突老人先动手的，而年轻人先挑衅的。\"\n\n让我分析这个咨询的性质：\n- 这是一个关于人身冲突的事件\n- 涉及两个成年人之间的纠纷\n- 一方是70岁老人，一方是40岁年轻人\n- 老人先动手，但年轻人先挑衅\n\n这个咨询涉及的是人与人之间的冲突和纠纷，属于人身损害或侵权类的咨询。虽然没有提到具体的伤害后果，但核心是关于人身冲突的事件。\n\n在给定的类别中，最相关的应该是：\n- 人身损害 - 因为涉及人身冲突\n- 侵权 - 这也属于侵权纠纷\n\n由于题目要求每个咨询仅属于一个类别，我需要选择最合适的一个。\"人身损害\"更直接针对人身冲突的情况。\n\n其他选项都不太合适：\n- 婚姻家庭：不是家庭纠纷\n- 劳动纠纷：不是工作相关\n- 刑事辩护：没有涉及刑事犯罪\n- 合同纠纷：没有合同关系\n- 房产纠纷：与房产无关\n- 拆迁安置：无关\n- 行政诉讼：无关\n- 建设工程：无关\n- 知识产权：无关\n\n\n- 综合咨询：不够具体\n- 涉外法律：没有涉外因素\n- 海事海商：无关\n- 消费权益：不是消费纠纷\n- 抵押担保：无关\n\n我认为\"人身损害\"是最合适的分类，因为这个咨询的核心是关于人身冲突和可能的人身伤害。\n</think>\n\n人身损害",
+    "gold": "侵权"
+  },
+  {
+    "id": 181,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n朋友送了我一个XX家的戒指，原价两千三百多，打完折一千五，现在她想把这个戒指要回去可以选择不给吗？",
+    "prediction": "<think>这是一个法律咨询问题。让我分析一下这个咨询的性质：\n\n咨询内容是：朋友送了一个戒指给她，现在朋友想要回去，她可以不给吗？\n\n这涉及到：\n1. 朋友把戒指\"送\"给她 - 这是一个赠与行为\n2. 现在朋友反悔想要回去 - 这涉及到赠与合同的效力问题\n3. 戒指已经交付 - 赠与物已经转移占有\n\n这主要涉及的是赠与合同纠纷，属于合同纠纷的范畴。虽然涉及到财产归属问题，但核心法律关系是赠与合同的效力问题。\n\n在给出的类别中，最合适的是\"合同纠纷\"。\n</think>\n\n合同纠纷",
+    "gold": "侵权"
+  },
+  {
+    "id": 185,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n对方承包了山:在烧自已山上的杂草树木:烧到我村来了:把我种的杉树太约500棵",
+    "prediction": "<think>让我分析这个咨询的内容：\n- 对方承包了山\n- 在烧自己山上的杂草树木\n- 火烧到我村来了\n- 把咨询人种的杉树大约500棵烧毁了\n\n这是一个典型的侵权纠纷，特别是关于财产损害的侵权行为。村民的杉树被火烧毁，这属于财产损害赔偿问题。\n\n在给定的类别中，最合适的是：\n- 侵权 - 因为这是关于财产被损害的侵权行为\n- 也可能涉及山林纠纷，但核心是财产损害\n\n我选择\"侵权\"作为最准确的分类。\n</think>\n\n侵权",
+    "gold": "侵权"
+  },
+  {
+    "id": 189,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n他骂我   我先打的他   我有理吗",
+    "prediction": "<think>用户的问题是：\"他骂我 我先打的他 我有理吗\"\n\n这个咨询涉及的是人身伤害纠纷，属于侵权类或者刑事辩护类。但从描述来看，是关于打架斗殴的事件，涉及到谁有理的问题。\n\n分析：\n- 婚姻家庭：不是\n- 劳动纠纷：不是\n- 交通事故：不是\n- 债权债务：不是\n- 刑事辩护：可能涉及，因为先动手打人是违法行为，可能构成故意伤害或殴打他人\n- 合同纠纷：不是\n- 房产纠纷：不是\n- 侵权：也涉及，因为打人是侵权行为\n- 公司法：不是\n- 医疗纠纷：不是\n- 拆迁安置：不是\n- 行政诉讼：不是\n- 建设工程：不是\n- 知识产权：不是\n- 综合咨询：不是\n- 人身损害：涉及，因为打人是人身损害\n- 涉外法律：不是\n- 海事海商：不是\n- 消费权益：不是\n- 抵押担保：不是\n\n但题目要求每个咨询仅属于一个类别。问题描述的是\"他骂我，我先打的他，我有理吗\"，这明显是关于打架斗殴的事件。在法律上，先动手打人是违法的，即使对方骂人在先，打人也不是正当防卫，而是侵权行为，可能构成刑事犯罪。\n\n因此，最合适的类别应该是\"刑事辩护\"，因为这涉及到是否构成犯罪的问题。但也可以说是\"人身损害\"，因为涉及到人身伤害。\n\n然而，根据常见的法律咨询分类，打架斗殴通常归类为\"刑事辩护\"或\"人身损害\"。但题目中给出了\"刑事辩护\"和\"人身损害\"两个选项。我需要选择一个最准确的。\n\n再仔细看问题：\"他骂我 我先打的他 我有理吗\"，这是在问自己是否有理，即是否合法。在法律上，先动手打人是错误的，即使对方骂人在先。所以，这应该属于法律咨询，问是否有理。\n\n从类别来看，这更像是一个刑事案件，因为打人是可能构成犯罪的。但也可以说是侵权。\n\n但题目要求仅选一个。我倾向于选择\"刑事辩护\"，因为这涉及到是否构成犯罪的问题。\n\n然而，在许多法律咨询平台上，打架斗殴通常归为人身损害赔偿纠纷。但这里的问题是\"我有理吗\"，这更侧重于法律责任的认定。\n\n我查一下常见的分类：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。\n\n\"他骂我，我先打的他\"这明显是故意伤害或殴打他人，属于刑事犯罪或侵权。但类别中有\"刑事辩护\"和\"人身损害\"。人身损害通常是指受到伤害要求赔偿，这里是问自己是否有理，即是否要承担责任，所以更接近刑事辩护。\n\n但为了准确，我应该考虑最合适的。由于是问\"我有理吗\"，即自己是否有法律责任，这应该是刑事辩护类。\n\n我决定选择\"刑事辩护\"。\n</think>\n\n刑事辩护",
+    "gold": "侵权"
+  },
+  {
+    "id": 193,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n打架对方先动手，而后遇见了被打人叫家长给打人者打了，伪法吗",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n\"打架对方先动手，而后遇见了被打人叫家长给打人者打了，伪法吗\"\n\n这个咨询描述的是：\n1. 双方发生打架\n2. 对方先动手\n3. 之后遇到被打人叫家长来打伤人者\n4. 问是否违法\n\n这涉及的是：\n- 一开始是打架斗殴事件\n- 后来涉及到故意伤害\n- 询问是否违法\n\n从法律角度来看，这涉及：\n- 侵权责任（人身损害）\n- 可能涉及刑事犯罪（故意伤害）\n\n但最核心的问题是询问\"是否违法\"，这更倾向于人身损害赔偿方面的咨询。\n\n考虑到类别选项：\n- 人身损害\n- 刑事辩护\n- 侵权\n\n这个咨询最符合的应该是\"人身损害\"，因为主要询问的是这种行为是否违法，涉及人身伤害方面。\n\n答案：人身损害\n</think>\n\n人身损害",
+    "gold": "侵权"
+  },
+  {
+    "id": 197,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n双方争执误伤的别人致别人轻伤法院会怎么判",
+    "prediction": "<think>首先，用户要求确定咨询的类别，每个咨询仅属于一个类别。类别列表包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。\n\n咨询内容是：“双方争执误伤的别人致别人轻伤法院会怎么判”\n\n我需要分析这个咨询属于哪个类别。咨询描述的是：双方争执中，误伤了一个无关的第三人，导致他人轻伤，问法院会怎么判。这涉及到伤害行为，可能属于刑事犯罪，因为导致了他人轻伤。在法律中，轻伤通常属于刑事案件中的故意伤害罪，但这里提到是“误伤”，可能涉及过失犯罪。\n\n查看类别列表，有“刑事辩护”和“人身损害”。刑事辩护通常涉及刑事案件的辩护，而人身损害可能涉及民事赔偿。但咨询问的是“法院会怎么判”，这更倾向于刑事判决，所以可能属于刑事辩护。\n\n另外，咨询中提到“双方争执误伤的别人”，这可能涉及侵权责任，但法院判刑部分属于刑事范畴。\n\n在类别中，“人身损害”通常指民事侵权导致的人身伤害赔偿，而这里问的是刑事判决，所以“刑事辩护”更合适。\n\n确认其他类别：婚姻家庭、劳动纠纷等都不相关。交通事故可能涉及伤害，但这里不是交通事故，是争执误伤。债权债务、合同纠纷等也不相关。\n\n因此，这个咨询最可能属于“刑事辩护”。\n\n但为了确保，我需要考虑“人身损害”。人身损害通常涉及民事赔偿，而这里问的是法院怎么判，包括刑事判决，所以刑事辩护更全面。\n\n在法律实践中，轻伤案件通常属于刑事自诉或公诉，取决于具体情况。但无论如何，刑事判决是核心。\n\n所以，答案应该是“刑事辩护”。\n</think>\n\n刑事辩护",
+    "gold": "侵权"
+  },
+  {
+    "id": 201,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n你好，我想咨询律师代理费按理赔费用的10%是否合理",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。 咨询：你好，我想咨询律师代理费按理赔费用的10%是否合理\"\n\nWe need to assign a category. The user is asking about lawyer's fee (代理费) as a percentage of compensation (理赔费用). This is about legal fees, possibly a fee dispute. It could be considered \"综合咨询\" (general consultation) because it's about lawyer fees, not specifically about any of the other categories. However, could it be considered \"合同纠纷\"? It's about a contract for legal services, but the question is about the reasonableness of the fee, which is more about \"律师费用\" which is a type of \"综合咨询\". There's no specific category for \"律师费用\" or \"法律服务费用\". The categories include \"综合咨询\" which is generic. So answer: \"综合咨询\". There's no other category that fits. So answer: \"综合咨询\".\n</think>\n\n综合咨询",
+    "gold": "公司法"
+  },
+  {
+    "id": 205,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n母亲63岁，受打着以房养老的骗子公司蛊惑，硬要抵押她名下唯一的房产，位置在北京海淀XX",
+    "prediction": "<think>让我分析这个咨询的内容：\n- 母亲63岁\n- 被\"以房养老\"的骗子公司蛊惑\n- 要抵押她名下唯一的房产\n- 位置在北京海淀\n\n这个咨询的核心是：\n1. 涉及老年人被诈骗\n2. 涉及房产抵押\n3. 涉及以房养老相关的欺诈行为\n\n现在让我看看哪个类别最合适：\n\n- 房产纠纷 - 涉及房产抵押\n- 诈骗/欺诈 - 但这不是一个给出的类别\n- 侵权 - 骗子公司侵犯老人权益\n- 综合咨询 - 不太具体\n\n从给出的类别来看，这个咨询最直接相关的是\"房产纠纷\"，因为核心问题是房产抵押。但同时这也涉及老年人被诈骗的情况。\n\n考虑到：\n1. 主要问题是房产要被抵押\n2. 涉及\"以房养老\"这个特定的房产相关骗局\n3. 房产纠纷是给出的类别中最直接相关的\n\n我应该选择\"房产纠纷\"。\n</think>\n\n房产纠纷",
+    "gold": "公司法"
+  },
+  {
+    "id": 209,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n公司成立3年未立帐。补帐后税务如何进行申报",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。 咨询： 公司成立3年未立帐。补帐后税务如何进行申报\"\n\nWe need to categorize this query into one of the categories. The categories include many. The query is about a company that has been established for 3 years without establishing accounts (presumably accounting records). After \"补帐\" (making up the accounts), how to file tax declarations. This is about tax filing for a company, which is a corporate tax matter. The categories include \"公司法\" (company law), \"税务\" is not directly listed, but \"公司法\" might be appropriate because it's about corporate accounting and tax filing, which is related to company law. However, there is also \"综合咨询\" (comprehensive consultation). The question is about tax filing after making up accounts. That's a tax matter, but tax is not a listed category. There's no \"税务\" category. The best fit is \"公司法\" because it's about corporate accounting and tax compliance, which is part of company law. Or \"综合咨询\" if it's a general business question. But the categories include \"公司法\" which is about company law, corporate governance, etc. The question is about tax filing after making up accounts, which is a corporate tax compliance issue, which is part of corporate law. So I'd choose \"公司法\". There's also \"综合咨询\" which could be used for general business. But \"公司法\" is more specific. So answer: 公司法.\n\nThus output: 公司法.\n</think>\n\n公司法",
+    "gold": "公司法"
+  },
+  {
+    "id": 213,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我有法院生效的判决书并且有财产保全的，在对方企业破产重组成功后，我有优",
+    "prediction": "<think>让我分析这个咨询内容：\n\n\"我有法院生效的判决书并且有财产保全的，在对方企业破产重组成功后，我有优\"\n\n这个咨询描述的是：\n1. 咨询人持有法院生效的判决书\n2. 已经申请了财产保全\n3. 对方企业正在进行破产重组\n4. 咨询人想知道自己在破产重组中的权利/地位\n\n这涉及到破产程序中的债权清偿问题，特别是在有财产保全的情况下债权人的权利。这是一个与破产法相关的法律问题。\n\n在给出的类别中，最相关的应该是：\n- 债权债务（这涉及债务纠纷和债权保护）\n- 破产重组涉及企业债务清偿\n\n但考虑到这是关于企业在破产重组过程中，债权人如何主张自己权利的问题，这更倾向于\"债权债务\"类别，因为涉及到债务纠纷和债权保护。\n\n虽然\"公司法\"也可能涉及，但这个更主要是关于债权人在企业破产重组中的权利保护，属于债权债务范畴。\n\n答案应该是：债权债务\n</think>\n\n债权债务",
+    "gold": "公司法"
+  },
+  {
+    "id": 217,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n某大型国有控股公司的职工，实名举报本公司的总经理A，收受C公司无偿赠送的进口高档小汽车一辆需要哪些证据来定罪量刑呢？",
+    "prediction": "<think>首先，用户的问题是：确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n\n咨询内容是：某大型国有控股公司的职工，实名举报本公司的总经理A，收受C公司无偿赠送的进口高档小汽车一辆需要哪些证据来定罪量刑呢？\n\n我需要分析这个咨询属于哪个类别。咨询涉及的是刑事犯罪，具体是关于收受贿赂的定罪量刑。总经理A收受C公司赠送的高档小汽车，这很可能涉及受贿罪，特别是国有公司工作人员的受贿行为。\n\n现在，看类别列表：\n\n- 婚姻家庭\n\n- 劳动纠纷\n\n- 交通事故\n\n- 债权债务\n\n- 刑事辩护\n\n- 合同纠纷\n\n- 房产纠纷\n\n- 侵权\n\n- 公司法\n\n- 医疗纠纷\n\n- 拆迁安置\n\n- 行政诉讼\n\n- 建设工程\n\n- 知识产权\n\n- 综合咨询\n\n- 人身损害\n\n- 涉外法律\n\n- 海事海商\n\n- 消费权益\n\n- 抵押担保\n\n咨询内容是关于犯罪和定罪量刑的，这明显属于刑事辩护范畴。刑事辩护涉及刑事案件的辩护、证据、定罪量刑等问题。\n\n虽然涉及公司总经理，但核心是刑事犯罪，而不是公司法的商业纠纷。公司法更多涉及公司治理、股权等民事问题，而这里是刑事犯罪。\n\n因此，最合适的类别是刑事辩护。\n\n确认一下：咨询是关于需要哪些证据来定罪量刑，这直接关联到刑事辩护。\n\n所以，答案应该是刑事辩护。\n</think>\n\n刑事辩护",
+    "gold": "公司法"
+  },
+  {
+    "id": 221,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n你好，我以前在单位交了两年保险，单位倒闭后，保险如何处理呢",
+    "prediction": "<think>用户要求对咨询进行分类。咨询内容是关于单位倒闭后社保（保险）如何处理的问题。\n\n这涉及到：\n- 劳动关系\n- 社保缴纳\n- 单位倒闭后的处理\n\n这属于劳动纠纷范畴，具体是关于社会保险的问题。\n\n根据给出的类别，最合适的是：劳动纠纷\n</think>\n\n劳动纠纷",
+    "gold": "公司法"
+  },
+  {
+    "id": 225,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n有攻击性的精神病患者，有法律规定可以被强制送往精神病院吗，可以永久的在精神病院吗精神病院吗？",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n用户询问的是关于有攻击性的精神病患者是否可以强制送精神病院，以及是否可以永久在精神病院的问题。\n\n这个咨询涉及的是：\n1. 精神病患者 - 这涉及医疗相关问题\n2. 强制医疗 - 这涉及法律问题，特别是关于强制医疗的法律规定\n3. 精神病院的收治条件 - 涉及医疗机构的收治规范\n\n从法律角度来看，这涉及到《精神卫生法》等相关法律法规关于非自愿医疗（强制医疗）的规定。\n\n这个咨询最合适的分类应该是\"医疗纠纷\"，因为：\n- 核心问题是精神病的强制医疗问题\n- 涉及精神卫生医疗机构的相关规定\n- 属于医疗领域的法律问题\n\n其他可能相关的类别：\n- 侵权：可能涉及精神病患者侵权后的医疗问题\n- 刑事辩护：强制医疗在某些情况下可能涉及刑事责任能力问题\n- 综合咨询：比较宽泛的类别\n\n但最准确应该是\"医疗纠纷\"，因为咨询的核心是关于精神病院的收治条件和强制医疗的法律规定，这属于医疗法律范畴。\n</think>\n\n医疗纠纷",
+    "gold": "医疗纠纷"
+  },
+  {
+    "id": 229,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n左桡骨远端粉碎性骨折，腰2，3椎体横突骨折，头外伤头皮裂伤外伤性颅脑反应",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n咨询描述的是：左桡骨远端粉碎性骨折，腰2，3椎体横突骨折，头外伤头皮裂伤外伤性颅脑反应\n\n这些是身体伤害的描述，属于人身伤害方面的法律咨询。\n\n在给出的类别中，与这个最相关的是：\n- 人身损害 - 这个直接对应身体伤害/损伤的咨询\n\n其他可能相关的类别：\n- 医疗纠纷 - 但这里没有提到医疗问题或医疗事故\n- 交通事故 - 虽然可能是交通事故导致的，但没有明确说明\n\n根据描述，这明显是人身损害赔偿方面的咨询，应该是因外伤导致的身体伤害要求赔偿的情况。\n\n所以答案应该是：人身损害\n</think>\n\n人身损害",
+    "gold": "医疗纠纷"
+  },
+  {
+    "id": 233,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n本人在单位出工份小腿和怀骨骨折，住院一个月，出院以",
+    "prediction": "<think>用户要求对咨询进行分类，只属于一个类别。\n\n咨询内容是：\"本人在单位出工份小腿和怀骨骨折，住院一个月，出院以\"\n\n这段内容不完整，但从\"本人在单位\"、\"小腿和怀骨骨折\"、\"住院一个月\"等描述来看，这是一起工作期间发生的工伤事故，涉及腿部骨折。\n\n在给定的类别中，最相关的是：\n- 劳动纠纷（涉及工伤、工作期间受伤）\n- 人身损害（涉及身体伤害）\n\n由于是\"在单位\"发生的伤害，属于工作期间的工伤事故，这更符合\"劳动纠纷\"的范畴。劳动纠纷包括工伤认定、工伤赔偿等相关问题。\n\n所以答案应该是：劳动纠纷\n</think>\n\n劳动纠纷",
+    "gold": "医疗纠纷"
+  },
+  {
+    "id": 237,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n对方是全责，签了责任认定书以后对方是不是就不管了",
+    "prediction": "<think>用户要求对咨询进行分类。咨询内容是关于交通事故责任认定后对方是否就不管了的问题。\n\n这个咨询涉及：\n- 交通事故责任认定\n- 事故后续处理\n- 对方责任履行问题\n\n这明显属于\"交通事故\"类别。\n\n我需要直接给出答案，不需要解释原因。\n</think>\n\n交通事故",
+    "gold": "医疗纠纷"
+  },
+  {
+    "id": 241,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n  我在医院工作了一年没有给我签合同 后面想走了叫我补签 这个怎么做合法 怎么要求要赔偿",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n用户说的是：在医院工作了一年没有签合同，后面想走了叫补签，想知道怎么做合法，怎么要求赔偿。\n\n这明显是关于劳动纠纷的问题，涉及：\n1. 未签订劳动合同\n2. 离职相关的赔偿问题\n\n这属于劳动纠纷类别。\n</think>\n\n劳动纠纷",
+    "gold": "医疗纠纷"
+  },
+  {
+    "id": 245,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n你好，请问在超市买的饮料在保质期内但是变质了，这种情况怎么赔偿呢",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。 咨询：你好，请问在超市买的饮料在保质期内但是变质了，这种情况怎么赔偿呢\"\n\nWe need to categorize this query into one of the categories. The query is about a consumer product (drink) that is within shelf life but spoiled, asking about compensation. This is a consumer rights issue, i.e., consumer protection. The categories include \"消费权益\" (consumer rights). So answer: 消费权益.\n\nThus we output \"消费权益\".\n</think>\n\n消费权益",
+    "gold": "医疗纠纷"
+  },
+  {
+    "id": 249,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n请问用人单位十级伤残应赔偿多少钱？谢谢",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。 咨询： 请问用人单位十级伤残应赔偿多少钱？谢谢\"\n\nWe need to categorize this query into one of the categories. The query is about \"用人单位十级伤残应赔偿多少钱？\" which is about compensation for a work-related injury (ten-level disability) from an employer. This is a labor dispute (劳动纠纷). So answer: 劳动纠纷.\n\nWe must not explain, just give the category. So output: 劳动纠纷.\n</think>\n\n劳动纠纷",
+    "gold": "医疗纠纷"
+  },
+  {
+    "id": 253,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n本人父亲家拆迁获得1套房产，办完手续父亲心脏病猝死，现与弟弟发生遗产纠纷我是不是一点也没有资格分遗产？",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n1. 咨询涉及父亲拆迁获得的房产\n2. 父亲去世后发生遗产纠纷\n3. 咨询人想知道是否有资格分遗产\n\n这个咨询的核心是关于遗产继承的问题。虽然涉及房产（拆迁安置的房产），但主要问题是遗产继承纠纷，而不是房产纠纷本身。房产纠纷通常是指房产买卖、租赁、产权等纠纷，而这里是继承问题。\n\n最准确的分类应该是\"婚姻家庭\"，因为遗产继承是婚姻家庭领域的重要内容。\n\n其他可能的分类：\n- 房产纠纷 - 但这不是关于房产本身的纠纷，而是继承问题\n- 拆迁安置 - 虽然涉及拆迁，但主要问题是继承\n\n综合来看，应该归类为\"婚姻家庭\"。\n</think>\n\n婚姻家庭",
+    "gold": "拆迁安置"
+  },
+  {
+    "id": 257,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我们这里修高速是集体的，小组要按户口分。我家有户口，又说独儿子只有老人有",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n\"我们这里修高速是集体的，小组要按户口分。我家有户口，又说独儿子只有老人有\"\n\n这个咨询涉及的是：\n- 修高速（基础设施建设）\n- 集体土地/集体财产\n- 按户口分配补偿款\n- 涉及独生子女家庭的分配问题\n\n这看起来是一个关于土地征收/拆迁补偿的纠纷，具体是关于集体土地上修建高速公路的补偿分配问题。咨询者对按户口分配的方式有疑问，特别是关于独生子女家庭的分配问题。\n\n这应该属于\"拆迁安置\"类别。\n</think>\n\n拆迁安置",
+    "gold": "拆迁安置"
+  },
+  {
+    "id": 261,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n几年前我与丈夫离婚，现在只是有户口，想问一下将来村里拆迁是否可以分到房",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n用户问的是：离婚后，户口还在村里，将来村里拆迁是否可以分到房。\n\n这个咨询涉及的是：\n1. 离婚后的财产问题（但不是婚姻存续期间的财产分割）\n2. 户口与拆迁安置的关系\n3. 农村集体土地征收补偿问题\n\n这不属于婚姻家庭（因为已经离婚，不是婚姻存续期间的问题）\n不属于劳动纠纷\n不属于交通事故\n不属于债权债务\n不属于刑事辩护\n不属于合同纠纷\n不属于房产纠纷（这是关于拆迁安置补偿，不是普通的房产买卖纠纷）\n不属于侵权\n不属于公司法\n不属于医疗纠纷\n不属于拆迁安置？？？这个需要考虑 - 拆迁安置通常指的是国有土地上房屋征收或集体土地征收的安置补偿问题\n不属于行政诉讼\n不属于建设工程\n不属于知识产权\n不属于综合咨询\n不属于人身损害\n不属于涉外法律\n不属于海事海商\n不属于消费权益\n不属于抵押担保\n\n这个问题的核心是：离婚后户口还在村里，拆迁时能否获得安置房。这涉及到集体土地征收补偿安置问题。\n\n我认为最合适的分类是：拆迁安置\n</think>\n\n拆迁安置",
+    "gold": "拆迁安置"
+  },
+  {
+    "id": 265,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我家房屋是父亲留下来的，面临拆迁，只有我两夫妻签字了，三个姐姐又要房子怎么分配？",
+    "prediction": "<think>让我分析这个咨询的内容：\n- 房屋是父亲留下来的（遗产）\n- 面临拆迁\n- 只有夫妻两签字了\n- 三个姐姐又要房子分配\n\n这个咨询涉及的是：\n1. 房屋是父亲留下的遗产，涉及继承问题\n2. 拆迁安置补偿的分配\n3. 家庭成员之间的财产分配争议\n\n这应该属于\"拆迁安置\"类别，因为核心问题是拆迁补偿的分配问题。虽然涉及遗产继承，但主要场景是拆迁安置。\n</think>\n\n拆迁安置",
+    "gold": "拆迁安置"
+  },
+  {
+    "id": 269,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我老家的山被征收了，一分钱没有补到，我该怎么办？",
+    "prediction": "<think>我需要确定这个咨询的类别。让我分析一下咨询内容：\n\n\"我老家的山被征收了，一分钱没有补到，我该怎么办？\"\n\n这个咨询涉及的是：\n- 老家的山被征收 - 这是关于土地/自然资源征收的问题\n- 没有得到补偿款 - 这涉及征收补偿纠纷\n\n在给出的类别中，最相关的类别是：\n- 拆迁安置 - 这个类别明确涉及征收和安置补偿问题\n\n其他可能相关的类别：\n- 行政诉讼 - 如果涉及政府行为可能涉及\n- 土地纠纷 - 但这个不在给出的类别中\n\n根据咨询内容，这是关于土地征收补偿的纠纷，应该属于\"拆迁安置\"类别。\n</think>\n\n拆迁安置",
+    "gold": "拆迁安置"
+  },
+  {
+    "id": 273,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我的回迁合同上的补偿金额被涂改了，回迁合同能随意涂改吗，拆迁是我叔叔一手经办的",
+    "prediction": "<think>让我分析这个咨询的内容：\n- 当事人提到\"回迁合同上的补偿金额被涂改\"\n- 询问\"回迁合同能随意涂改吗\"\n- 提到\"拆迁是我叔叔一手经办的\"\n\n这个咨询涉及的是房屋拆迁安置相关的法律问题，具体是关于回迁合同（拆迁安置合同）的问题。虽然涉及到合同，但主要焦点是拆迁安置过程中的问题。\n\n根据给出的类别：\n- 拆迁安置 - 这是最直接相关的类别\n- 合同纠纷 - 也可能涉及，但拆迁安置更具体\n- 房产纠纷 - 也可能涉及\n\n由于问题明确提到\"回迁合同\"和\"拆迁\"，且询问的是关于涂改拆迁合同的问题，这应该属于\"拆迁安置\"类别。\n</think>\n\n拆迁安置",
+    "gold": "拆迁安置"
+  },
+  {
+    "id": 277,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n交警队事故科里面设的调解室，调解收一千元钱合适吗",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n\"交警队事故科里面设的调解室，调解收一千元钱合适吗\"\n\n这个咨询涉及的是：\n- 发生在交警队事故科\n- 是关于交通事故的调解\n- 询问调解收费是否合适\n\n这明显属于交通事故类别的咨询。虽然涉及到调解费用问题，但核心是关于交通事故处理过程中的调解事项。\n\n所以答案应该是：交通事故\n</think>\n\n交通事故",
+    "gold": "行政诉讼"
+  },
+  {
+    "id": 281,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n如果公司，在工作中，与员工发生争义，领导从不听员工的解释，他说了算，我们计件如何处理？",
+    "prediction": "<think>用户要求对咨询进行分类。让我分析这个咨询的内容：\n\n\"如果公司，在工作中，与员工发生争义，领导从不听员工的解释，他说了算，我们计件如何处理？\"\n\n这个咨询涉及：\n- 劳动者（员工）与用人单位（公司）之间的争议\n- 涉及工作安排、工资计算方式（计件）\n- 员工认为领导不听取解释，决策不公平\n\n这明显是关于劳动者与用人单位之间的纠纷，属于劳动争议/劳动纠纷的范畴。\n\n其他可能的类别：\n- 合同纠纷：可能涉及劳动合同，但主要问题是劳动争议\n- 债权债务：不太相关\n- 公司法：可能涉及公司内部管理，但不是主要问题\n\n最准确的分类应该是\"劳动纠纷\"。\n</think>\n\n劳动纠纷",
+    "gold": "行政诉讼"
+  },
+  {
+    "id": 285,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n非公安执法部门可以把我的。行政处罚书发朋友圈吗？",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。 咨询： 非公安执法部门可以把我的。行政处罚书发朋友圈吗？\"\n\nWe need to categorize this query. The query: \"非公安执法部门可以把我的行政处罚书发朋友圈吗？\" Means: \"Can a non-public security law enforcement department post my administrative penalty notice on WeChat Moments?\" It's about administrative penalty, presumably a government administrative penalty. The question is about whether a non-police law enforcement department can post the administrative penalty notice on social media (WeChat Moments). This is about administrative law, specifically about the legality of publishing administrative penalty information. This is likely \"行政诉讼\" (administrative litigation) or \"行政处罚\" related. The categories include \"行政诉讼\" (administrative litigation). However the question is about whether they can post the penalty notice publicly. That is about the law regarding administrative penalties and privacy, maybe \"侵权\" (tort). But the question is about the authority of a non-public security law enforcement department to post the administrative penalty. This is about the legality of an administrative act, which is an administrative law issue. The category \"行政诉讼\" is about disputes involving administrative acts, but this is not a dispute per se; it's a question about the lawfulness of an administrative action. However \"行政诉讼\" is about litigation against administrative decisions. The question is not about litigation but about the lawfulness of publishing the administrative penalty. Could be \"侵权\" (tort) because it's about privacy violation. But the question is about the authority of a non-公安执法部门 (non-public security law enforcement) to post the administrative penalty. That is about administrative law, maybe \"行政诉讼\" is the closest.\n\nBut the categories include \"行政诉讼\" which is about administrative litigation. The question is not a litigation but a legal question about the authority to publish. However \"行政诉讼\" is the only category that deals with administrative matters. There's also \"综合咨询\" which is general. But we need to choose one category. The best match is \"行政诉讼\". However the question is about \"行政处罚书\" (administrative penalty document). The question: \"非公安执法部门可以把我的行政处罚书发朋友圈吗？\" This is about the legality of publishing an administrative penalty. This is about the law of administrative penalties, which is part of administrative law. The category \"行政诉讼\" is about disputes, but the question is about whether they can do it, which is a legal question about administrative law. There's also \"侵权\" (tort) because it's about privacy. But the core is about the authority of a non-public security department to publish an administrative penalty. That is about administrative law. So I'd categorize as \"行政诉讼\". However the categories include \"行政诉讼\" but not \"行政处罚\". The question is about the ability to post the penalty publicly, which is about the law of administrative penalties. Could also be \"综合咨询\" (comprehensive consultation). But we need to choose one. The best is \"行政诉讼\". Let's see if any other category fits better: \"侵权\" deals with infringement of rights, like privacy. The question is about whether they can post the penalty, which could be a privacy violation. But the question is about the authority of a non-公安执法部门 to post it. That is about the law governing administrative penalties. So \"行政诉讼\" is more appropriate.\n\nThus answer: 行政诉讼.\n</think>\n\n行政诉讼",
+    "gold": "行政诉讼"
+  },
+  {
+    "id": 289,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n在行政诉讼案件中行政机关处罚决定已经做出了。但是，诉讼过程中行政机关又在案卷中多加了一些新的证据 在样做是合法的吗？",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。 咨询： 在行政诉讼案件中行政机关处罚决定已经做出了。但是，诉讼过程中行政机关又在案卷中多加了一些新的证据 在样做是合法的吗？\"\n\nWe need to assign a category. The question is about administrative litigation (行政诉讼) and whether the administrative agency can add new evidence to the case file during the litigation. This is about administrative law, specifically about administrative litigation. The categories include \"行政诉讼\". So the answer is \"行政诉讼\". There's no need to explain. So we output \"行政诉讼\".\n</think>\n\n行政诉讼",
+    "gold": "行政诉讼"
+  },
+  {
+    "id": 293,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n机器处理违章钱扣了违章处理没成功",
+    "prediction": "<think>用户要求对咨询进行分类。咨询内容是：\"机器处理违章钱扣了违章处理没成功\"\n\n这个咨询涉及的是交通违章处理的问题，属于交通领域的纠纷。用户描述的是：使用机器（可能是自动处理违章的机器）处理违章，钱已经扣了但违章处理没有成功。\n\n这应该属于\"交通事故\"类别，因为涉及到交通违章的处理问题。\n\n我需要直接给出答案，不需要解释原因。\n</think>\n\n交通事故",
+    "gold": "行政诉讼"
+  },
+  {
+    "id": 297,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我老公是警察，喝酒醉了几次家暴我，报警也没有用，我",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n\"我老公是警察，喝酒醉了几次家暴我，报警也没有用\"\n\n这个咨询涉及：\n- 家庭暴力\n- 婚姻家庭问题\n- 对方是警察可能涉及一些特殊身份\n\n主要问题核心是家庭暴力，属于婚姻家庭领域的问题。虽然涉及到警察身份，但这不是主要的法律关系，主要还是婚姻家庭中的家暴问题。\n\n根据类别列表，这应该归类为\"婚姻家庭\"。\n</think>\n\n婚姻家庭",
+    "gold": "行政诉讼"
+  },
+  {
+    "id": 301,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我哥是在3福建泉州XX打工，这个老板只有营业执照，没有资质，这个事应该怎么解决？",
+    "prediction": "<think>让我分析这个咨询的内容：\n- \"我哥是在3福建泉州XX打工\" - 有人在福建泉州打工\n- \"这个老板只有营业执照，没有资质\" - 老板有营业执照但没有相应资质\n- \"这个事应该怎么解决？\" - 询问解决方法\n\n这个咨询涉及的是打工者在工作中遇到的问题，老板有营业执照但没有资质。这涉及到劳动保护、劳动者权益等问题。\n\n虽然涉及打工/劳动关系，但这个咨询的核心是关于劳动者权益保护、工资拖欠、工作条件等问题，而不是典型的劳动纠纷（如劳动合同争议、社保问题等）。考虑到咨询者强调\"没有资质\"，这可能涉及到非法用工、劳动者权益保护的问题。\n\n从类别来看，这应该属于\"综合咨询\"，因为：\n1. 这不是典型的劳动纠纷（劳动纠纷通常指劳动合同、工资、社保等具体争议）\n2. 这更多是关于劳动者权益保护、非法用工的问题\n3. 涉及多个法律领域\n\n但再考虑一下，在中国法律体系下，打工者权益保护通常归类为劳动法律服务范畴。不过这个咨询更偏向于一般性的法律咨询，涉及劳动者权益保护。\n\n我确认这个情况属于综合咨询范畴。涉及劳动者权益保护的问题通常比较复杂，需要全面分析劳动法相关规定。\n</think>\n\n综合咨询",
+    "gold": "建设工程"
+  },
+  {
+    "id": 305,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我借朋友40万元钱给了A，按约定应付利息12万，A让我替他支付12万利息是不是诈骗罪？",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。 咨询： 我借朋友40万元钱给了A，按约定应付利息12万，A让我替他支付12万利息是不是诈骗罪？\"\n\nWe need to categorize this query into one of the categories. The query is about whether A's request to pay 12万 interest on behalf of the user is fraud (诈骗罪). This is a criminal law question about fraud. The categories include \"刑事辩护\" (criminal defense). Also \"债权债务\" (creditor's rights and debts) is about debt. But the question is specifically about whether it's fraud, i.e., a criminal matter. So the appropriate category is \"刑事辩护\". However, we need to consider if \"债权债务\" might be more appropriate because it's about a loan and interest. But the question is about whether it's a crime (诈骗罪). That is a criminal law issue. So category: \"刑事辩护\". The user says \"不要解释原因，直接给出答案\". So we just output the category.\n\nThus answer: 刑事辩护.\n</think>\n\n刑事辩护",
+    "gold": "建设工程"
+  },
+  {
+    "id": 309,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n朋友在一家公司签订合同，拉运水泥，他有3辆车拉不完，打电话让我也来拉。",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n咨询描述：朋友在一家公司签订合同拉运水泥，他有3辆车拉不完，打电话让\"我\"也来拉。\n\n这个咨询涉及的是：\n- 一方（朋友）公司与某公司签订了拉运水泥的合同\n- 朋友有3辆车，但拉不完\n- 朋友打电话让\"我\"也去拉\n\n这看起来是一个合同关系的问题，可能是：\n1. 朋友与公司之间的运输合同\n2. 朋友让\"我\"去拉运，是否构成转包/转委托关系\n3. 可能涉及运费结算、合同履行等问题\n\n这最符合的类别是\"合同纠纷\"，因为核心问题是基于合同产生的运输服务关系，以及可能涉及的转委托/转包问题。\n\n不属于其他类别：\n- 不是劳动纠纷（不是雇佣关系，是运输合同）\n- 不是交通事故（没有涉及事故）\n- 不是婚姻家庭（明显不是）\n- 不是刑事辩护（没有涉及犯罪）\n- 不是房产纠纷（没有涉及房产）\n- 等等\n\n答案应该是：合同纠纷\n</think>\n\n合同纠纷",
+    "gold": "建设工程"
+  },
+  {
+    "id": 313,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n你好，我想问下，工程项目公司对劳务分包班组乱开罚款单，属于那一条违规",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。 咨询：你好，我想问下，工程项目公司对劳务分包班组乱开罚款单，属于那一条违规\"\n\nWe need to categorize this query into one of the categories. The query is about a construction project company imposing arbitrary fines on subcontractor labor teams. This is about labor disputes (劳动纠纷) or possibly contract disputes (合同纠纷) or maybe \"建设工程\" (construction engineering). The question: \"工程项目公司对劳务分包班组乱开罚款单，属于那一条违规\" - they are asking which regulation is violated. This is about labor relations (the relationship between the project company and the labor subcontractor team). It could be considered \"劳动纠纷\" (labor dispute). However, it could also be considered \"建设工程\" (construction engineering) because it's about a construction project and the fines. But the question is about \"违规\" - which regulation is violated. This is about labor law, specifically about the company's right to impose fines on subcontractor labor teams. This is a labor dispute. The categories: \"劳动纠纷\" is about disputes between employers and employees, but here it's about a subcontractor team, not direct employees. However, it's still a labor dispute. The question is about \"乱开罚款单\" - illegal fines. That is a labor law violation. So I'd categorize as \"劳动纠纷\". However, we need to consider \"合同纠纷\" - contract dispute. The relationship between the project company and the subcontractor is a contract relationship. The fine is a penalty for breach of contract. So it could be \"合同纠纷\". But the question is about \"违规\", which is a violation of labor law or contract law? The phrase \"违规\" could refer to violation of labor contract or labor law. The question: \"工程项目公司对劳务分包班组乱开罚款单，属于那一条违规\" - they want to know which regulation is violated. This is about labor law: the \"劳动法\" or \"劳动合同法\". So it's a labor dispute. The category \"劳动纠纷\" is appropriate.\n\nThus answer: 劳动纠纷.\n\nWe must not explain, just give answer.\n</think>\n\n劳动纠纷",
+    "gold": "建设工程"
+  },
+  {
+    "id": 317,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我们装修工期是四个月  订的是八月十五交工  结果截止到现在工程还没完工  无数次打电话沟通 还是没解决  我该怎么办",
+    "prediction": "<think>这个咨询涉及装修工程未按时完工的问题。让我分析一下：\n\n1. 装修工程 - 这涉及到合同履行问题\n2. 工期延误 - 承包商未按约定时间完成工程\n3. 多次沟通未解决 - 需要通过法律途径解决\n\n这应该属于什么类别？\n\n- 婚姻家庭 - 否\n- 劳动纠纷 - 否\n- 交通事故 - 否\n- 债权债务 - 否\n- 刑事辩护 - 否\n- 合同纠纷 - 是的，这涉及装修合同纠纷，属于合同纠纷范畴\n- 房产纠纷 - 装修与房产相关，但更准确地说这是合同纠纷\n- 侵权 - 否\n- 公司法 - 否\n- 医疗纠纷 - 否\n- 拆迁安置 - 否\n- 行政诉讼 - 否\n- 建设工程 - 这是建设工程合同纠纷，属于建设工程范畴\n- 知识产权 - 否\n- 综合咨询 - 否\n- 人身损害 - 否\n- 涉外法律 - 否\n- 海事海商 - 否\n- 消费权益 - 这也可以考虑，因为业主作为消费者与装修公司的纠纷\n- 抵押担保 - 否\n\n这里有两个可能的分类：\n1. 合同纠纷 - 因为是装修合同未履行\n\n\n2. 建设工程 - 装修属于建设工程范畴\n\n我倾向于选择\"建设工程\"，因为装修工程在法律上通常被视为建设工程合同纠纷。考虑到消费者权益，选择\"消费权益\"也合理。\n\n最终，我确定选择\"建设工程\"作为最准确的分类。\n</think>\n\n建设工程",
+    "gold": "建设工程"
+  },
+  {
+    "id": 321,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n欠款65万，约定还款各种理由不到位，（当时是x社投资款，没有合同是否可以申请冻结合作社账号？",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n1. \"欠款65万\" - 这涉及债务问题，欠款属于债权债务\n2. \"约定还款各种理由不到位\" - 债务人不履行还款义务\n3. \"当时是x社投资款，没有合同\" - 没有书面合同的债务纠纷\n4. \"是否可以申请冻结合作社账号？\" - 询问财产保全/冻结账户\n\n这个咨询的核心是：\n- 涉及欠款（债务）\n- 询问是否可以冻结账号（财产保全）\n\n虽然涉及到合作社，但主要问题还是债权债务问题。咨询者想要追讨欠款，并询问能否冻结对方账户。\n\n根据类别定义，这应该属于\"债权债务\"类别。\n</think>\n\n债权债务",
+    "gold": "建设工程"
+  },
+  {
+    "id": 325,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我这里加盟了一个制作洗衣液的东西，他那里有商标，我这里算是区域代理，如果我在我们本地制作这个洗衣液需不需要什么手续或者说我这样做合不合法？",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n用户询问的是关于加盟一个洗衣液制作项目，涉及商标和区域代理的问题，想知道在本地制作洗衣液是否需要手续，是否合法。\n\n这属于什么类别？\n\n1. 婚姻家庭 - 不是\n2. 劳动纠纷 - 不是\n3. 交通事故 - 不是\n4. 债权债务 - 不是\n5. 刑事辩护 - 不是\n6. 合同纠纷 - 可能涉及，加盟通常涉及合同\n7. 房产纠纷 - 不是\n8. 侵权 - 不是\n9. 公司法 - 可能涉及，代理关系\n10. 医疗纠纷 - 不是\n11. 拆迁安置 - 不是\n12. 行政诉讼 - 不是\n13. 建设工程 - 不是\n14. 知识产权 - 可能涉及商标问题\n15. 综合咨询 - 可能\n16. 人身损害 - 不是\n17. 涉外法律 - 不是\n18. 海事海商 - 不是\n19. 消费权益 - 不是\n20. 抵押担保 - 不是\n\n这个咨询的核心是关于加盟代理制作洗衣液，涉及商标使用、区域代理权限的问题。这主要涉及：\n- 合同纠纷（加盟合同、代理合同）\n- 知识产权（商标使用、授权）\n\n\n- 公司法（代理关系、商业模式）\n\n我倾向于选择\"合同纠纷\"，因为这涉及加盟合同的具体条款和双方权利义务。咨询的核心是了解在本地制作洗衣液的合法性和潜在法律风险。\n</think>\n\n合同纠纷",
+    "gold": "知识产权"
+  },
+  {
+    "id": 329,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我知道有人微x卖濒危动物，如何让这些人绳之以法？",
+    "prediction": "<think>该咨询是关于发现有人通过微信售卖濒危动物，想让这些人受到法律制裁。这涉及的是野生动物保护相关的法律问题，属于刑事犯罪范畴。\n\n从给出的类别来看：\n- 刑事辩护：涉及刑事犯罪\n- 综合咨询：其他无法明确归类的\n\n这个咨询的核心是举报犯罪行为并希望追究刑事责任，涉及的是濒危动物保护的法律问题。虽然不是具体的刑事案件辩护，但本质上是刑事法律问题，应该归入\"刑事辩护\"类别。\n\n其他类别都不太合适：\n- 婚姻家庭：不是\n- 劳动纠纷：不是\n- 交通事故：不是\n- 债权债务：不是\n- 合同纠纷：不是\n- 房产纠纷：不是\n- 侵权：可能涉及，但主要还是刑事犯罪\n- 公司法：不是\n- 医疗纠纷：不是\n- 拆迁安置：不是\n- 行政诉讼：不是\n- 建设工程：不是\n- 知识产权：不是\n- 综合咨询：虽然可以，但刑事辩护更准确\n- 人身损害：不是\n- 涉外法律：不是\n- 海事海商：不是\n- 消费权益：不是\n- 抵押担保：不是\n \n最终确定答案为刑事辩护。\n</think>\n\n刑事辩护",
+    "gold": "知识产权"
+  },
+  {
+    "id": 333,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n你好  如果别人拿我的照片  做斗图怎么办",
+    "prediction": "<think>用户要求对咨询进行分类，咨询内容是：\"你好 如果别人拿我的照片 做斗图怎么办\"\n\n分析这个咨询：\n- 涉及使用他人照片\n- \"斗图\"通常指在网络聊天中使用图片\n- 这可能涉及肖像权问题\n- 属于侵权类纠纷\n\n在给定的类别中，最合适的是\"侵权\"，因为涉及肖像权的使用问题。\n\n其他可能相关的类别：\n- 消费权益：不太相关\n- 知识产权：可能涉及，但更准确应该是侵权\n- 综合咨询：太宽泛\n\n最佳答案是\"侵权\"。\n</think>\n\n侵权",
+    "gold": "知识产权"
+  },
+  {
+    "id": 337,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我在工作中形成了自己 高效的 工作方法，可否申请 版权？",
+    "prediction": "<think>该咨询是关于工作方法是否可申请版权的问题。版权（著作权）主要保护文学、艺术和科学作品，而工作方法属于方法、程序，不属于版权保护范围，但可能涉及专利或商业秘密。咨询涉及知识产权中的版权问题，因此归类为“知识产权”。\n</think>\n\n知识产权",
+    "gold": "知识产权"
+  },
+  {
+    "id": 341,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我是义乌的一个电商，前几天收到深圳XX公司的一份起诉书，是关于熊出没人物形象的我们应该怎么办呢？",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n1. 咨询者是一个义乌的电商\n2. 收到深圳公司的起诉书\n3. 起诉原因是关于\"熊出没\"人物形象的著作权/知识产权问题\n\n这明显是知识产权相关的法律问题，涉及到动漫形象的著作权保护。\n\n所以答案应该是：知识产权\n</think>\n\n知识产权",
+    "gold": "知识产权"
+  },
+  {
+    "id": 345,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n2015年11月至2018年11月\n之间诉讼时效应按两年还是三年计算？",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。 咨询： 2015年11月至2018年11月 之间诉讼时效应按两年还是三年计算？\"\n\nWe need to categorize this query into one of the categories. The query is about \"诉讼时效\" (statute of limitations) for a period between November 2015 and November 2018, asking whether the limitation period should be two years or three years. This is a legal question about civil procedure, specifically limitation period. It could be considered \"综合咨询\" (general consultation) or \"债权债务\" (creditor's rights/debt). However, the question is about the limitation period for a claim, which is a procedural issue that could apply to any civil matter. It is not specifically about marriage, labor, traffic, etc. It could be about debt (债权债务) because the limitation period is often about debt claims. But the question is generic: \"诉讼时效应按两年还是三年计算?\" That is about the statute of limitations for a civil claim. It could be \"综合咨询\" (comprehensive consultation). However, the categories include \"债权债务\" which is about debt. The question is about the limitation period for a claim, presumably a debt claim. But the user didn't specify the type of claim. The question is about the limitation period, which is a procedural law issue. The category \"综合咨询\" is for general legal questions not fitting other categories. So likely the answer is \"综合咨询\". However, we need to think: The user wants to categorize the咨询 (the question) into one of the categories. The categories are: 婚姻家庭, 劳动纠纷, 交通事故, 债权债务, 刑事辩护, 合同纠纷, 房产纠纷, 侵权, 公司法, 医疗纠纷, 拆迁安置, 行政诉讼, 建设工程, 知识产权, 综合咨询, 人身损害, 涉外法律, 海事海商, 消费权益, 抵押担保.\n\nThe question: \"2015年11月至2018年11月之间诉讼时效应按两年还是三年计算？\" This is about the statute of limitations for a civil claim. It could be about \"债权债务\" (debt) because the limitation period for debt is typically 2 years for contractual debt? Actually, in Chinese law, the general statute of limitations for civil rights is three years (as per the Civil Code). However, there are special limitations for certain types of claims: e.g., personal injury (人身损害) is 3 years, but there is also a 1-year for certain torts? Actually, the general limitation period for civil rights is three years (since the new Civil Code effective 2021). Prior to that, the General Principles of Civil Law had a 2-year limitation for most personal rights, but for property rights it was 2 years? Let's recall: Under the old Civil Law (before 2021), the limitation period for personal rights was 2 years, but for property rights it was 2 years as well? Actually, the old law had a 2-year limitation for \"personal rights\" and \"property rights\" maybe 2 years. But the new Civil Code changed to 3 years. However, the question is about the period 2015-2018, which is before the new Civil Code. So the applicable law would be the old law. The question is likely about whether the limitation period is 2 years or 3 years. The answer is likely 2 years under the old law. But the category is not about the answer but the type of咨询. The question is about the statute of limitations, which is a procedural issue. It could be considered \"综合咨询\". However, \"债权债务\" is about debt, and the question could be about a debt claim. But the user didn't specify that it's about debt. It could be about any civil claim. So it's more general. So \"综合咨询\" is appropriate.\n\nThus the answer: 综合咨询.\n\nWe need to output only the category, no explanation. So we output \"综合咨询\".\n</think>\n\n综合咨询",
+    "gold": "知识产权"
+  },
+  {
+    "id": 349,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我昨天在xx被骗出去的钱能找回吗？一开始说380就能买个软件.后来又说在交600之后又交个半年的软件费1288",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n用户描述的情况是：\n- 被骗了钱\n- 一开始说380元买软件\n- 后来又说交600元\n- 又交了个半年的软件费1288元\n\n这明显是一个诈骗案件，受害者被诱导多次交钱，但并没有得到承诺的软件或服务。这是一个典型的诈骗/欺诈行为。\n\n现在我需要从给定的类别中选择一个最合适的：\n\n- 婚姻家庭 - 不相关\n- 劳动纠纷 - 不相关  \n- 交通事故 - 不相关\n- 债权债务 - 不太相关，虽然涉及钱款，但这是诈骗不是债务纠纷\n- 刑事辩护 - 相关，这涉及诈骗犯罪\n- 合同纠纷 - 不太相关，虽然有软件购买承诺，但本质是诈骗\n- 房产纠纷 - 不相关\n- 侵权 - 可能相关，诈骗属于侵权行为的一种\n- 公司法 - 不相关\n- 医疗纠纷 - 不相关\n- 拆迁安置 - 不相关\n- 行政诉讼 - 不相关\n- 建设工程 - 不相关\n- 知识产权 - 不相关\n- 综合咨询 - 可能作为备选\n- 人身损害 - 不相关\n- 涉外法律 - 不相关\n\n\n- 海事海商 - 不相关\n- 消费权益 - 相关，这是消费欺诈\n- 抵押担保 - 不相关\n\n我倾向于选择\"刑事辩护\"，因为这明显是一起诈骗案件，涉及刑事犯罪。诈骗不仅侵犯了受害者的财产权益，更是一种严重的刑事违法行为。虽然\"消费权益\"也部分相关，但\"刑事辩护\"更能准确反映案件的本质特征。\n\n我需要进一步分析，发现\"侵权\"这个类别更加全面。诈骗本质上是一种侵权行为，不仅涉及消费权益，还可能触犯刑法。因此，\"侵权\"是最合适的分类。\n</think>\n\n刑事辩护",
+    "gold": "知识产权"
+  },
+  {
+    "id": 353,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我家有21亩林地，有人到那点修自来水池，修路，占坟山地。我找村所确任四至界限他们不去我该怎么办？",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n咨询者描述的情况是：\n1. 有21亩林地\n2. 有人到他的林地上修自来水池、修路、占坟山地\n3. 找村所确认四至界限但村所不去\n\n这明显是关于土地权属和边界确认的纠纷，具体涉及林地的使用权和所有权问题。\n\n现在看给出的类别：\n- 婚姻家庭\n- 劳动纠纷\n- 交通事故\n- 债权债务\n- 刑事辩护\n- 合同纠纷\n- 房产纠纷\n- 侵权\n- 公司法\n- 医疗纠纷\n- 拆迁安置\n- 行政诉讼\n- 建设工程\n- 知识产权\n- 综合咨询\n- 人身损害\n- 涉外法律\n- 海事海商\n- 消费权益\n- 抵押担保\n\n这个咨询最符合的应该是\"房产纠纷\"，因为涉及到林地（属于不动产）的权属问题。虽然严格来说林地不完全等同于房产，但在这个分类体系中，房产纠纷应该是最接近的类别，因为它涉及不动产的所有权和使用权的争议。\n\n另外也可能涉及\"侵权\"（因为有人侵占了他的林地），但房产纠纷更直接涉及不动产权属问题。\n\n我选择\"房产纠纷\"作为答案。\n</think>\n\n房产纠纷",
+    "gold": "综合咨询"
+  },
+  {
+    "id": 357,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我的朋友骗我钱",
+    "prediction": "<think>用户要求对咨询进行分类，咨询内容是\"我的朋友骗我钱\"。\n\n分析这个咨询：\n- 这涉及朋友骗钱的行为\n- 骗取钱财属于诈骗行为\n- 诈骗涉及刑事犯罪\n\n在给出的类别中，与此最相关的类别是：\n- 刑事辩护 - 因为涉及诈骗犯罪\n- 债权债务 - 因为涉及金钱债务纠纷\n- 综合咨询 - 如果不明确\n\n从法律性质来看，\"骗钱\"首先涉及刑事犯罪（诈骗罪），应该归类为\"刑事辩护\"。\n\n我需要直接给出答案，不要解释原因。\n</think>\n\n刑事辩护",
+    "gold": "综合咨询"
+  },
+  {
+    "id": 361,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n你好！车位交接书能作为车位拥有的法律依据吗？",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。 咨询：你好！车位交接书能作为车位拥有的法律依据吗？\"\n\nWe need to assign a category. The question is about whether a parking space handover document can serve as legal proof of ownership of a parking space. This is about property (parking space) - likely a real estate or property issue. The categories include \"房产纠纷\" (real estate disputes). Also \"合同纠纷\" (contract dispute) could be relevant because the handover document is a contract. But the question is about \"车位交接书能作为车位拥有的法律依据吗?\" It's about ownership, i.e., property rights. That is a real estate (房产) issue. So category: 房产纠纷.\n\nThus answer: 房产纠纷.\n</think>\n\n房产纠纷",
+    "gold": "综合咨询"
+  },
+  {
+    "id": 365,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n三四个人晚上用枪打鸟，鸟掉到河里人去捡，人死到河里了，那二三个人有什么法律责任没",
+    "prediction": "<think>让我分析这个咨询：\n\n咨询内容：三四个人晚上用枪打鸟，鸟掉到河里人去捡，人死到河里了，那二三个人有什么法律责任没\n\n这个案件涉及：\n1. 晚上用枪打鸟 - 涉及非法狩猎/非法持枪\n2. 有人死亡 - 涉及人身损害/刑事犯罪\n\n分析可能的类别：\n- 刑事辩护：涉及刑事责任的认定\n- 人身损害：涉及人员死亡的责任问题\n- 综合咨询：涉及多个法律领域\n\n这个案件主要涉及：\n1. 非法狩猎罪（如果涉及保护动物）\n2. 非法持枪罪\n3. 可能涉及的过失致人死亡或共同犯罪问题\n\n从法律角度来看，这主要是一个刑事案件，涉及刑事责任的认定，应该归类为\"刑事辩护\"。\n\n虽然也涉及人身损害，但核心问题是这些人是否构成犯罪以及承担什么刑事责任，所以刑事辩护更合适。\n</think>\n\n刑事辩护",
+    "gold": "综合咨询"
+  },
+  {
+    "id": 369,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我是想问一下比如对方没财产我们要怎样处理",
+    "prediction": "<think>用户要求对咨询进行分类。咨询内容是：\"我是想问一下比如对方没财产我们要怎样处理\"\n\n这个咨询比较简短，没有明确说明具体是什么类型的纠纷。但从\"对方没财产我们要怎样处理\"这个表述来看，这很可能是在询问关于债务追讨或者财产执行的问题，因为涉及到\"对方没有财产\"的情况。\n\n在给出的类别中，最相关的可能是：\n- 债权债务 - 因为涉及到债务问题\n- 民事诉讼/执行 - 但这个不在类别中\n\n考虑到\"对方没财产\"通常是在债务纠纷、债权债务处理中会遇到的问题，我判断这属于\"债权债务\"类别。\n</think>\n\n债权债务",
+    "gold": "综合咨询"
+  },
+  {
+    "id": 373,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n找擅长子女监护权家庭婚姻破裂",
+    "prediction": "<think>用户要求对咨询进行分类，咨询内容是\"找擅长子女监护权家庭婚姻破裂\"。\n\n让我分析这个咨询：\n- 涉及子女监护权\n- 涉及家庭婚姻破裂\n\n这明显是关于婚姻家庭领域的问题，特别是关于子女监护权的家庭婚姻问题。\n\n在给定的类别中，最合适的是\"婚姻家庭\"。\n\n用户明确说\"不要解释原因，直接给出答案\"，所以我应该直接给出分类结果。\n</think>\n\n婚姻家庭",
+    "gold": "综合咨询"
+  },
+  {
+    "id": 377,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n邻居家的狗锁链散了跑到我家锁链拌倒了老人致老重伤，坐股粉碎性骨折。",
+    "prediction": "<think>让我分析这个咨询的内容：\n- 邻居家的狗锁链散了\n- 跑到我家\n- 锁链拌倒了老人\n- 老人重伤\n- 坐股粉碎性骨折\n\n这是一个关于动物造成他人损害的案件。根据法律，这属于侵权责任范畴，具体是动物致人损害的侵权纠纷。\n\n在给定的类别中，最合适的是：\n- 侵权 - 动物致人损害属于侵权行为\n\n其他可能相关的类别：\n- 人身损害 - 这也是相关的，但\"侵权\"更全面\n- 综合咨询 - 不太合适，因为有明确的侵权类别\n\n根据题目要求\"每个咨询仅属于一个类别\"，应该选择最准确的类别。\n\n在民法典中，动物致人损害属于特殊侵权，适用无过错责任原则。这明显是侵权纠纷。\n\n答案应该是：侵权\n</think>\n\n侵权",
+    "gold": "人身损害"
+  },
+  {
+    "id": 381,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n头上被啤酒瓶砸缝9针，里外两层缝17针，算轻伤害吗？",
+    "prediction": "<think>该咨询是关于伤害程度鉴定的问题，涉及到人身伤害的认定，属于人身损害类别。\n</think>\n\n人身损害",
+    "gold": "人身损害"
+  },
+  {
+    "id": 385,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n30多岁年轻人酗酒，因为停车位打人，打成脑震荡，但没有外伤打的太阳穴，警察说没有伤赔个医药费就完了？",
+    "prediction": "<think>让我分析这个咨询的内容：\n- 30多岁年轻人酗酒\n- 因为停车位打人\n- 打成脑震荡，但没有外伤打的太阳穴\n- 警察说没有伤赔个医药费就完了\n\n这个咨询涉及的是人身伤害问题，虽然涉及到赔偿，但主要问题是关于打人的法律责任和伤情认定。\n\n从类别来看：\n- 这不是婚姻家庭\n- 不是劳动纠纷\n- 是人身损害/侵权问题（把人打成脑震荡）\n- 不是交通事故\n- 涉及刑事犯罪（故意伤害），但警察说没伤，可能涉及刑事辩护\n- 不是债权债务\n- 不是合同纠纷\n- 不是房产纠纷\n- 是侵权问题（人身伤害）\n- 不是公司法\n- 不是医疗纠纷\n- 不是拆迁安置\n- 不是行政诉讼\n- 不是建设工程\n- 不是知识产权\n- 不是综合咨询\n- 是人身损害\n- 不是涉外法律\n- 不是海事海商\n- 不是消费权益\n- 不是抵押担保\n\n这个案件涉及把人打成脑震荡，虽然警察说没有伤，但这明显涉及人身损害赔偿问题。当事人询问的是这种行为是否应该承担更多责任，而不仅仅是医药费。\n\n最准确的分类应该是\"人身损害\"，因为这主要是关于人身伤害的赔偿问题。\n</think>\n\n人身损害",
+    "gold": "人身损害"
+  },
+  {
+    "id": 389,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n16岁男孩打人，打60多岁老人，头部出血，眼部肿，叛邢吗",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n- 16岁男孩（未成年人）打了60多岁老人\n- 造成头部出血、眼部肿胀的后果\n- 询问是否需要承担刑事责任（\"叛邢\"应该是\"判刑\"的笔误）\n\n这个咨询涉及：\n1. 未成年人犯罪问题\n2. 故意伤害他人（造成人身损害）\n3. 刑事责任问题\n\n从类别来看，这应该属于\"刑事辩护\"类别，因为涉及未成年人犯罪和是否需要判刑的问题。虽然也涉及人身损害，但核心问题是关于是否构成犯罪和是否需要承担刑事责任。\n\n所以答案是：刑事辩护\n</think>\n\n刑事辩护",
+    "gold": "人身损害"
+  },
+  {
+    "id": 393,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我老婆跟邻居打架，双方都动手了，都有伤痕，对方掉了点头发，对方住院了我该怎么处理？",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n咨询内容是关于\"我老婆跟邻居打架，双方都动手了，都有伤痕，对方掉了点头发，对方住院了我该怎么处理？\"\n\n这涉及到：\n1. 两个人发生肢体冲突\n2. 双方都受伤\n3. 一方住院\n\n这明显是一个人身损害赔偿的案件，属于侵权责任范畴。虽然发生在家庭邻里之间，但核心问题是人身伤害侵权。\n\n在给定的类别中，最合适的是\"人身损害\"。\n</think>\n\n人身损害",
+    "gold": "人身损害"
+  },
+  {
+    "id": 397,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n\n开车不注意造成后方摩托车摔倒并骨折该承担多少责任？情况是对方摩托车摔倒后我们没有发现离开了事故发生地点",
+    "prediction": "<think>首先，用户的问题是：确定以下咨询的类别。咨询内容是：\"开车不注意造成后方摩托车摔倒并骨折该承担多少责任？情况是对方摩托车摔倒后我们没有发现离开了事故发生地点\"\n\n我需要将这个咨询归类到一个类别中。类别列表包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。\n\n现在，分析咨询内容：\n- 咨询涉及开车不注意造成后方摩托车摔倒并骨折。\n- 这是一个交通事故，因为涉及到车辆事故，导致人员受伤。\n- 咨询中提到\"该承担多少责任\"，这涉及责任认定和可能的赔偿。\n- 另外，咨询中提到\"我们没有发现离开了事故发生地点\"，这可能涉及交通肇事逃逸的问题。\n\n在类别中，\"交通事故\"是最直接相关的。交通事故通常涉及车辆事故、伤害和责任认定。\n\n其他可能相关的类别：\n- 侵权：交通事故也属于侵权行为的一种，但\"交通事故\"是一个更具体的类别。\n- 人身损害：咨询中提到骨折，这是人身损害，但事故本身是交通事故。\n- 刑事辩护：如果涉及逃逸，可能涉及刑事问题，但咨询主要是关于责任划分。\n\n类别列表中有\"交通事故\"，所以应该归类到\"交通事故\"。\n\n用户要求：每个咨询仅属于一个类别，不要解释原因，直接给出答案。\n\n所以，我应该直接给出答案，即\"交通事故\"。\n\n确认咨询内容：开车不注意造成后方摩托车摔倒并骨折，这明显是交通事故。离开事故地点可能涉及逃逸，但核心还是交通事故。\n\n因此，答案应该是\"交通事故\"。\n</think>\n\n交通事故",
+    "gold": "人身损害"
+  },
+  {
+    "id": 401,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n新设中外合资企业，中方XX股东是否必须为公司，不能为自然人？可否只设一名执行董事？",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。 咨询： 新设中外合资企业，中方XX股东是否必须为公司，不能为自然人？可否只设一名执行董事？\"\n\nWe need to assign a category. The question is about setting up a Chinese-foreign joint venture, specifically about whether the Chinese side shareholder must be a company, not an individual, and whether only one executive director can be appointed. This is about foreign investment, joint venture formation, corporate structure, legal requirements under Chinese law. This is a corporate law / foreign investment / company law question. The categories include \"公司法\" (company law), \"涉外法律\" (foreign-related law), \"综合咨询\" (comprehensive consulting). Which is most appropriate? The question is about the legal requirements for a Chinese-foreign joint venture, which is a specific corporate form under Chinese company law and foreign investment law. The category \"公司法\" deals with company law, which includes formation, governance, shareholder requirements. \"涉外法律\" is about foreign-related legal matters, which includes foreign investment. The question is about foreign investment, but also about company law specifics. Which category is more precise? The categories: \"公司法\" is about company law, \"涉外法律\" is about foreign-related law. The question is about a Chinese-foreign joint venture, which is a foreign investment. It asks about the Chinese shareholder's eligibility (must be a company, not a natural person) and about the board structure (executive director). This is definitely a corporate law question, but also a foreign investment question. Which category is more appropriate? The user wants a single category. The question is about the legal requirements for a Chinese-foreign joint venture, which is a specific type of company under Chinese law. The category \"公司法\" is likely the best fit, as it's about company formation and governance. \"涉外法律\" is broader, but the question is about the specific legal requirement for a joint venture, which is a corporate law issue. The category \"综合咨询\" is generic, but we want a specific category. So I'd choose \"公司法\". However, we need to consider if \"涉外法律\" might be more appropriate because it's about foreign investment. The question is about \"新设中外合资企业\", which is a foreign-invested enterprise. The Chinese side's shareholder requirement is a matter of foreign investment law, which is part of \"涉外法律\". But also it's about the company's internal governance, which is \"公司法\". Which is more specific? The categories are not overlapping heavily. The question is about the legal form of the joint venture, which is a type of company under Chinese law. The requirement that the Chinese side must be a company is a specific rule in the Sino-foreign joint venture law. That is indeed a foreign investment regulation. The question also asks about the board structure, which is a corporate governance issue. The category \"公司法\" includes the rules about the board of directors and executive directors. The question is about whether only one executive director is allowed. That is a corporate governance matter. So \"公司法\" is appropriate. The question is also about foreign investment, but the category \"涉外法律\" is about foreign-related legal issues, but it's broader. The question is specifically about the formation of a joint venture, which is a corporate law matter. So I'd answer \"公司法\". The user says \"不要解释原因，直接给出答案\". So we just output the category.\n\nThus answer: 公司法.\n</think>\n\n公司法",
+    "gold": "涉外法律"
+  },
+  {
+    "id": 405,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n在中外合资单位帮八位同事和领导牵线交钱，调整岗位，中间收取了两万元要负责任怎么判责任怎么判？",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n\"在中外合资单位帮八位同事和领导牵线交钱，调整岗位，中间收取了两万元要负责任怎么判责任怎么判？\"\n\n这个咨询描述的是：\n- 在中外合资单位工作\n- 帮同事和领导\"牵线交钱\"\n- 调整岗位\n- 中间收取了两万元\n- 问要负责任怎么判\n\n这明显涉及的是贿赂/受贿相关的问题。帮别人牵线搭桥收取钱财来调整岗位，这属于贿赂犯罪范畴。\n\n在给出的类别中，与这个最相关的应该是：\n- 刑事辩护 - 因为这涉及犯罪问题，需要刑事辩护\n\n虽然也可能涉及其他类别，但最核心的是刑事犯罪问题，应该归类为刑事辩护。\n</think>\n\n刑事辩护",
+    "gold": "涉外法律"
+  },
+  {
+    "id": 409,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n现金可以邮寄吗？从国外到国内？！",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。咨询：现金可以邮寄吗？从国外到国内？！\"\n\nWe need to assign a category. The question: \"现金可以邮寄吗？从国外到国内？！\" Means \"Can cash be mailed? From abroad to domestic?\" This is about mailing cash from abroad to China. This is a question about cross-border shipping of cash, which is a financial/regulatory issue. It could be considered \"涉外法律\" (foreign-related law) because it's about sending cash from abroad to China, involving foreign exchange and customs regulations. Also could be \"综合咨询\" (general consultation) but likely \"涉外法律\" is appropriate. However, we need to see if any other category fits: \"债权债务\" is about debt, not relevant. \"合同纠纷\" about contract disputes, not relevant. \"人身损害\" no. \"消费权益\" maybe about consumer rights but not exactly. \"海关\" not listed. \"外汇管理\" not listed. \"涉外法律\" is about foreign-related legal matters. The question is about whether cash can be mailed from abroad to domestic, which is about foreign exchange control and postal regulations, which is a foreign-related legal issue. So category: \"涉外法律\". That is the best.\n\nThus answer: 涉外法律.\n</think>\n\n涉外法律",
+    "gold": "涉外法律"
+  },
+  {
+    "id": 413,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n被法院查封扣押中的设备财产可以用于对合资公司的出资吗？",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。 咨询： 被法院查封扣押中的设备财产可以用于对合资公司的出资吗？\"\n\nWe need to categorize this query into one of the categories. The categories are: 婚姻家庭 (marriage family), 劳动纠纷 (labor dispute), 交通事故 (traffic accident), 债权债务 (creditor's rights and debts), 刑事辩护 (criminal defense), 合同纠纷 (contract dispute), 房产纠纷 (real estate dispute), 侵权 (tort), 公司法 (company law), 医疗纠纷 (medical dispute), 拆迁安置 (demolition and relocation), 行政诉讼 (administrative litigation), 建设工程 (construction engineering), 知识产权 (intellectual property), 综合咨询 (comprehensive consultation), 人身损害 (personal injury), 涉外法律 (foreign-related law), 海事海商 (maritime commerce), 消费权益 (consumer rights), 抵押担保 (mortgage guarantee).\n\nThe question: \"被法院查封扣押中的设备财产可以用于对合资公司的出资吗？\" This is about whether equipment that is under court seizure can be used as capital contribution to a joint venture company. This is a corporate law question (公司法) about the ability to contribute assets to a company, especially regarding property that is subject to seizure. It is not a contract dispute per se, but rather about corporate capital contributions, which is a corporate law matter. It could also be considered \"债权债务\" (creditor's rights and debts) because the property is under seizure due to a debt or claim. However, the question is about using the property as capital contribution to a joint venture, which is a corporate law issue. The property is under court seizure, which may affect the ability to contribute. The question is about the legal possibility, which is a corporate law question. So the category is 公司法.\n\nThus answer: 公司法.\n</think>\n\n公司法",
+    "gold": "涉外法律"
+  },
+  {
+    "id": 417,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n中外合资企业董事长一定是法定代表人吗",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。咨询：中外合资企业董事长一定是法定代表人吗\"\n\nWe need to assign a category to this query. The query is about whether the chairman of a Sino-foreign joint venture must be the legal representative. This is a question about corporate law, specifically about the legal representative and the role of chairman in a joint venture. That falls under \"公司法\" (company law). Also could be considered \"涉外法律\" (foreign-related law) because it's about Sino-foreign joint venture, but the core is about corporate governance and legal representative, which is a company law issue. The categories include \"公司法\" which is exactly about company law. So answer: 公司法.\n\nThus output just \"公司法\".\n</think>\n\n公司法",
+    "gold": "涉外法律"
+  },
+  {
+    "id": 421,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我2009年在济南办了护照和港\n澳通行证，现在我的户口迁回上海，护照也快到期了，如何申办新的护照？\n-",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。 咨询： 我2009年在济南办了护照和港 澳通行证，现在我的户口迁回上海，护照也快到期了，如何申办新的护照？\"\n\nWe need to assign a category. The question is about passport renewal and household registration. It's about passport and travel documents, which is a matter of \"涉外法律\" (foreign-related law) or \"综合咨询\"? Let's think.\n\nThe categories include: 婚姻家庭 (marriage family), 劳动纠纷 (labor disputes), 交通事故 (traffic accidents), 债权债务 (creditor debt), 刑事辩护 (criminal defense), 合同纠纷 (contract disputes), 房产纠纷 (real estate disputes), 侵权 (tort), 公司法 (company law), 医疗纠纷 (medical disputes), 拆迁安置 (demolition and relocation), 行政诉讼 (administrative litigation), 建设工程 (construction engineering), 知识产权 (intellectual property), 综合咨询 (comprehensive consultation), 人身损害 (personal injury), 涉外法律 (foreign-related law), 海事海商 (maritime commerce), 消费权益 (consumer rights), 抵押担保 (mortgage guarantee).\n\nThe question: \"我2009年在济南办了护照和港澳通行证，现在我的户口迁回上海，护照也快到期了，如何申办新的护照？\" This is about passport renewal, which is a matter of Chinese immigration and passport issuance, which is a type of \"行政\" (administrative) procedure. It could be considered \"行政诉讼\"? But it's not a litigation; it's a question about how to apply for a new passport. That's a \"行政\" procedure, but not necessarily \"行政诉讼\". There's no category for \"行政\" except \"行政诉讼\". There's also \"涉外法律\" which covers foreign-related legal matters, including passport and travel documents. The passport is a travel document for Chinese citizens, but it's also a matter of foreign affairs. The category \"涉外法律\" includes matters concerning foreign affairs, immigration, passports, visas, etc. So likely the correct category is \"涉外法律\".\n\nAlternatively, \"综合咨询\" could be used for general inquiries not fitting other categories. But the question is specifically about passport renewal, which is a foreign affairs matter. So I'd choose \"涉外法律\".\n\nThus answer: 涉外法律.\n</think>\n\n涉外法律",
+    "gold": "涉外法律"
+  },
+  {
+    "id": 425,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n出口的货物集装箱已经送进码头仓库，因为台风集装箱进水浸湿货物，码头仓库有赔偿责任吗有赔偿责任吗？",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。 咨询： 出口的货物集装箱已经送进码头仓库，因为台风集装箱进水浸湿货物，码头仓库有赔偿责任吗有赔偿责任吗？\"\n\nWe need to categorize this into one of the categories. The question is about a cargo container that was delivered to a port warehouse (码头仓库), and due to a typhoon, water entered the container and damaged the goods. The question: does the port warehouse have liability for compensation? This is about liability for damage to goods in a warehouse, possibly under maritime law or shipping law, perhaps \"海事海商\" (maritime law). It could also be considered \"侵权\" (tort) or \"合同纠纷\" (contract dispute) because there may be a contract of storage. However, the question is about the liability of the port warehouse for damage to goods due to a natural disaster (typhoon). This is a typical maritime law issue: the responsibilities of the carrier/warehouse under maritime law, the \"海牙货物运输条约\" or Chinese maritime law. The category \"海事海商\" covers maritime and commercial shipping matters, including disputes about cargo damage in ports. So likely \"海事海商\".\n\nBut we need to consider other categories: \"侵权\" (tort) could also apply because it's about liability for damage caused by water ingress. However, the context is specifically about a port warehouse's liability for cargo damage due to a typhoon. This is a typical maritime law case: the responsibilities of the port operator (码头) under the Maritime Code. In Chinese law, the \"海商法\" deals with the rights and obligations of carriers, shipowners, ports, etc. So \"海事海商\" is appropriate.\n\nThus answer: \"海事海商\".\n</think>\n\n海事海商",
+    "gold": "海事海商"
+  },
+  {
+    "id": 429,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n青岛XX拖欠船员工资，通过什么途径要回",
+    "prediction": "<think>该咨询是关于船员工资拖欠问题，涉及船员与用人单位之间的劳动争议，属于劳动纠纷范畴。\n</think>\n\n劳动纠纷",
+    "gold": "海事海商"
+  },
+  {
+    "id": 433,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n蔬菜收完货，拉走的给钱了，没拉走的货还在当地市场，没钱给了，货也不想要了怎么办了怎么办？",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n\"蔬菜收完货，拉走的给钱了，没拉走的货还在当地市场，没钱给了，货也不想要了怎么办了怎么办？\"\n\n这个咨询的情况是：\n- 有人买卖蔬菜\n- 买方已经拉走了一部分货，并且已经付款\n- 剩下没拉走的货还在当地市场\n- 买方现在没钱给剩余的货\n- 买方也不想要剩余的货了\n\n这明显是一个合同纠纷的情况，涉及的是买卖合同关系。虽然涉及的是农产品（蔬菜），但核心问题是买卖合同履行过程中的纠纷，包括：\n1. 合同是否解除的问题\n2. 剩余货物的处理问题\n3. 违约责任问题\n\n这不属于婚姻家庭、劳动纠纷、交通事故等其他类别，最适合的类别是\"合同纠纷\"。\n</think>\n\n合同纠纷",
+    "gold": "海事海商"
+  },
+  {
+    "id": 437,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n国外购买的古玩艺术品邮寄的国内在海关被查扣了，现在XX局通知让收货人到XX局去说明情况问题该怎么应对呢？",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n1. 咨询涉及的情况：\n- 当事人在国外购买古玩艺术品\n- 邮寄到国内时被海关查扣\n- 收到XX局通知要求收货人说明情况\n\n2. 这个咨询涉及的法律问题：\n- 这明显涉及海关执法和行政程序\n- 古玩艺术品属于文物范畴，涉及文物进出境管理\n- 当事人被要求\"说明情况\"，这是典型的行政调查程序\n- 涉及海关行政行为、文物管理法规等\n\n3. 分析各个类别：\n- 婚姻家庭：否\n- 劳动纠纷：否\n- 交通事故：否\n- 债权债务：否\n- 刑事辩护：可能涉及，但目前是行政程序\n- 合同纠纷：否\n- 房产纠纷：否\n- 侵权：否\n- 公司法：否\n- 医疗纠纷：否\n- 拆迁安置：否\n- 行政诉讼：最接近，涉及海关行政行为\n- 建设工程：否\n- 知识产权：否\n- 综合咨询：可能\n- 人身损害：否\n- 涉外法律：可能涉及（国外购买）\n- 海事海商：否\n- 消费权益：否\n- 抵押担保：否\n\n4. 最佳匹配：\n这个咨询的核心是：海关查扣古玩艺术品并要求当事人\"说明情况\"，这是典型的**行政诉讼**范畴，涉及海关的行政行为和当事人的行政法上的权利。\n\n虽然涉及文物进出境管理，但根本问题是行政法律关系，所以应该归类为\"行政诉讼\"。\n</think>\n\n行政诉讼",
+    "gold": "海事海商"
+  },
+  {
+    "id": 441,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n近期在XX子大世界购买的笔记本电脑感觉被黑了好多钱卖给我的型号不对是老款的机器还说什么拆机后不给退换我认为这个是引导我拆机然后不给我退换我该怎么做",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n1. 消费者在\"XX子大世界\"购买的笔记本电脑\n2. 感觉被欺诈 - 花了更多的钱但得到的是老款型号\n3. 商家说\"拆机后不给退换\"\n4. 消费者认为这是引导他拆机然后不退换\n5. 询问\"我该怎么做\"\n\n这个咨询涉及：\n- 消费者购买商品（笔记本电脑）\n- 疑似欺诈行为（老款机器当新款卖）\n- 退换货问题（拆机后不退换）\n- 消费者权益保护\n\n最相关的类别应该是\"消费权益\"或者\"侵权\"（可能涉及欺诈侵权）。\n\n但从消费者维权的角度来看，\"消费权益\"是最直接相关的类别。\n\n这个不属于：\n- 婚姻家庭\n- 劳动纠纷  \n- 交通事故\n- 债权债务\n- 刑事辩护\n- 合同纠纷\n- 房产纠纷\n- 公司法\n- 医疗纠纷\n- 拆迁安置\n- 行政诉讼\n- 建设工程\n- 知识产权\n- 涉外法律\n- 海事海商\n- 抵押担保\n\n可能在\"消费权益\"和\"侵权\"之间选择，但消费权益更直接，因为这是典型的消费者维权咨询。\n\n确定类别：消费权益\n</think>\n\n消费权益",
+    "gold": "海事海商"
+  },
+  {
+    "id": 445,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我从北京运到湖北宜昌XX的货，到武汉了中转时找我要全程运费，我的运费方式是到付我现在怎么办？",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n咨询内容是关于货物运输的纠纷：\n- 从北京运到湖北宜昌\n- 到武汉中转时被要求支付全程运费\n- 当事人的运费方式是到付（意思是收货人支付运费）\n- 当事人在询问该怎么办\n\n这涉及的是运输合同纠纷，具体是货运纠纷。在给出的类别中，最相关的应该是：\n\n1. 合同纠纷 - 这涉及到运输合同的履行和运费支付问题\n2. 交通事务 - 但这个通常指的是道路交通事故，而不是运输合同\n\n从法律性质来看，这更符合合同纠纷的范畴，因为涉及到运输合同的履行、运费支付方式等合同问题。\n\n答案：合同纠纷\n</think>\n\n合同纠纷",
+    "gold": "海事海商"
+  },
+  {
+    "id": 449,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\nXX公司委托我司（物流）海运进口一批货物，前期报了价格，后因为清关问题",
+    "prediction": "<think>让我分析这个咨询：\n\n\"XX公司委托我司（物流）海运进口一批货物，前期报了价格，后因为清关问题\"\n\n这个咨询涉及的是：\n- 海运进口货物\n- 物流公司\n- 清关问题\n\n关键信息：\n1. 物流公司作为受托方\n2. 涉及海运进口\n3. 问题是\"清关问题\"\n\n这明显是海事海商领域的咨询，因为：\n- 涉及海运\n- 涉及进口货物\n- 涉及清关（海关事务）\n\n虽然可能涉及合同纠纷，但最准确的分类应该是\"海事海商\"，因为整个场景都是围绕海运进口货物展开的。\n\n所以答案是：海事海商\n</think>\n\n海事海商",
+    "gold": "海事海商"
+  },
+  {
+    "id": 453,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n在装修有点违规物业有权停电吗？",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。咨询：在装修有点违规物业有权停电吗？\"\n\nWe need to assign a category. The question: \"在装修有点违规物业有权停电吗？\" Means: \"In renovation, if there is some violation, does the property (property management) have the right to cut off electricity?\" This is about property management's rights to cut electricity due to violation of renovation rules. This is a dispute about property (real estate) management, possibly a \"房产纠纷\" (property dispute). It could also be considered \"侵权\" (tort) because property management may be infringing on the owner's rights. But the question is about whether property management has the right to cut electricity due to violation of renovation. This is a typical property management dispute, which falls under \"房产纠纷\" (real estate dispute). Also could be \"合同纠纷\" because there may be a property management contract. But the question is about the property management's right to cut electricity, which is about property management rules and possibly the property law. The category \"房产纠纷\" is appropriate.\n\nThus answer: 房产纠纷.\n\nWe must not explain, just give answer.\n\nThus output: 房产纠纷.\n</think>\n\n房产纠纷",
+    "gold": "消费权益"
+  },
+  {
+    "id": 457,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\nA，可以免费咨询么？小区外商铺前的空地可以停车么？归属权是开发商的么（商铺未出租）设置路障合法吗？",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n1. \"可以免费咨询么？\" - 这是关于咨询费用的问题\n2. \"小区外商铺前的空地可以停车么？\" - 这是关于停车问题\n3. \"归属权是开发商的么（商铺未出租）\" - 这是关于产权归属问题\n4. \"设置路障合法吗？\" - 这是关于设置路障是否合法的问题\n\n这个咨询涉及的核心法律问题是：\n- 商铺前空地的归属权（属于房产纠纷或物权相关）\n- 停车问题（可能涉及物权或侵权）\n- 设置路障的合法性（可能涉及侵权或物权）\n\n最相关的类别应该是\"房产纠纷\"，因为主要涉及商铺前的空地归属权和使用权问题。\n\n虽然也涉及一些其他问题，但房产纠纷是最主要的。\n</think>\n\n房产纠纷",
+    "gold": "消费权益"
+  },
+  {
+    "id": 461,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我买了款手机实体店元给我说是6+64G的，结果手机和收据上是4+64G的假如协商不成可以去消费者协会投诉他吗？",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。 咨询： 我买了款手机实体店元给我说是6+64G的，结果手机和收据上是4+64G的假如协商不成可以去消费者协会投诉他吗？\"\n\nWe need to categorize this into one of the categories. The question is about consumer rights: they bought a phone, the seller misrepresented the specs (6+64 vs 4+64). They ask if they can complain to consumer association. This is a consumer rights issue, which falls under \"消费权益\" (Consumer rights). So answer: 消费权益.\n\nWe must not explain, just give answer. So output: 消费权益.\n</think>\n\n消费权益",
+    "gold": "消费权益"
+  },
+  {
+    "id": 465,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n单位集资房交购房款10万元，从2012年9月一至今，单位单方面责任毁约应当怎样补偿退款？",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n\"单位集资房交购房款10万元，从2012年9月一至今，单位单方面责任毁约应当怎样补偿退款？\"\n\n这个咨询涉及的是：\n- 单位集资房（这是单位给职工的福利性住房）\n- 购房款10万元\n- 单位单方面毁约\n- 要求补偿退款\n\n这明显是涉及单位和职工之间的房屋纠纷，属于单位集资建房的问题。虽然涉及购房款，但核心是单位不履行集资房承诺，属于房产纠纷的范畴。\n\n房产纠纷是指因房产的所有权、使用权、买卖、租赁等产生的纠纷。这个咨询是关于单位集资房的，单位承诺建房但未能履行，属于房产纠纷。\n\n所以答案应该是：房产纠纷\n</think>\n\n房产纠纷",
+    "gold": "消费权益"
+  },
+  {
+    "id": 469,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n房屋维修基金我家是内跃顶楼，02年的商品房，今年成都连续下雨导致屋顶多处漏水请问这种情况可以申请房屋维修基金用于屋面防水维修吗？",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。 咨询： 房屋维修基金我家是内跃顶楼，02年的商品房，今年成都连续下雨导致屋顶多处漏水请问这种情况可以申请房屋维修基金用于屋面防水维修吗？\"\n\nWe need to assign a single category. The question is about applying for housing repair fund (房屋维修基金) for roof leakage. This is about property (housing) and specifically about repair fund usage. That falls under \"房产纠纷\" (property dispute) or \"建设工程\"? Let's think: The question is about whether can apply for housing maintenance fund for roof waterproofing. This is about property management and maintenance, possibly a dispute about using the fund. It's not a dispute per se, but a question about eligibility. The category \"房产纠纷\" includes issues about property rights, ownership, usage, maintenance, etc. The question is about property (house) and the repair fund. I'd categorize as \"房产纠纷\". There's also \"建设工程\" which is about construction engineering, but this is about building maintenance, not new construction. So \"房产纠纷\" is appropriate.\n\nThus answer: 房产纠纷.\n</think>\n\n房产纠纷",
+    "gold": "消费权益"
+  },
+  {
+    "id": 473,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n在天猫买了盒东西 店里客服说退了款 然后支付宝也显示退款了 但是银行卡没到账 都一周了 这是怎么回事",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。 咨询： 在天猫买了盒东西 店里客服说退了款 然后支付宝也显示退款了 但是银行卡没到账 都一周了 这是怎么回事\"\n\nWe need to categorize this query into one of the categories. The categories include many. The query is about a consumer transaction: bought something on Tmall (a Chinese e-commerce platform), the store says they refunded, Alipay shows refund, but the bank card hasn't received the money after a week. This is a consumer dispute about a refund not being received, which is a consumer rights issue. The category \"消费权益\" (consumer rights) fits. Also could be \"债权债务\" (debt/credit) but it's more about consumer rights. The best is \"消费权益\". So answer: 消费权益.\n\nWe must not explain, just give answer. So output \"消费权益\".\n</think>\n\n消费权益",
+    "gold": "消费权益"
+  },
+  {
+    "id": 477,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我在天津办理公租房，五个人口，我妈名下有一套24平米的房子，还需要担保人吗担保人需要担保什么？",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n用户问的是关于在天津办理公租房的事情，涉及到：\n- 公租房申请条件\n- 住房面积（24平米）\n- 担保人要求\n\n这不属于劳动纠纷、交通事故、刑事辩护等明显的法律类别。\n\n这个咨询是关于房产相关的政府福利政策（公租房）申请问题，属于房产纠纷的范畴。\n\n房产纠纷通常包括：\n- 房屋买卖纠纷\n- 租赁纠纷  \n- 房产政策咨询\n- 房产相关行政程序\n\n公租房申请虽然不是传统意义上的房产纠纷，但它是关于住房政策和房产相关的问题，最接近的类别应该是\"房产纠纷\"。\n\n其他可能考虑的类别：\n- 行政诉讼：不太像，因为用户不是在告政府，而是在咨询政策\n- 综合咨询：太宽泛\n- 拆迁安置：完全不符\n\n最合适的应该是\"房产纠纷\"。\n</think>\n\n房产纠纷",
+    "gold": "抵押担保"
+  },
+  {
+    "id": 481,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n最近一个朋友说帮我办一笔贷款600万只能到账200",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。 咨询： 最近一个朋友说帮我办一笔贷款600万只能到账200\"\n\nWe need to classify this query into one of the categories. The query: \"最近一个朋友说帮我办一笔贷款600万只能到账200\". This is about a loan, presumably a financial arrangement with a friend. It seems like a dispute about a loan, possibly a fraud or misrepresentation. It could be considered \"债权债务\" (creditor's rights and debts) or \"合同纠纷\" (contract dispute) or \"刑事辩护\" (if it's a crime). The user says \"帮我办一笔贷款600万只能到账200\". That suggests the friend promised to help get a loan of 6 million but only 200 thousand arrives. This could be a dispute about a loan, possibly a fraud. The categories: \"债权债务\" covers debt and credit issues, including loans. \"合同纠纷\" covers contract disputes. The scenario: friend says \"帮我办贷款\", presumably there is an agreement or promise. The friend may have promised to secure a loan but only delivered part. This is a dispute about a loan, which is a debt. So likely \"债权债务\". However, could also be \"刑事辩护\" if it's a fraud. But the user didn't mention any criminal charges or defense. It's more about a loan arrangement. So classification: \"债权债务\". The user wants only the answer, no explanation. So output: \"债权债务\".\n</think>\n\n债权债务",
+    "gold": "抵押担保"
+  },
+  {
+    "id": 485,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n去银行办理贷款，银行要求买他们的寿险合理吗？",
+    "prediction": "<think>The user asks: \"确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。咨询：去银行办理贷款，银行要求买他们的寿险合理吗？\"\n\nWe need to assign a category. The question is about whether a bank requiring purchase of their life insurance as a condition for a loan is reasonable. This is about consumer rights, possibly \"消费权益\" (consumer rights) or \"债权债务\" (creditor's rights) or \"合同纠纷\" (contract dispute). The bank is requiring a product as a condition for a loan, which is a contractual term. It could be considered a \"合同纠纷\" (contract dispute) because it's about the terms of the loan contract. However, it's also about consumer protection: the bank's requirement may be an unfair trade practice, which is \"消费权益\". The categories include \"消费权益\" (consumer rights). The question is about whether it's reasonable for the bank to require purchase of their life insurance as a condition for a loan. That is about consumer rights: the bank's practice may be an unfair condition. So likely category: \"消费权益\". However, we need to think about typical classification in Chinese legal consulting categories. Let's examine each category:\n\n- 婚姻家庭: marriage family.\n- 劳动纠纷: labor disputes.\n- 交通事故: traffic accidents.\n- 债权债务: creditor's rights and debts.\n- 刑事辩护: criminal defense.\n- 合同纠纷: contract disputes.\n- 房产纠纷: real estate disputes.\n- 侵权: tort.\n- 公司法: corporate law.\n- 医疗纠纷: medical disputes.\n- 拆迁安置: demolition and relocation.\n- 行政诉讼: administrative litigation.\n- 建设工程: construction engineering.\n- 知识产权: intellectual property.\n- 综合咨询: comprehensive consultation.\n- 人身损害: personal injury.\n- 涉外法律: foreign-related law.\n- 海事海商: maritime.\n- 消费权益: consumer rights.\n- 抵押担保: mortgage guarantee.\n\nThe question: \"去银行办理贷款，银行要求买他们的寿险合理吗？\" This is about a bank's requirement to purchase insurance as a condition for a loan. This is a consumer transaction: a loan is a financial service, and the bank is upselling insurance. This could be considered a \"消费权益\" issue: whether the bank's requirement is a violation of consumer rights (e.g., forced bundling). Also could be \"合同纠纷\": the loan contract includes a clause requiring insurance. But the question is about \"合理吗?\" which is about fairness, consumer protection. In Chinese classification, \"消费权益\" is often used for issues like forced insurance, unfair contract terms, etc. So likely \"消费权益\".\n\nThus answer: 消费权益.\n\nWe must not provide explanation, just the category.\n\nThus final answer: 消费权益.\n</think>\n\n消费权益",
+    "gold": "抵押担保"
+  },
+  {
+    "id": 489,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n贷款没有还，今天收到短信是让我去警察局协商，要是不去就会判刑或者罚款是真的还是假的",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n用户的问题是关于：\n- 贷款没有还\n- 收到短信要求去警察局协商\n- 询问不去是否会判刑或罚款\n\n这个咨询涉及的是：\n1. 贷款属于债权债务问题\n2. 短信威胁涉及刑事风险，但核心问题是贷款纠纷\n\n在给出的类别中，这个最符合的是\"债权债务\"，因为：\n- 核心问题是贷款（欠款）问题\n- 虽然涉及刑事威胁，但实际上是债务纠纷\n- 债权债务类别专门处理借贷相关问题\n\n不属于其他类别：\n- 不是刑事辩护（没有涉及真正的刑事案件）\n- 不是综合咨询（有明确的债权债务属性）\n- 不是其他任何类别\n\n答案应该是：债权债务\n</think>\n\n债权债务",
+    "gold": "抵押担保"
+  },
+  {
+    "id": 493,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n我有租用居住公房凭证，因我爸妈弟公积金贷款买了经济适用房，因为我贷款买房",
+    "prediction": "<think>让我分析这个咨询的内容：\n\n咨询者提到：\n1. 有租用居住公房凭证（这是关于公房租赁的问题）\n2. 父母和弟弟用公积金贷款买了经济适用房\n3. 自己贷款买了房子\n\n这个咨询涉及的是房产相关的问题，具体是关于公房（租用居住公房凭证）和经济适用房的权益问题。这应该属于房产纠纷类别。\n\n虽然涉及到公积金贷款，但主要问题还是围绕房产（公房租赁权、经济适用房、商品房）展开的。\n</think>\n\n房产纠纷",
+    "gold": "抵押担保"
+  },
+  {
+    "id": 497,
+    "prompt": "确定以下咨询的类别，每个咨询仅属于一个类别，类别包括：婚姻家庭、劳动纠纷、交通事故、债权债务、刑事辩护、合同纠纷、房产纠纷、侵权、公司法、医疗纠纷、拆迁安置、行政诉讼、建设工程、知识产权、综合咨询、人身损害、涉外法律、海事海商、消费权益、抵押担保。不要解释原因，直接给出答案。\n咨询：\n2018年6月资金周转不过来找了一个贷款公司用汽车抵押贷款，签的是银行代扣如果起诉能胜吗？",
+    "prediction": "<think>用户要求对咨询进行分类，咨询内容是关于贷款公司汽车抵押贷款的。\n\n让我分析这个咨询的核心内容：\n- 当事人用汽车作为抵押物进行贷款\n- 签的是银行代扣协议\n- 问如果起诉能否胜诉\n\n这明显是关于抵押贷款、债务偿还的纠纷，涉及到抵押担保和债权债务问题。\n\n在给定的类别中，最合适的是：\n- 抵押担保 - 因为涉及到汽车抵押\n- 债权债务 - 因为是贷款纠纷\n\n但只能选一个类别。考虑到\"抵押担保\"这个类别更具体地针对汽车抵押这个法律关系，而\"债权债务\"更宽泛，我认为\"抵押担保\"是最准确的分类。\n\n不过再看一下，用户问的是\"如果起诉能胜吗\"，这涉及的是合同纠纷和债务纠纷的层面。但核心问题还是抵押贷款。\n\n在\"抵押担保\"和\"债权债务\"之间，\"抵押担保\"更具体，因为明确提到了汽车抵押。\n\n答案应该是：抵押担保\n</think>\n\n抵押担保",
+    "gold": "抵押担保"
+  }
+]

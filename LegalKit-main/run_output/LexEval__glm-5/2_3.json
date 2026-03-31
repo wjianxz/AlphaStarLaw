@@ -1,0 +1,11 @@
+{
+  "total_count": 25,
+  "invalid_count": 0,
+  "invalid_ratio": 0.0,
+  "invalid_ids": [],
+  "valid_count": 25,
+  "correct_count": 25,
+  "valid_accuracy": 100.0,
+  "total_accuracy": 100.0,
+  "wrong_details": []
+}

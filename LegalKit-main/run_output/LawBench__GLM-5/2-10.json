@@ -1,0 +1,281 @@
+{
+  "total_count": 125,
+  "invalid_count": 0,
+  "invalid_ratio": 0.0,
+  "invalid_ids": [],
+  "valid_count": 125,
+  "correct_count": 81,
+  "wrong_count": 44,
+  "total_score": 97.55,
+  "valid_accuracy": 78.04,
+  "total_accuracy": 78.04,
+  "final_exact_count": 81,
+  "final_rate_valid": 64.8,
+  "final_rate_total": 64.8,
+  "wrong_details": [
+    {
+      "id": 0,
+      "prediction": "查扣;退",
+      "gold": "查扣;退给",
+      "score": 0.5
+    },
+    {
+      "id": 8,
+      "prediction": "阻碍",
+      "gold": "负责;阻碍",
+      "score": 0.5
+    },
+    {
+      "id": 16,
+      "prediction": "提出;表示同意",
+      "gold": "提出;让;表示同意",
+      "score": 0.6667
+    },
+    {
+      "id": 24,
+      "prediction": "无",
+      "gold": "开支",
+      "score": 0.0
+    },
+    {
+      "id": 48,
+      "prediction": "冲突;告知",
+      "gold": "发生冲突;告知",
+      "score": 0.5
+    },
+    {
+      "id": 56,
+      "prediction": "提出;希望",
+      "gold": "让;提出",
+      "score": 0.5
+    },
+    {
+      "id": 68,
+      "prediction": "变卖",
+      "gold": "抢得;变卖",
+      "score": 0.5
+    },
+    {
+      "id": 72,
+      "prediction": "转出",
+      "gold": "补助款;转;用于",
+      "score": 0.3333
+    },
+    {
+      "id": 76,
+      "prediction": "无",
+      "gold": "代",
+      "score": 0.0
+    },
+    {
+      "id": 84,
+      "prediction": "网上逃犯;抓获",
+      "gold": "逃犯;抓获归案",
+      "score": 0.5
+    },
+    {
+      "id": 96,
+      "prediction": "争执;送人;索要",
+      "gold": "发生争执;送;索要",
+      "score": 0.6667
+    },
+    {
+      "id": 104,
+      "prediction": "补助;发放",
+      "gold": "补助款",
+      "score": 0.0
+    },
+    {
+      "id": 132,
+      "prediction": "赔偿;交至",
+      "gold": "赔偿款;交至",
+      "score": 0.5
+    },
+    {
+      "id": 140,
+      "prediction": "打砸;逃离",
+      "gold": "打砸;逃离现场",
+      "score": 0.5
+    },
+    {
+      "id": 148,
+      "prediction": "遗失;变造",
+      "gold": "遗留;替换成",
+      "score": 0.0
+    },
+    {
+      "id": 160,
+      "prediction": "嫖客;嫖宿;卖淫女;嫖资;伪装",
+      "gold": "愿意;嫖宿;伪装成",
+      "score": 0.3333
+    },
+    {
+      "id": 168,
+      "prediction": "指示;转",
+      "gold": "指示;转至",
+      "score": 0.5
+    },
+    {
+      "id": 180,
+      "prediction": "查获",
+      "gold": "放在;查获",
+      "score": 0.5
+    },
+    {
+      "id": 188,
+      "prediction": "明知;泄露信息",
+      "gold": "得知;安排;获取;发放",
+      "score": 0.0
+    },
+    {
+      "id": 220,
+      "prediction": "冒名;订购;支付",
+      "gold": "冒名;货到付款;订购",
+      "score": 0.6667
+    },
+    {
+      "id": 232,
+      "prediction": "尾随;掐住;殴打;要",
+      "gold": "尾随;掐住;殴打;要钱",
+      "score": 0.75
+    },
+    {
+      "id": 240,
+      "prediction": "缴至",
+      "gold": "所得;缴至",
+      "score": 0.5
+    },
+    {
+      "id": 244,
+      "prediction": "无",
+      "gold": "递交",
+      "score": 0.0
+    },
+    {
+      "id": 248,
+      "prediction": "得手;逃离;取款;购物消费",
+      "gold": "逃离现场;取款;消费",
+      "score": 0.6667
+    },
+    {
+      "id": 256,
+      "prediction": "送给",
+      "gold": "生产;送给",
+      "score": 0.5
+    },
+    {
+      "id": 268,
+      "prediction": "追回",
+      "gold": "还给",
+      "score": 0.0
+    },
+    {
+      "id": 276,
+      "prediction": "操作不当;烧伤",
+      "gold": "生产;烧",
+      "score": 0.5
+    },
+    {
+      "id": 320,
+      "prediction": "追回;发还",
+      "gold": "还给;挥霍",
+      "score": 0.0
+    },
+    {
+      "id": 328,
+      "prediction": "拨付;索要;出具",
+      "gold": "拨付;让;虚假",
+      "score": 0.3333
+    },
+    {
+      "id": 336,
+      "prediction": "反映;影响",
+      "gold": "生产;影响",
+      "score": 0.5
+    },
+    {
+      "id": 356,
+      "prediction": "退还",
+      "gold": "退还给",
+      "score": 0.0
+    },
+    {
+      "id": 360,
+      "prediction": "聚集",
+      "gold": "协商;聚集",
+      "score": 0.5
+    },
+    {
+      "id": 392,
+      "prediction": "收受",
+      "gold": "收受;送",
+      "score": 0.5
+    },
+    {
+      "id": 404,
+      "prediction": "行贿",
+      "gold": "结算;行贿",
+      "score": 0.5
+    },
+    {
+      "id": 412,
+      "prediction": "出卖;交给",
+      "gold": "出卖;收取",
+      "score": 0.5
+    },
+    {
+      "id": 420,
+      "prediction": "撤回;准许",
+      "gold": "申请;准许",
+      "score": 0.5
+    },
+    {
+      "id": 428,
+      "prediction": "查获",
+      "gold": "被查获",
+      "score": 0.0
+    },
+    {
+      "id": 432,
+      "prediction": "倒损;核实上报;指认",
+      "gold": "倒损;协助;上报",
+      "score": 0.6667
+    },
+    {
+      "id": 448,
+      "prediction": "销售",
+      "gold": "产品销售",
+      "score": 0.0
+    },
+    {
+      "id": 456,
+      "prediction": "抓获;查获",
+      "gold": "抓获归案;查获",
+      "score": 0.5
+    },
+    {
+      "id": 472,
+      "prediction": "木柄菜刀",
+      "gold": "拿",
+      "score": 0.0
+    },
+    {
+      "id": 476,
+      "prediction": "嫖资;分得",
+      "gold": "嫖资;分得;挥霍",
+      "score": 0.6667
+    },
+    {
+      "id": 480,
+      "prediction": "驾车碰撞;击打;强行将徐某乙拽进;封住;捆住;罩住",
+      "gold": "碰撞;击打;伙同;强行;捆住",
+      "score": 0.8
+    },
+    {
+      "id": 484,
+      "prediction": "采伐;裁制",
+      "gold": "制成",
+      "score": 0.0
+    }
+  ]
+}

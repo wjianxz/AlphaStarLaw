@@ -1,0 +1,22 @@
+{
+  "total_count": 50,
+  "invalid_count": 0,
+  "invalid_ratio": 0.0,
+  "invalid_ids": [],
+  "valid_count": 50,
+  "correct_count": 48,
+  "valid_accuracy": 96.0,
+  "total_accuracy": 96.0,
+  "wrong_details": [
+    {
+      "id": 0,
+      "pred_choices": "D",
+      "gold_choices": "A"
+    },
+    {
+      "id": 4,
+      "pred_choices": "B",
+      "gold_choices": "C"
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "total_count": 250,
+  "invalid_count": 0,
+  "invalid_ratio": 0.0,
+  "invalid_ids": [],
+  "valid_count": 250,
+  "correct_count": 189,
+  "wrong_count": 61,
+  "total_score": 209.8083,
+  "valid_accuracy": 83.92,
+  "total_accuracy": 83.92,
+  "final_exact_count": 189,
+  "final_rate_valid": 75.6,
+  "final_rate_total": 75.6,
+  "wrong_details": [
+    {
+      "id": 0,
+      "prediction": "支付/给付；买入",
+      "gold": "同意/接受",
+      "score": 0.0
+    },
+    {
+      "id": 12,
+      "prediction": "买入；卖出",
+      "gold": "买入;要求/请求;支付/给付",
+      "score": 0.2
+    },
+    {
+      "id": 16,
+      "prediction": "同意/接受；鉴定",
+      "gold": "鉴定;要求/请求",
+      "score": 0.3333
+    },
+    {
+      "id": 20,
+      "prediction": "归还/偿还",
+      "gold": "归还/偿还;租用/借用",
+      "score": 0.5
+    },
+    {
+      "id": 22,
+      "prediction": "卖出；欺骗；支付/给付",
+      "gold": "买入",
+      "score": 0.0
+    },
+    {
+      "id": 26,
+      "prediction": "欺骗；获利",
+      "gold": "卖出",
+      "score": 0.0
+    },
+    {
+      "id": 28,
+      "prediction": "同意/接受",
+      "gold": "要求/请求",
+      "score": 0.0
+    },
+    {
+      "id": 42,
+      "prediction": "联络；支付/给付；买入",
+      "gold": "获利;联络;买入",
+      "score": 0.6667
+    },
+    {
+      "id": 50,
+      "prediction": "欺骗；卖出；支付/给付",
+      "gold": "卖出;伪造;欺骗",
+      "score": 0.6667
+    },
+    {
+      "id": 58,
+      "prediction": "支付/给付；买入",
+      "gold": "归还/偿还;买入;支付/给付",
+      "score": 0.6
+    },
+    {
+      "id": 68,
+      "prediction": "支付/给付；欺骗；买入；未归还",
+      "gold": "归还/偿还;买入;欺骗;支付/给付",
+      "score": 0.8333
+    },
+    {
+      "id": 72,
+      "prediction": "支付/给付",
+      "gold": "同意/接受",
+      "score": 0.0
+    },
+    {
+      "id": 74,
+      "prediction": "拘捕",
+      "gold": "搜查/扣押;拘捕",
+      "score": 0.3333
+    },
+    {
+      "id": 86,
+      "prediction": "同意/接受；赔偿",
+      "gold": "搜查/扣押",
+      "score": 0.0
+    },
+    {
+      "id": 92,
+      "prediction": "拘捕；卖淫",
+      "gold": "搜查/扣押;拘捕;卖淫",
+      "score": 0.5
+    },
+    {
+      "id": 98,
+      "prediction": "鉴定",
+      "gold": "鉴定;搜查/扣押",
+      "score": 0.3333
+    },
+    {
+      "id": 102,
+      "prediction": "无触发事件",
+      "gold": "要求/请求",
+      "score": 0.0
+    },
+    {
+      "id": 116,
+      "prediction": "拘捕；同意/接受",
+      "gold": "伪造;拘捕",
+      "score": 0.5
+    },
+    {
+      "id": 118,
+      "prediction": "支付/给付；欺骗",
+      "gold": "获利;支付/给付",
+      "score": 0.6667
+    },
+    {
+      "id": 120,
+      "prediction": "买入；获利",
+      "gold": "支付/给付",
+      "score": 0.0
+    },
+    {
+      "id": 126,
+      "prediction": "支付/给付；获利",
+      "gold": "同意/接受;支付/给付",
+      "score": 0.5
+    },
+    {
+      "id": 148,
+      "prediction": "卖淫；支付/给付；伪造",
+      "gold": "卖淫;买入",
+      "score": 0.5
+    },
+    {
+      "id": 158,
+      "prediction": "鉴定；伪造",
+      "gold": "鉴定;搜查/扣押;伪造",
+      "score": 0.5
+    },
+    {
+      "id": 160,
+      "prediction": "拘捕；同意/接受",
+      "gold": "同意/接受;搜查/扣押",
+      "score": 0.5
+    },
+    {
+      "id": 162,
+      "prediction": "同意/接受；卖出",
+      "gold": "支付/给付",
+      "score": 0.0
+    },
+    {
+      "id": 178,
+      "prediction": "卖出；支付/给付",
+      "gold": "同意/接受;卖出",
+      "score": 0.3333
+    },
+    {
+      "id": 186,
+      "prediction": "鉴定",
+      "gold": "鉴定;受伤",
+      "score": 0.5
+    },
+    {
+      "id": 190,
+      "prediction": "同意/接受；获利",
+      "gold": "同意/接受;支付/给付",
+      "score": 0.5
+    },
+    {
+      "id": 204,
+      "prediction": "供述",
+      "gold": "供述;拘捕",
+      "score": 0.5
+    },
+    {
+      "id": 212,
+      "prediction": "卖出；支付/给付",
+      "gold": "卖出;归还/偿还",
+      "score": 0.3333
+    },
+    {
+      "id": 216,
+      "prediction": "鉴定",
+      "gold": "鉴定;受伤",
+      "score": 0.5
+    },
+    {
+      "id": 220,
+      "prediction": "要求/请求；支付/给付",
+      "gold": "获利;要求/请求",
+      "score": 0.6667
+    },
+    {
+      "id": 222,
+      "prediction": "支付/给付",
+      "gold": "归还/偿还;租用/借用",
+      "score": 0.0
+    },
+    {
+      "id": 226,
+      "prediction": "受伤",
+      "gold": "受伤;拘捕",
+      "score": 0.5
+    },
+    {
+      "id": 228,
+      "prediction": "卖出",
+      "gold": "卖出;联络",
+      "score": 0.5
+    },
+    {
+      "id": 230,
+      "prediction": "支付/给付；帮助/救助",
+      "gold": "帮助/救助;要求/请求;支付/给付",
+      "score": 0.6667
+    },
+    {
+      "id": 238,
+      "prediction": "支付/给付",
+      "gold": "搜查/扣押",
+      "score": 0.0
+    },
+    {
+      "id": 254,
+      "prediction": "卖出；伪造",
+      "gold": "买入",
+      "score": 0.0
+    },
+    {
+      "id": 264,
+      "prediction": "搜查/扣押",
+      "gold": "卖出;搜查/扣押",
+      "score": 0.6667
+    },
+    {
+      "id": 282,
+      "prediction": "欺骗；支付/给付；要求/请求；获利",
+      "gold": "帮助/救助;欺骗",
+      "score": 0.3333
+    },
+    {
+      "id": 314,
+      "prediction": "欺骗；买入；卖出",
+      "gold": "获利;归还/偿还;买入;欺骗",
+      "score": 0.4
+    },
+    {
+      "id": 322,
+      "prediction": "卖出；拘捕",
+      "gold": "卖出;搜查/扣押",
+      "score": 0.3333
+    },
+    {
+      "id": 338,
+      "prediction": "支付/给付；欺骗",
+      "gold": "获利;要求/请求;支付/给付",
+      "score": 0.4
+    },
+    {
+      "id": 348,
+      "prediction": "欺骗；帮助/救助；租用/借用",
+      "gold": "租用/借用;支付/给付;联络;欺骗;要求/请求",
+      "score": 0.375
+    },
+    {
+      "id": 354,
+      "prediction": "支付/给付；同意/接受；获利",
+      "gold": "要求/请求;支付/给付",
+      "score": 0.5
+    },
+    {
+      "id": 356,
+      "prediction": "搜查/扣押",
+      "gold": "搜查/扣押;买入",
+      "score": 0.6667
+    },
+    {
+      "id": 364,
+      "prediction": "支付/给付；获利",
+      "gold": "赔偿",
+      "score": 0.0
+    },
+    {
+      "id": 370,
+      "prediction": "帮助/救助",
+      "gold": "联络;帮助/救助;要求/请求",
+      "score": 0.4
+    },
+    {
+      "id": 374,
+      "prediction": "受伤",
+      "gold": "伤害人身",
+      "score": 0.0
+    },
+    {
+      "id": 382,
+      "prediction": "联络；租用/借用",
+      "gold": "联络;要求/请求",
+      "score": 0.3333
+    },
+    {
+      "id": 384,
+      "prediction": "伪造",
+      "gold": "欺骗",
+      "score": 0.0
+    },
+    {
+      "id": 388,
+      "prediction": "要求/请求；支付/给付",
+      "gold": "要求/请求;帮助/救助;支付/给付",
+      "score": 0.6667
+    },
+    {
+      "id": 406,
+      "prediction": "要求/请求；买入；支付/给付",
+      "gold": "租用/借用",
+      "score": 0.0
+    },
+    {
+      "id": 442,
+      "prediction": "支付/给付；买入；获利",
+      "gold": "卖出;支付/给付",
+      "score": 0.6667
+    },
+    {
+      "id": 444,
+      "prediction": "支付/给付；归还/偿还",
+      "gold": "归还/偿还;租用/借用",
+      "score": 0.5
+    },
+    {
+      "id": 464,
+      "prediction": "欺骗；拘捕",
+      "gold": "支付/给付",
+      "score": 0.0
+    },
+    {
+      "id": 468,
+      "prediction": "鉴定",
+      "gold": "鉴定;搜查/扣押",
+      "score": 0.3333
+    },
+    {
+      "id": 470,
+      "prediction": "支付/给付",
+      "gold": "要求/请求",
+      "score": 0.0
+    },
+    {
+      "id": 484,
+      "prediction": "支付/给付；获利",
+      "gold": "获利;买入",
+      "score": 0.5
+    },
+    {
+      "id": 488,
+      "prediction": "帮助/救助",
+      "gold": "搜查/扣押",
+      "score": 0.0
+    },
+    {
+      "id": 494,
+      "prediction": "帮助/救助；联络；同意/接受；获利",
+      "gold": "联络;帮助/救助;要求/请求",
+      "score": 0.6
+    }
+  ]
+}

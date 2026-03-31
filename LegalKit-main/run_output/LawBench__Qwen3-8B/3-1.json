@@ -1,0 +1,653 @@
+{
+  "total_count": 250,
+  "invalid_count": 0,
+  "invalid_ratio": 0.0,
+  "invalid_ids": [],
+  "valid_count": 250,
+  "correct_count": 144,
+  "wrong_count": 106,
+  "total_score": 191.8167,
+  "valid_accuracy": 76.73,
+  "total_accuracy": 76.73,
+  "final_exact_count": 144,
+  "final_rate_valid": 57.6,
+  "final_rate_total": 57.6,
+  "wrong_details": [
+    {
+      "id": 0,
+      "prediction": "刑法第264、272条",
+      "gold": "刑法第264条",
+      "score": 1.0
+    },
+    {
+      "id": 8,
+      "prediction": "刑法第236条",
+      "gold": "刑法第237条",
+      "score": 0.0
+    },
+    {
+      "id": 12,
+      "prediction": "刑法第234条",
+      "gold": "刑法第233条",
+      "score": 0.0
+    },
+    {
+      "id": 18,
+      "prediction": "刑法第266条",
+      "gold": "刑法第226条",
+      "score": 0.0
+    },
+    {
+      "id": 26,
+      "prediction": "刑法第264、114、115条",
+      "gold": "刑法第264、114条",
+      "score": 1.0
+    },
+    {
+      "id": 30,
+      "prediction": "刑法第234条",
+      "gold": "刑法第347条",
+      "score": 0.0
+    },
+    {
+      "id": 34,
+      "prediction": "刑法第364条、第365条",
+      "gold": "刑法第364条",
+      "score": 1.0
+    },
+    {
+      "id": 36,
+      "prediction": "刑法第266、391条",
+      "gold": "刑法第266、390条",
+      "score": 0.5
+    },
+    {
+      "id": 40,
+      "prediction": "刑法第196条",
+      "gold": "刑法第172条",
+      "score": 0.0
+    },
+    {
+      "id": 42,
+      "prediction": "刑法第263、264条",
+      "gold": "刑法第264、150条",
+      "score": 0.5
+    },
+    {
+      "id": 44,
+      "prediction": "刑法第385、386、383条",
+      "gold": "刑法第388、383、386条",
+      "score": 0.6667
+    },
+    {
+      "id": 46,
+      "prediction": "刑法第246、266、243条",
+      "gold": "刑法第243、266条",
+      "score": 1.0
+    },
+    {
+      "id": 48,
+      "prediction": "刑法第234条",
+      "gold": "刑法第134条",
+      "score": 0.0
+    },
+    {
+      "id": 50,
+      "prediction": "刑法第192、676条",
+      "gold": "刑法第192条",
+      "score": 1.0
+    },
+    {
+      "id": 52,
+      "prediction": "刑法第205、224条",
+      "gold": "刑法第224、231、205条",
+      "score": 0.6667
+    },
+    {
+      "id": 54,
+      "prediction": "刑法第391、205条",
+      "gold": "刑法第393、205条",
+      "score": 0.5
+    },
+    {
+      "id": 58,
+      "prediction": "刑法第235、670条",
+      "gold": "刑法第235条",
+      "score": 1.0
+    },
+    {
+      "id": 62,
+      "prediction": "刑法第266条",
+      "gold": "刑法第225条",
+      "score": 0.0
+    },
+    {
+      "id": 64,
+      "prediction": "刑法第234条",
+      "gold": "刑法第155、234条",
+      "score": 0.5
+    },
+    {
+      "id": 66,
+      "prediction": "刑法第234条",
+      "gold": "刑法第234、119条",
+      "score": 0.5
+    },
+    {
+      "id": 68,
+      "prediction": "刑法第264、265、274条",
+      "gold": "刑法第194条",
+      "score": 0.0
+    },
+    {
+      "id": 70,
+      "prediction": "刑法第279条",
+      "gold": "刑法第392条",
+      "score": 0.0
+    },
+    {
+      "id": 72,
+      "prediction": "刑法第264条",
+      "gold": "刑法第253、264条",
+      "score": 0.5
+    },
+    {
+      "id": 76,
+      "prediction": "刑法第128、129、130条",
+      "gold": "刑法第124、118条",
+      "score": 0.0
+    },
+    {
+      "id": 86,
+      "prediction": "刑法第193条",
+      "gold": "刑法第193、266条",
+      "score": 0.5
+    },
+    {
+      "id": 88,
+      "prediction": "刑法第264、358、232、359条",
+      "gold": "刑法第264、234、359条",
+      "score": 0.6667
+    },
+    {
+      "id": 90,
+      "prediction": "刑法第264、67条",
+      "gold": "刑法第264、241条",
+      "score": 0.5
+    },
+    {
+      "id": 94,
+      "prediction": "刑法第234条",
+      "gold": "刑法第346条",
+      "score": 0.0
+    },
+    {
+      "id": 98,
+      "prediction": "刑法第263、302、303条",
+      "gold": "刑法第302、264条",
+      "score": 0.5
+    },
+    {
+      "id": 100,
+      "prediction": "刑法第205、201、69条",
+      "gold": "刑法第201、205条",
+      "score": 1.0
+    },
+    {
+      "id": 102,
+      "prediction": "刑法第224条、313条",
+      "gold": "刑法第224、266、313条",
+      "score": 0.6667
+    },
+    {
+      "id": 104,
+      "prediction": "刑法第266条",
+      "gold": "刑法第266、351条",
+      "score": 0.5
+    },
+    {
+      "id": 106,
+      "prediction": "刑法第234条",
+      "gold": "刑法第273条",
+      "score": 0.0
+    },
+    {
+      "id": 108,
+      "prediction": "刑法第266条、285条、288条、289条",
+      "gold": "刑法第288条",
+      "score": 1.0
+    },
+    {
+      "id": 114,
+      "prediction": "刑法第114、115、264、65、67条",
+      "gold": "刑法第264、115条",
+      "score": 1.0
+    },
+    {
+      "id": 116,
+      "prediction": "刑法第170、238条",
+      "gold": "刑法第171条",
+      "score": 0.0
+    },
+    {
+      "id": 118,
+      "prediction": "刑法第234、238、67条",
+      "gold": "刑法第234、200条",
+      "score": 0.5
+    },
+    {
+      "id": 122,
+      "prediction": "刑法第266条",
+      "gold": "刑法第266、210条",
+      "score": 0.5
+    },
+    {
+      "id": 124,
+      "prediction": "刑法第236条",
+      "gold": "刑法第360、236条",
+      "score": 0.5
+    },
+    {
+      "id": 126,
+      "prediction": "刑法第205、140、69条",
+      "gold": "刑法第205、140条",
+      "score": 1.0
+    },
+    {
+      "id": 130,
+      "prediction": "刑法第310、348、349、354条",
+      "gold": "刑法第349、348、354条",
+      "score": 1.0
+    },
+    {
+      "id": 132,
+      "prediction": "刑法第234、264、316条",
+      "gold": "刑法第161、234条",
+      "score": 0.5
+    },
+    {
+      "id": 134,
+      "prediction": "刑法第236条",
+      "gold": "刑法第336条",
+      "score": 0.0
+    },
+    {
+      "id": 136,
+      "prediction": "刑法第385、386、397、396、383条",
+      "gold": "刑法第385、383、386、397条",
+      "score": 1.0
+    },
+    {
+      "id": 138,
+      "prediction": "刑法第358、359、360条",
+      "gold": "刑法第361、359条",
+      "score": 0.5
+    },
+    {
+      "id": 144,
+      "prediction": "刑法第192、266条",
+      "gold": "刑法第192、266、199条",
+      "score": 0.6667
+    },
+    {
+      "id": 146,
+      "prediction": "刑法第205、213、238条",
+      "gold": "刑法第205、220、213条",
+      "score": 0.6667
+    },
+    {
+      "id": 148,
+      "prediction": "刑法第109条",
+      "gold": "刑法第282条",
+      "score": 0.0
+    },
+    {
+      "id": 154,
+      "prediction": "刑法第133条",
+      "gold": "刑法第117、133条",
+      "score": 0.5
+    },
+    {
+      "id": 156,
+      "prediction": "刑法第347、306条",
+      "gold": "刑法第399、347条",
+      "score": 0.5
+    },
+    {
+      "id": 158,
+      "prediction": "刑法第347条",
+      "gold": "刑法第147、356条",
+      "score": 0.0
+    },
+    {
+      "id": 162,
+      "prediction": "刑法第23、18、18条",
+      "gold": "刑法第232、223条",
+      "score": 0.0
+    },
+    {
+      "id": 164,
+      "prediction": "刑法第225条",
+      "gold": "刑法第215条",
+      "score": 0.0
+    },
+    {
+      "id": 166,
+      "prediction": "刑法第133条、第133条之一",
+      "gold": "刑法第133、283条",
+      "score": 0.5
+    },
+    {
+      "id": 170,
+      "prediction": "刑法第170、385、386条",
+      "gold": "刑法第385、184、383、386、177条",
+      "score": 0.4
+    },
+    {
+      "id": 172,
+      "prediction": "刑法第283条",
+      "gold": "刑法第281条",
+      "score": 0.0
+    },
+    {
+      "id": 174,
+      "prediction": "刑法第280、304条",
+      "gold": "刑法第280、404条",
+      "score": 0.5
+    },
+    {
+      "id": 176,
+      "prediction": "刑法第397条",
+      "gold": "刑法第168条",
+      "score": 0.0
+    },
+    {
+      "id": 198,
+      "prediction": "刑法第114、115条",
+      "gold": "刑法第115条",
+      "score": 1.0
+    },
+    {
+      "id": 200,
+      "prediction": "刑法第235条",
+      "gold": "刑法第233条",
+      "score": 0.0
+    },
+    {
+      "id": 202,
+      "prediction": "刑法第140条",
+      "gold": "刑法第150、140条",
+      "score": 0.5
+    },
+    {
+      "id": 244,
+      "prediction": "刑法第141、142、144条",
+      "gold": "刑法第141条",
+      "score": 1.0
+    },
+    {
+      "id": 246,
+      "prediction": "刑法第196、67条",
+      "gold": "刑法第196条",
+      "score": 1.0
+    },
+    {
+      "id": 248,
+      "prediction": "刑法第382、383、396、162条",
+      "gold": "刑法第397、162条",
+      "score": 0.5
+    },
+    {
+      "id": 264,
+      "prediction": "刑法第235条",
+      "gold": "刑法第233条",
+      "score": 0.0
+    },
+    {
+      "id": 268,
+      "prediction": "刑法第235条",
+      "gold": "刑法第233条",
+      "score": 0.0
+    },
+    {
+      "id": 276,
+      "prediction": "刑法第385条",
+      "gold": "刑法第383、386、385条",
+      "score": 0.3333
+    },
+    {
+      "id": 282,
+      "prediction": "刑法第385条",
+      "gold": "刑法第385、383、386条",
+      "score": 0.3333
+    },
+    {
+      "id": 286,
+      "prediction": "刑法第382、383、384条",
+      "gold": "刑法第384、382条",
+      "score": 1.0
+    },
+    {
+      "id": 294,
+      "prediction": "刑法第170、171条",
+      "gold": "刑法第172条",
+      "score": 0.0
+    },
+    {
+      "id": 310,
+      "prediction": "刑法第354条",
+      "gold": "刑法第357、354条",
+      "score": 0.5
+    },
+    {
+      "id": 318,
+      "prediction": "刑法第354条",
+      "gold": "刑法第357、354条",
+      "score": 0.5
+    },
+    {
+      "id": 322,
+      "prediction": "刑法第114、115条",
+      "gold": "刑法第115条",
+      "score": 1.0
+    },
+    {
+      "id": 328,
+      "prediction": "刑法第213、214条",
+      "gold": "刑法第214条",
+      "score": 1.0
+    },
+    {
+      "id": 330,
+      "prediction": "刑法第144条",
+      "gold": "刑法第143条",
+      "score": 0.0
+    },
+    {
+      "id": 352,
+      "prediction": "刑法第348条",
+      "gold": "刑法第356、348条",
+      "score": 0.5
+    },
+    {
+      "id": 356,
+      "prediction": "刑法第385、386、383、396、64、307、308",
+      "gold": "刑法第388、385、383、386条",
+      "score": 0.75
+    },
+    {
+      "id": 360,
+      "prediction": "刑法第348条",
+      "gold": "刑法第356、348条",
+      "score": 0.5
+    },
+    {
+      "id": 362,
+      "prediction": "刑法第286、17条",
+      "gold": "刑法第124条",
+      "score": 0.0
+    },
+    {
+      "id": 368,
+      "prediction": "刑法第146条",
+      "gold": "刑法第143条",
+      "score": 0.0
+    },
+    {
+      "id": 370,
+      "prediction": "刑法第354条",
+      "gold": "刑法第356、354条",
+      "score": 0.5
+    },
+    {
+      "id": 372,
+      "prediction": "刑法第114、115、187条",
+      "gold": "刑法第114条",
+      "score": 1.0
+    },
+    {
+      "id": 376,
+      "prediction": "刑法第236、65条",
+      "gold": "刑法第237条",
+      "score": 0.0
+    },
+    {
+      "id": 396,
+      "prediction": "刑法第224条、274条",
+      "gold": "刑法第274、266条",
+      "score": 0.5
+    },
+    {
+      "id": 400,
+      "prediction": "刑法第144条",
+      "gold": "刑法第143条",
+      "score": 0.0
+    },
+    {
+      "id": 402,
+      "prediction": "刑法第358、359、360条",
+      "gold": "刑法第359条",
+      "score": 1.0
+    },
+    {
+      "id": 408,
+      "prediction": "刑法第144条",
+      "gold": "刑法第143条",
+      "score": 0.0
+    },
+    {
+      "id": 410,
+      "prediction": "刑法第390条",
+      "gold": "刑法第390、389条",
+      "score": 0.5
+    },
+    {
+      "id": 414,
+      "prediction": "刑法第358、359、357、356、355条",
+      "gold": "刑法第358条",
+      "score": 1.0
+    },
+    {
+      "id": 426,
+      "prediction": "刑法第170条",
+      "gold": "刑法第171条",
+      "score": 0.0
+    },
+    {
+      "id": 430,
+      "prediction": "刑法第144条",
+      "gold": "刑法第143条",
+      "score": 0.0
+    },
+    {
+      "id": 432,
+      "prediction": "刑法第164条",
+      "gold": "刑法第163条",
+      "score": 0.0
+    },
+    {
+      "id": 442,
+      "prediction": "刑法第128、341条",
+      "gold": "刑法第291条",
+      "score": 0.0
+    },
+    {
+      "id": 444,
+      "prediction": "刑法第114、115条",
+      "gold": "刑法第114条",
+      "score": 1.0
+    },
+    {
+      "id": 446,
+      "prediction": "刑法第217、364、364",
+      "gold": "刑法第363条",
+      "score": 0.0
+    },
+    {
+      "id": 448,
+      "prediction": "API HTTP 400: {'message': \"You passed 4097 input tokens and requested 4096 output tokens. However, the model's context length is only 8192 tokens, resulting in a maximum input length of 4096 tokens. Please reduce the length of the input prompt. (parameter=input_tokens, value=4097)\", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}]",
+      "gold": "刑法第385、383、386、393、271、272条",
+      "score": 0.0
+    },
+    {
+      "id": 452,
+      "prediction": "刑法第236条",
+      "gold": "刑法第237条",
+      "score": 0.0
+    },
+    {
+      "id": 458,
+      "prediction": "刑法第239、18、67条",
+      "gold": "刑法第239条",
+      "score": 1.0
+    },
+    {
+      "id": 462,
+      "prediction": "刑法第213、67条",
+      "gold": "刑法第213条",
+      "score": 1.0
+    },
+    {
+      "id": 466,
+      "prediction": "刑法第213条",
+      "gold": "刑法第220、213条",
+      "score": 0.5
+    },
+    {
+      "id": 470,
+      "prediction": "刑法第164条",
+      "gold": "刑法第163条",
+      "score": 0.0
+    },
+    {
+      "id": 474,
+      "prediction": "刑法第170条",
+      "gold": "刑法第172条",
+      "score": 0.0
+    },
+    {
+      "id": 486,
+      "prediction": "刑法第338、346条",
+      "gold": "刑法第338条",
+      "score": 1.0
+    },
+    {
+      "id": 490,
+      "prediction": "刑法第177条、第264条",
+      "gold": "刑法第177条",
+      "score": 1.0
+    },
+    {
+      "id": 492,
+      "prediction": "刑法第306、307条",
+      "gold": "刑法第307条",
+      "score": 1.0
+    },
+    {
+      "id": 494,
+      "prediction": "刑法第224条",
+      "gold": "刑法第224、231条",
+      "score": 0.5
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+args:
+  accelerator: vllm
+  batch_size: 32
+  datasets:
+  - LexEval
+  enable_thinking: false
+  json_eval: false
+  json_inputs: {}
+  judge_config: null
+  max_tokens: 4096
+  models:
+  - /mnt/public/wjianxz/merge_model/law_model_rl/law_model_rl_8b_off_policy_v5
+  num_workers: 1
+  output_dir: ./run_output
+  temperature: 0.1
+  tensor_parallel: 2
+  top_p: 0.9
+cfg: {}

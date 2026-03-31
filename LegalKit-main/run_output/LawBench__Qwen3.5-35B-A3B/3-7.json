@@ -1,0 +1,263 @@
+{
+  "total_count": 250,
+  "invalid_count": 0,
+  "invalid_ratio": 0.0,
+  "invalid_ids": [],
+  "valid_count": 250,
+  "correct_count": 209,
+  "wrong_count": 41,
+  "final_exact_count": 209,
+  "final_rate_total": 0.836,
+  "final_rate_valid": 0.836,
+  "weighted_sum": 238.4915,
+  "weighted_rate_total": 0.954,
+  "weighted_rate_valid": 0.954,
+  "wrong_details": [
+    {
+      "id": 2,
+      "pred_num": 46600.0,
+      "gold_num": 51500.0,
+      "weighted_score": 0.9049
+    },
+    {
+      "id": 32,
+      "pred_num": 10015.0,
+      "gold_num": 8355.0,
+      "weighted_score": 0.8013
+    },
+    {
+      "id": 52,
+      "pred_num": 9034.0,
+      "gold_num": 8934.0,
+      "weighted_score": 0.9888
+    },
+    {
+      "id": 54,
+      "pred_num": 11582.0,
+      "gold_num": 11160.0,
+      "weighted_score": 0.9622
+    },
+    {
+      "id": 66,
+      "pred_num": 18480.0,
+      "gold_num": 8580.0,
+      "weighted_score": 0.0
+    },
+    {
+      "id": 96,
+      "pred_num": 106500.0,
+      "gold_num": 41000.0,
+      "weighted_score": 0.0
+    },
+    {
+      "id": 108,
+      "pred_num": 828.0,
+      "gold_num": 928.0,
+      "weighted_score": 0.8922
+    },
+    {
+      "id": 116,
+      "pred_num": 17509.0,
+      "gold_num": 17059.0,
+      "weighted_score": 0.9736
+    },
+    {
+      "id": 120,
+      "pred_num": 19350.0,
+      "gold_num": 18950.0,
+      "weighted_score": 0.9789
+    },
+    {
+      "id": 122,
+      "pred_num": 12303.0,
+      "gold_num": 12353.0,
+      "weighted_score": 0.996
+    },
+    {
+      "id": 130,
+      "pred_num": 8700.0,
+      "gold_num": 7700.0,
+      "weighted_score": 0.8701
+    },
+    {
+      "id": 132,
+      "pred_num": 780.0,
+      "gold_num": 880.0,
+      "weighted_score": 0.8864
+    },
+    {
+      "id": 138,
+      "pred_num": 4846.0,
+      "gold_num": 5446.0,
+      "weighted_score": 0.8898
+    },
+    {
+      "id": 152,
+      "pred_num": 85309.0,
+      "gold_num": 80109.0,
+      "weighted_score": 0.9351
+    },
+    {
+      "id": 164,
+      "pred_num": 10770.0,
+      "gold_num": 8070.0,
+      "weighted_score": 0.6654
+    },
+    {
+      "id": 170,
+      "pred_num": 56000.0,
+      "gold_num": 18000.0,
+      "weighted_score": 0.0
+    },
+    {
+      "id": 174,
+      "pred_num": 23616.0,
+      "gold_num": 23716.0,
+      "weighted_score": 0.9958
+    },
+    {
+      "id": 192,
+      "pred_num": 9099.0,
+      "gold_num": 7735.0,
+      "weighted_score": 0.8237
+    },
+    {
+      "id": 204,
+      "pred_num": 8243.0,
+      "gold_num": 6367.0,
+      "weighted_score": 0.7054
+    },
+    {
+      "id": 230,
+      "pred_num": 18500.0,
+      "gold_num": 13500.0,
+      "weighted_score": 0.6296
+    },
+    {
+      "id": 234,
+      "pred_num": 4182.0,
+      "gold_num": 3982.0,
+      "weighted_score": 0.9498
+    },
+    {
+      "id": 260,
+      "pred_num": 16.7,
+      "gold_num": 167000.0,
+      "weighted_score": 0.0001
+    },
+    {
+      "id": 274,
+      "pred_num": 40300.0,
+      "gold_num": 20000.0,
+      "weighted_score": 0.0
+    },
+    {
+      "id": 290,
+      "pred_num": 6050.0,
+      "gold_num": 5950.0,
+      "weighted_score": 0.9832
+    },
+    {
+      "id": 294,
+      "pred_num": 6532.8,
+      "gold_num": 5880.0,
+      "weighted_score": 0.889
+    },
+    {
+      "id": 296,
+      "pred_num": 4772.0,
+      "gold_num": 4222.0,
+      "weighted_score": 0.8697
+    },
+    {
+      "id": 300,
+      "pred_num": 52800.0,
+      "gold_num": 36000.0,
+      "weighted_score": 0.5333
+    },
+    {
+      "id": 366,
+      "pred_num": 12670.0,
+      "gold_num": 11170.0,
+      "weighted_score": 0.8657
+    },
+    {
+      "id": 368,
+      "pred_num": 5470.0,
+      "gold_num": 4870.0,
+      "weighted_score": 0.8768
+    },
+    {
+      "id": 394,
+      "pred_num": 3345.0,
+      "gold_num": 3645.0,
+      "weighted_score": 0.9177
+    },
+    {
+      "id": 412,
+      "pred_num": 13524.0,
+      "gold_num": 12024.0,
+      "weighted_score": 0.8752
+    },
+    {
+      "id": 418,
+      "pred_num": 64424.0,
+      "gold_num": 60026.0,
+      "weighted_score": 0.9267
+    },
+    {
+      "id": 430,
+      "pred_num": 12200.0,
+      "gold_num": 14200.0,
+      "weighted_score": 0.8592
+    },
+    {
+      "id": 432,
+      "pred_num": 8018.0,
+      "gold_num": 5018.0,
+      "weighted_score": 0.4022
+    },
+    {
+      "id": 438,
+      "pred_num": 12700.0,
+      "gold_num": 9900.0,
+      "weighted_score": 0.7172
+    },
+    {
+      "id": 450,
+      "pred_num": 1741.0,
+      "gold_num": 1040.0,
+      "weighted_score": 0.326
+    },
+    {
+      "id": 462,
+      "pred_num": 3311.0,
+      "gold_num": 4361.0,
+      "weighted_score": 0.7592
+    },
+    {
+      "id": 464,
+      "pred_num": 13257.0,
+      "gold_num": 6417.0,
+      "weighted_score": 0.0
+    },
+    {
+      "id": 466,
+      "pred_num": 10026.0,
+      "gold_num": 10626.0,
+      "weighted_score": 0.9435
+    },
+    {
+      "id": 480,
+      "pred_num": 3020.0,
+      "gold_num": 3000.0,
+      "weighted_score": 0.9933
+    },
+    {
+      "id": 488,
+      "pred_num": 2180.0,
+      "gold_num": 1990.0,
+      "weighted_score": 0.9045
+    }
+  ]
+}
