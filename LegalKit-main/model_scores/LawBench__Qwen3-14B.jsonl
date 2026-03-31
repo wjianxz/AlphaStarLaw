@@ -1,9 +1,9 @@
 {"datasets": ["LawBench"], "models": ["Qwen3-14B"], "avg_score": 49.59, "invalid_ratio": 0.06}
 {"task_id": "1-2 知识问答", "score": 71.4}
 {"task_id": "2-1 文件校对", "accuracy": 81.81, "score": 50.2}
-{"task_id": "2-2 纠纷焦点识别", "accuracy": 47.08, "score": 47.08}
+{"task_id":"2-2 纠纷焦点识别","score":47.08}
 {"task_id": "2-3 婚姻纠纷鉴定", "accuracy": 51.63, "score": 35.4}
-{"task_id": "2-4 问题主题识别", "accuracy": 41.0, "score": 41.0}
+{"task_id":"2-4 问题主题识别","score":41.0}
 {"task_id": "2-5 阅读理解", "accuracy": 73.52, "score": 55.0}
 {"task_id": "2-6 命名实体识别", "accuracy": 79.17, "score": 39.6}
 

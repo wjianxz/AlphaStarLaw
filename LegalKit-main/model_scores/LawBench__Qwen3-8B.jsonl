@@ -1,18 +1,17 @@
-{"datasets": ["LawBench"], "models": ["Qwen3-8B"], "avg_score": 43.91, "invalid_ratio": 0.18}
-{"task_id": "1-2 知识问答", "score": 62.6}
-{"task_id": "2-1 文件校对", "accuracy": 80.14, "score": 43.2}
-{"task_id": "2-2 纠纷焦点识别", "accuracy": 46.01, "score": 46.01}
-{"task_id": "2-3 婚姻纠纷鉴定", "accuracy": 52.19, "score": 35.6}
-{"task_id": "2-4 问题主题识别", "accuracy": 38.4, "score": 38.4}
-{"task_id": "2-5 阅读理解", "accuracy": 68.59, "score": 49.0}
-{"task_id": "2-6 命名实体识别", "accuracy": 77.82, "score": 34.4}
-{"task_id": "2-8 论点挖掘", "score": 51.2}
-{"task_id": "2-9 事件检测", "accuracy": 75.23, "score": 64.6}
-{"task_id": "2-10 触发词提取", "accuracy": 64.0, "score": 48.2}
-{"task_id": "3-1 法条预测", "accuracy": 75.19, "score": 53.6}
-{"task_id": "3-3 罪名预测", "accuracy": 61.62, "score": 46.8}
-{"task_id": "3-4 刑期预测（无法条内容）", "accuracy": 38.46, "score": 11.31}
-{"task_id": "3-5 刑期预测（给定法条内容）", "accuracy": 36.66, "score": 11.29}
-{"task_id": "3-6 案例分析", "score": 53.4}
-{"task_id": "3-7 犯罪金额计算", "accuracy": 82.89, "score": 53.0}
-
+{"datasets": ["LawBench"], "models": ["Qwen3-8B"], "avg_score": 44.85, "invalid_ratio": 0.15}
+{"task_id": "1-2 知识问答", "score": 62.0}
+{"task_id": "2-1 文件校对", "accuracy": 80.72, "score": 46.4}
+{"task_id":"2-2 纠纷焦点识别","score":45.71}
+{"task_id": "2-3 婚姻纠纷鉴定", "accuracy": 53.34, "score": 35.2}
+{"task_id":"2-4 问题主题识别","score":36.8}
+{"task_id": "2-5 阅读理解", "accuracy": 70.34, "score": 51.2}
+{"task_id": "2-6 命名实体识别", "accuracy": 78.3, "score": 38.0}
+{"task_id": "2-8 论点挖掘", "score": 50.4}
+{"task_id": "2-9 事件检测", "accuracy": 76.85, "score": 66.0}
+{"task_id": "2-10 触发词提取", "accuracy": 64.15, "score": 49.2}
+{"task_id": "3-1 法条预测", "accuracy": 76.73, "score": 57.6}
+{"task_id": "3-3 罪名预测", "accuracy": 59.31, "score": 43.6}
+{"task_id": "3-4 刑期预测（无法条内容）", "accuracy": 37.01, "score": 13.36}
+{"task_id": "3-5 刑期预测（给定法条内容）", "accuracy": 35.81, "score": 13.31}
+{"task_id": "3-6 案例分析", "score": 50.0}
+{"task_id": "3-7 犯罪金额计算", "accuracy": 85.82, "score": 58.8}
