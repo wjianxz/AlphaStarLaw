@@ -23,10 +23,14 @@
 
 ### 评估结果DashBoard
 
-1. 生成方法
+1. 生成DashBoard方法
 ```bash
   python LegalKit/model_scores/graph.py
-  DashBoard：LegalKit/model_scores/dashboard.html
+```
+2. 生成结果
+
+```bash
+DashBoard：LegalKit/model_scores/dashboard.html
 ```
 ### [LawBench](https://github.com/open-compass/LawBench) 数据集
 
