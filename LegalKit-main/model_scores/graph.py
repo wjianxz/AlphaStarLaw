@@ -4,8 +4,8 @@ from pathlib import Path
 
 
 LAW_MODEL_FILE_SUFFIXES = {
-    "law_model_rl_450_v3",
-    "law_model_rl_8b_off_policy_v5",
+    "alpha_star_law_32B",
+    "alpha_star_law_8B",
 }
 
 CATEGORY_COLORS = {
