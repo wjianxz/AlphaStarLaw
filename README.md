@@ -33,7 +33,7 @@
 ```bash
 DashBoard：LegalKit/model_scores/dashboard.html
 ```
-### [LawBench](https://github.com/open-compass/LawBench) 数据集
+### [LawBench](https://github.com/open-compass/LawBench) 数据集评测
 
 LawBench经过精心设计，可对大语言模型的法律能力进行精确评估。 在设计测试任务时，我们模拟了司法认知的三个维度，并选择了20个任务来评估大模型的能力。数据集包括 20 个不同的任务，涵盖 3 个认知水平：
 - 法律知识记忆：大语言模型能否记住必要的法律概念、术语、法条和事实。
@@ -150,7 +150,7 @@ LawBench经过精心设计，可对大语言模型的法律能力进行精确评
 | 3-7 犯罪金额计算       | accuracy  | 94.61     | 95.61 (+1.1%)      |
 |                  | score     | 77.60     | 76.80 (-1.0%)      |
 
-### [LexEval](https://github.com/CSHaitao/LexEval/tree/main) 数据集
+### [LexEval](https://github.com/CSHaitao/LexEval/tree/main) 数据集评测
 LexEval: 用于评估大型语言模型的综合性中文法律基准。LexEval 目前是中国最大的法律基准，包含23项任务和14,150道问题。LexEval结合了现有的法律数据集、真实考试数据集以及由法律专家创建的新注释数据集，以提供对LLMs能力的全面评估。
 
 1. 总分数对比
