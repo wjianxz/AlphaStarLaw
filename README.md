@@ -16,7 +16,7 @@
 
 ## 模型性能
 
-测试结果详情参考log日志。
+所有模型的测试结果存储在LegalKit-main/run_output log日志中，其中包含模型在各个任务上的表现。LegalKit-main 包含了评估代码，可以通过运行 `python LegalKit/model_scores/graph.py` 来生成评估结果。
 
 ### 结论
 
