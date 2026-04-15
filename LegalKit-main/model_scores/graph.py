@@ -389,6 +389,7 @@ def build_html(datasets):
       const select = document.getElementById("datasetSelect");
       const datasetNames = Object.keys(DATA.datasets);
       select.innerHTML = datasetNames.map(name => `<option value="${{name}}">${{name}}</option>`).join("");
+      select.value = "LexEval"; // 默认选择 LexEval 数据集
       select.onchange = () => {{
         renderTaskOptions();
         renderMatrixTable();
