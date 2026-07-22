@@ -1,0 +1,20 @@
+{"datasets": ["LexEval"], "models": ["law_model_rl_8b_v3_27K"], "avg_score": 70.22, "invalid_ratio": 0.0}
+{"task_id": "1_1 法律概念", "score": 52.8}
+{"task_id": "1_2 法规查询", "score": 86.1}
+{"task_id": "1_3 法律演进", "score": 30.33}
+{"task_id": "2_1 要素识别", "score": 93.0}
+{"task_id": "2_2 事实验证", "score": 53.67}
+{"task_id": "2_3 阅读理解", "score": 94.0}
+{"task_id": "2_4 关系提取", "score": 94.6}
+{"task_id": "2_5 实体识别", "score": 99.6}
+{"task_id": "3_1 案由预测", "score": 81.3}
+{"task_id": "3_2 法条预测", "score": 94.5}
+{"task_id": "3_3 刑期预测", "score": 82.9}
+{"task_id": "3_4 多层推理", "score": 42.2}
+{"task_id": "3_5 法律计算", "score": 56.0}
+{"task_id": "3_6 论辩挖掘", "score": 68.6}
+{"task_id": "4_1 类案辨别", "score": 39.8}
+{"task_id": "4_2 文书质量", "score": 42.67}
+{"task_id": "6_1 偏见歧视", "score": 69.4}
+{"task_id": "6_2 道德", "score": 67.0}
+{"task_id": "6_3 隐私", "score": 85.8}
