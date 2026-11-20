@@ -1,0 +1,66 @@
+{
+  "1-2": {
+    "skip": true,
+    "message": "Use multiple_choice_score / select_score / calculation_score for scoring."
+  },
+  "2-1": {
+    "skip": true,
+    "message": "Use multiple_choice_score / select_score / calculation_score for scoring."
+  },
+  "2-10": {
+    "skip": true,
+    "message": "Use multiple_choice_score / select_score / calculation_score for scoring."
+  },
+  "2-2": {
+    "skip": true,
+    "message": "Use multiple_choice_score / select_score / calculation_score for scoring."
+  },
+  "2-3": {
+    "skip": true,
+    "message": "Use multiple_choice_score / select_score / calculation_score for scoring."
+  },
+  "2-4": {
+    "skip": true,
+    "message": "Use multiple_choice_score / select_score / calculation_score for scoring."
+  },
+  "2-5": {
+    "skip": true,
+    "message": "Use multiple_choice_score / select_score / calculation_score for scoring."
+  },
+  "2-6": {
+    "skip": true,
+    "message": "Use multiple_choice_score / select_score / calculation_score for scoring."
+  },
+  "2-8": {
+    "skip": true,
+    "message": "Use multiple_choice_score / select_score / calculation_score for scoring."
+  },
+  "2-9": {
+    "skip": true,
+    "message": "Use multiple_choice_score / select_score / calculation_score for scoring."
+  },
+  "3-1": {
+    "skip": true,
+    "message": "Use multiple_choice_score / select_score / calculation_score for scoring."
+  },
+  "3-3": {
+    "skip": true,
+    "message": "Use multiple_choice_score / select_score / calculation_score for scoring."
+  },
+  "3-4": {
+    "skip": true,
+    "message": "Use multiple_choice_score / select_score / calculation_score for scoring."
+  },
+  "3-5": {
+    "skip": true,
+    "message": "Use multiple_choice_score / select_score / calculation_score for scoring."
+  },
+  "3-6": {
+    "skip": true,
+    "message": "Use multiple_choice_score / select_score / calculation_score for scoring."
+  },
+  "3-7": {
+    "skip": true,
+    "message": "Use multiple_choice_score / select_score / calculation_score for scoring."
+  }
+}

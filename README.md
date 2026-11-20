@@ -1,5 +1,28 @@
 # 🪐 AlphaStarLaw - 中文法律大模型(律启星辰)
 ![logo](img/logo.png)
+
+## News
+&emsp;&emsp;本表对比了通用基座模型 Qwen3-8B 与三款 8B 级法律垂类模型：alpha_star_law_8B_v2(中国电子云)、LegalOne-8B(清华大学互联网司法研究院)、qwen3_for_law(中国政法大学数据法学实验室）的研发来源与技术路线，清晰展现了从轻量级 LoRA 微调到“继续预训练/中期训练 + SFT + 强化学习”多阶段全流程演进的差异。
+
+| 模型 | 来源 | 训练路线 |
+| :--- | :--- | :--- |
+| **alpha_star_law_8B_v2** | 中国电子云 | 通用数据 CPT + 法律领域 SFT + 强化学习（alpha_star_law_8B_v2 版本） |
+| **[LegalOne-8B](https://huggingface.co/CSHaitao/LegalOne-8B)** | 清华大学互联网司法研究院 | 三阶段全参训练，包含 100B 中期训练（PAS）、约 500k 条代理式 CoT 蒸馏 SFT（LEAD）和多阶段课程 RL；训练使用昇腾 Atlas 910B 与 MindSpore |
+| **[qwen3_for_law](https://modelscope.cn/models/Kilimanjarant/qwen3_for_law)** | 中国政法大学数据法学实验室 | 在 Qwen3-8B 上进行 LoRA SFT，随后合并权重 |
+| **Qwen3-8B** | 阿里云通义千问 | 通用预训练及支持思考、非思考两种模式的后训练 |
+
+#### 评测结论
+- 四个模型统一关闭思考模式的条件下，alpha_star_law_8B_v2 在 LawBench 和 LexEval 较其他模型效果有显著提升。 LawBench 得 55.39 分，较 Qwen3-8B 基座高 11.02 分，较两款开源法律模型中的最高分高 10.92 分。LexEval 得 73.82 分，较基座高 14.73 分，较最高竞品高 14.88 分。
+alpha_star_law_8B_v2 在本次评测覆盖的 8 个能力维度上均排名第一，并在 35 项任务中的 27 项取得最高分，其中 LawBench 为 11/16 项，LexEval 为 16/19 项。
+
+| 评测 | alpha_star_law_8B_v2 | Qwen3-8B 基座 | 较基座提升 | 最高法律竞品 | 较最高竞品提升 |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| LawBench | **55.39** | 44.37 | +11.02 分（+24.84%） | LegalOne-8B · 44.47 | +10.92 分（+24.56%） |
+| LexEval | **73.82** | 59.09 | +14.73 分（+24.93%） | qwen3_for_law · 58.94 | +14.88 分（+25.25%） |
+| **两榜等权平均** | **64.61** | **51.73** | **+12.88 分（+24.90%）** | **qwen3_for_law · 51.46** | **+13.15 分（+25.55%）** |
+
+- 更加详细的评测报告参考：[评测报告(下载后浏览器打开)](https://github.com/AlphaStarLaw/AlphaStarLaw/LegalKit-main/model_scores/dashboard.html)
+
 ## 简介
 
 &emsp;&emsp;欢迎来到 AlphaStarLaw。在法律这个严谨的领域，我们相信 AI 不应只是“聊天工具”，而应成为“专业助手”。我们始终坚信：**以技术普惠法治，以范式定义可信**。在 AlphaStarLaw 的研发中，通过构建多轮对话数据集和精细化参数调优，使模型在法律咨询、事实验证、阅读理解、关系抽取、文书生成等专业性显著提升。通过引入 **思维链(CoT)** 训练，成功强化了模型在复杂案情分析中的多步推理能力，实现了法律知识与生成逻辑的深度融合。

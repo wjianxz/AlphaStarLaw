@@ -1,0 +1,17 @@
+{"datasets": ["LawBench"], "models": ["qwen3_for_law(中国政法大学)"], "avg_score": 43.97, "invalid_ratio": 0.11}
+{"task_id": "1-2 知识问答", "score": 64.0}
+{"task_id": "2-1 文件校对", "accuracy": 81.53, "score": 47.2}
+{"task_id": "2-2 纠纷焦点识别", "accuracy": 45.2, "score": 45.2}
+{"task_id": "2-3 婚姻纠纷鉴定", "accuracy": 45.84, "score": 31.6}
+{"task_id": "2-4 问题主题识别", "accuracy": 38.6, "score": 38.6}
+{"task_id": "2-5 阅读理解", "accuracy": 67.74, "score": 46.0}
+{"task_id": "2-6 命名实体识别", "accuracy": 75.51, "score": 34.07}
+{"task_id": "2-8 论点挖掘", "score": 55.2}
+{"task_id": "2-9 事件检测", "accuracy": 72.56, "score": 59.92}
+{"task_id": "2-10 触发词提取", "accuracy": 55.32, "score": 38.0}
+{"task_id": "3-1 法条预测", "accuracy": 75.56, "score": 58.0}
+{"task_id": "3-3 罪名预测", "accuracy": 59.02, "score": 44.0}
+{"task_id": "3-4 刑期预测（无法条内容）", "accuracy": 40.92, "score": 14.95}
+{"task_id": "3-5 刑期预测（给定法条内容）", "accuracy": 37.56, "score": 9.53}
+{"task_id": "3-6 案例分析", "score": 55.6}
+{"task_id": "3-7 犯罪金额计算", "accuracy": 87.39, "score": 61.6}

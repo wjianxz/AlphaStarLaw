@@ -501,7 +501,7 @@ def main():
             model_names = _prompt_model_name_override(model_names)
 
             # 目标目录（提前用于冲突检测）
-            model_scores_dir = Path("/mnt/public/haoduo/code/LegalKit-main/model_scores")
+            model_scores_dir = Path("./LegalKit-main/model_scores")
             model_scores_dir.mkdir(parents=True, exist_ok=True)
 
             # 检测 model_scores 下是否已有相同 datasets + model name 的文件，有则提示更换名称并重新输入
