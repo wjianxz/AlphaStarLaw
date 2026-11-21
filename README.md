@@ -12,10 +12,10 @@
 | **Qwen3-8B** | 阿里云通义千问 | 通用预训练及支持思考、非思考两种模式的后训练 |
 
 #### 评测结论
-- 四个模型统一关闭思考模式的条件下，alpha_star_law_8B_v2 在 LawBench 和 LexEval 较其他模型效果有显著提升。 LawBench 得 55.39 分，较 Qwen3-8B 基座高 11.02 分，较两款开源法律模型中的最高分高 10.92 分。LexEval 得 73.82 分，较基座高 14.73 分，较最高竞品高 14.88 分。
-alpha_star_law_8B_v2 在本次评测覆盖的 8 个能力维度上均排名第一，并在 35 项任务中的 27 项取得最高分，其中 LawBench 为 11/16 项，LexEval 为 16/19 项。
+- 四个模型统一关闭思考模式的条件下，alpha_star_law_8B_v2 在 LawBench 和 LexEval 较其他法律模型效果有明显提升。 LawBench 得 55.39 分，较 Qwen3-8B 基座高 11.02 分，较两款开源法律模型中的最高分高 10.92 分。LexEval 得 73.82 分，较基座高 14.73 分，较最高竞品高 14.88 分。
+alpha_star_law_8B_v2 在本次评测覆盖的 8 个能力维度上均排名第一，并在 35 项任务中的 27 项取得最高分，其中 LawBench 为 11/16 项，LexEval 为 16/19 项，[详情参考](https://vcnvpk28tvue.feishu.cn/wiki/NlBFw1qwGib2GBktzjBcc5FqnLe?from=from_copylink)。
 
-| 评测 | alpha_star_law_8B_v2 | Qwen3-8B 基座 | 较基座提升 | 最高法律竞品 | 较最高竞品提升 |
+| 评测 | alpha_star_law_8B_v2 | Qwen3-8B 基座 | 较基座提升 | 最高法律模型 | 较最高法律模型提升 |
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | LawBench | **55.39** | 44.37 | +11.02 分（+24.84%） | LegalOne-8B · 44.47 | +10.92 分（+24.56%） |
 | LexEval | **73.82** | 59.09 | +14.73 分（+24.93%） | qwen3_for_law · 58.94 | +14.88 分（+25.25%） |
